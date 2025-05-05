@@ -4,6 +4,8 @@ using TMPro;
 
 public class Iniciarcena : MonoBehaviour
 {
+    public AudioLoading loading;
+    public AudioTheme theme;
     public GameObject objetoA; // arraste o GameObject que contém o TextMeshPro
     public GameObject objetoB;
     public GameObject objetoC;
@@ -14,6 +16,15 @@ public class Iniciarcena : MonoBehaviour
     public GameObject objetoH;
     public GameObject objetoI;
 
+    private RectTransform objA;
+    private RectTransform objB;
+    private RectTransform objC;
+    private RectTransform objD;
+    private RectTransform objE;
+    private RectTransform objF;
+    private RectTransform objG;
+    private RectTransform objH;
+    private RectTransform objI;
 
 
     private TextMeshPro textoA;
@@ -42,18 +53,25 @@ public class Iniciarcena : MonoBehaviour
         textoH = objetoH.GetComponentInChildren<TextMeshPro>();
         textoI = objetoI.GetComponentInChildren<TextMeshPro>();
 
+        objA =  objetoA.GetComponent<RectTransform>();
+        objB =  objetoB.GetComponent<RectTransform>();
+        objC =  objetoC.GetComponent<RectTransform>();
+        objD =  objetoD.GetComponent<RectTransform>();
+        objE =  objetoE.GetComponent<RectTransform>();
+        objF =  objetoF.GetComponent<RectTransform>();
+        objG =  objetoG.GetComponent<RectTransform>();
+        objH =  objetoH.GetComponent<RectTransform>();
+        objI =  objetoI.GetComponent<RectTransform>();
 
-        objetoA.transform.localScale = new Vector3(0f, 0f, 0f);
-        objetoB.transform.localScale = new Vector3(0f, 0f, 0f);
-        objetoC.transform.localScale = new Vector3(0f, 0f, 0f);
-
-        objetoD.transform.localScale = new Vector3(0f, 0f, 0f);
-        objetoE.transform.localScale = new Vector3(0f, 0f, 0f);
-        objetoF.transform.localScale = new Vector3(0f, 0f, 0f);
-
-        objetoG.transform.localScale = new Vector3(0f, 0f, 0f);
-        objetoH.transform.localScale = new Vector3(0f, 0f, 0f);
-        objetoI.transform.localScale = new Vector3(0f, 0f, 0f);
+        objA.sizeDelta =new Vector2(0f, 0f);
+        objB.sizeDelta =new Vector2(0f, 0f);
+        objC.sizeDelta =new Vector2(0f, 0f);
+        objD.sizeDelta =new Vector2(0f, 0f);
+        objE.sizeDelta =new Vector2(0f, 0f);
+        objF.sizeDelta =new Vector2(0f, 0f);
+        objG.sizeDelta =new Vector2(0f, 0f);
+        objH.sizeDelta =new Vector2(0f, 0f);
+        objI.sizeDelta =new Vector2(0f, 0f);
 
         SetAlpha(textoA, 0f);
         SetAlpha(textoB, 0f);
@@ -84,6 +102,10 @@ public class Iniciarcena : MonoBehaviour
             corAtual.a = Mathf.Clamp01(alpha); // Garante valor entre 0 e 1
             texto.color = corAtual;
         }
+    }
+    private void Iniciar(){
+        loading.play = true;
+        theme.play = true;
     }
 
 }
