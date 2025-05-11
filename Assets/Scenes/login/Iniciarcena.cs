@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
-using Unity.VisualScripting;
+using System;
 
 public class Iniciarcena : MonoBehaviour
 {
@@ -9,14 +9,21 @@ public class Iniciarcena : MonoBehaviour
     public AudioTheme theme;
     public AudioLetras letras;
     public GameObject objetoA, objetoB, objetoC, objetoD, 
-    objetoE, objetoF, objetoG, objetoH, objetoI, objetoJ, objetoK, objetoL, objetoM,objetoN,objetoO,objetoP, objetoQ, objetoR;
+    objetoE, objetoF, objetoG, objetoH, objetoI, objetoJ, objetoK, objetoL, objetoM,objetoN,objetoO,objetoP, objetoQ, objetoR,
+    objetoS, objetoT, objetoU, objetoV, objetoW, objetoX, objetoY, objetoZ;
     public bool iniciar;
     public bool hasiniciar =false;
     public int proximo =0;
+    private GameObject[] intro1;
+    private GameObject[] intro2;
+    private GameObject[] intro3; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GameObject[] objs= new GameObject[] {objetoA,objetoB,objetoC, objetoD, objetoE};
+        intro1 = new GameObject[] {objetoA,objetoB,objetoC, objetoD, objetoE};
+        intro2 = new GameObject[] { objetoF, objetoG, objetoH, objetoI, objetoJ, objetoK, objetoL, objetoM,objetoN,objetoO,objetoP, objetoQ, objetoR};
+        intro3 = new GameObject[] {objetoS, objetoT, objetoU, objetoV, objetoW, objetoX, objetoY, objetoZ};
+        GameObject[] objs= new GameObject[] {objetoA,objetoB,objetoC, objetoD, objetoE, objetoF, objetoG, objetoH, objetoI, objetoJ, objetoK, objetoL, objetoM,objetoN,objetoO,objetoP, objetoQ, objetoR, objetoS, objetoT, objetoU, objetoV, objetoW, objetoX, objetoY, objetoZ};
         DiminuirTodos(objs);
   
     }
@@ -51,15 +58,19 @@ public class Iniciarcena : MonoBehaviour
     }
     public void GerenciarCena(){
         if(proximo ==0){
+            DiminuirTodos(intro2);
             StartCoroutine(Aumentar(objetoA, 2f));
             StartCoroutine(Aumentar(objetoB,3.5f));
             StartCoroutine(Aumentar(objetoC,4.5f));
             StartCoroutine(Aumentar(objetoD,5.5f));
             StartCoroutine(Aumentar(objetoE,6.5f));
+            StartCoroutine(Delays(PularTexto,9.5f));
+            //StartCoroutine(Delays(GerenciarCena, 9.5f));
         }
         if(proximo ==1){
-            StartCoroutine(Aumentar(objetoF, 2f));
-            StartCoroutine(Aumentar(objetoG,4.5f));
+            DiminuirTodos(intro1);
+            StartCoroutine(Aumentar(objetoF, 1f));
+            StartCoroutine(Aumentar(objetoG,2.5f));
             StartCoroutine(Aumentar(objetoH,7.5f));
             StartCoroutine(Aumentar(objetoI,8.5f));
             StartCoroutine(Aumentar(objetoJ,9.5f));
@@ -71,7 +82,27 @@ public class Iniciarcena : MonoBehaviour
             StartCoroutine(Aumentar(objetoP,15.5f));
             StartCoroutine(Aumentar(objetoQ,16.5f));
             StartCoroutine(Aumentar(objetoR,17.5f));
+            StartCoroutine(Delays(PularTexto,18.5f));
         }
+        if(proximo==2){
+            DiminuirTodos(intro2);
+            DiminuirTodos(intro1);
+            StartCoroutine(Aumentar(objetoS, 1f));
+            StartCoroutine(Aumentar(objetoT,2.5f));
+            StartCoroutine(Aumentar(objetoU,4.5f));
+            StartCoroutine(Aumentar(objetoV,5.5f));
+            StartCoroutine(Aumentar(objetoW,6.5f));
+            StartCoroutine(Aumentar(objetoX,7.5f));
+            StartCoroutine(Aumentar(objetoY,8.5f));
+            StartCoroutine(Aumentar(objetoZ,9.5f));
+
+            StartCoroutine(Delays(PularTexto,9.5f));
+
+        }
+    }
+    IEnumerator Delays( Action func, float f){
+        yield return new WaitForSeconds(f);
+        func?.Invoke();
     }
     IEnumerator Aumentar(GameObject r, float f){
         yield return new WaitForSeconds(f);
