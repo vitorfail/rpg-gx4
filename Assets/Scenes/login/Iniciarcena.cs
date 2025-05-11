@@ -8,7 +8,8 @@ public class Iniciarcena : MonoBehaviour
     public AudioLoading loading;
     public AudioTheme theme;
     public AudioLetras letras;
-    public GameObject objetoA, objetoB, objetoC, objetoD, objetoE, objetoF, objetoG, objetoH, objetoI;
+    public GameObject objetoA, objetoB, objetoC, objetoD, 
+    objetoE, objetoF, objetoG, objetoH, objetoI, objetoJ, objetoK, objetoL, objetoM,objetoN,objetoO,objetoP, objetoQ, objetoR;
     public bool iniciar;
     public bool hasiniciar =false;
     public int proximo =0;
@@ -55,6 +56,21 @@ public class Iniciarcena : MonoBehaviour
             StartCoroutine(Aumentar(objetoC,4.5f));
             StartCoroutine(Aumentar(objetoD,5.5f));
             StartCoroutine(Aumentar(objetoE,6.5f));
+        }
+        if(proximo ==1){
+            StartCoroutine(Aumentar(objetoF, 2f));
+            StartCoroutine(Aumentar(objetoG,4.5f));
+            StartCoroutine(Aumentar(objetoH,7.5f));
+            StartCoroutine(Aumentar(objetoI,8.5f));
+            StartCoroutine(Aumentar(objetoJ,9.5f));
+            StartCoroutine(Aumentar(objetoK,10.5f));
+            StartCoroutine(Aumentar(objetoL,11.5f));
+            StartCoroutine(Aumentar(objetoM,12.5f));
+            StartCoroutine(Aumentar(objetoN,13.5f));
+            StartCoroutine(Aumentar(objetoO,14.5f));
+            StartCoroutine(Aumentar(objetoP,15.5f));
+            StartCoroutine(Aumentar(objetoQ,16.5f));
+            StartCoroutine(Aumentar(objetoR,17.5f));
         }
     }
     IEnumerator Aumentar(GameObject r, float f){
