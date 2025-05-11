@@ -24,7 +24,6 @@ public class AudioLoading : MonoBehaviour
             Debug.Log("Passou aqui");
             musicSource.Pause(); // Pausa a música
         }
-
         if(!play && !onplay && !iniciate){
             iniciate= true;
              musicSource.Play();

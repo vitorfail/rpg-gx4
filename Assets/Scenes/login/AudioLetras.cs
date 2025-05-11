@@ -6,11 +6,9 @@ public class AudioLetras : MonoBehaviour
     public AudioClip audioClip;
     public bool play = false;
     public bool onplay = false;
-    private bool iniciate = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     { 
-        iniciate = true;
         musicSource = GetComponent<AudioSource>();
         musicSource.clip = audioClip;
     }
@@ -21,6 +19,9 @@ public class AudioLetras : MonoBehaviour
         if(play && !onplay){
             onplay =true;
             musicSource.Play(); // Pausa a música
+        }
+        if(musicSource.isPlaying){
+            play = false;
         }
     }
 
