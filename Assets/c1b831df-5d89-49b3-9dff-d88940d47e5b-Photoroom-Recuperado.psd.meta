@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 3c201a35ea1658d4a87b0fc1dff9ac22
+guid: b5c5ff92f19dfd84fae2ea0ee6c1fa75
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1654982878518861434
-    second: clerigo_0
-  - first:
-      213: 169289695854142149
-    second: clerigo_1
+      213: 8256246944460011092
+    second: c1b831df-5d89-49b3-9dff-d88940d47e5b-Photoroom-Recuperado_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clerigo_0
+      name: c1b831df-5d89-49b3-9dff-d88940d47e5b-Photoroom-Recuperado_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 267
-        width: 8
-        height: 14
+        x: 0
+        y: 0
+        width: 871
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7e5877d82ea7f610800000000000000
-      internalID: 1654982878518861434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clerigo_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 11
-        width: 203
-        height: 523
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c22589d410795200800000000000000
-      internalID: 169289695854142149
+      spriteID: 456717e3ad4149270800000000000000
+      internalID: 8256246944460011092
       vertices: []
       indices: 
       edges: []
@@ -172,9 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      clerigo_0: 1654982878518861434
-      clerigo_1: 169289695854142149
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

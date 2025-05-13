@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3ad8613dd3cc2824db4ade5484188eef
+guid: de57f71b1004e5343a1cf27b7cc18f73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1668108543157428926
-    second: druida_0
+      213: 7285104100621103090
+    second: fundo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: druida_0
+      name: fundo_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 7
         y: 0
-        width: 252
-        height: 435
+        width: 1401
+        height: 968
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24d9e463e10b9d8e0800000000000000
-      internalID: -1668108543157428926
+      spriteID: 2ff2345d493e91560800000000000000
+      internalID: 7285104100621103090
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 56b2c8ae8301bb84cbb2fc9874d22710
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fundo_0: 7285104100621103090
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

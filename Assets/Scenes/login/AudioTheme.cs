@@ -6,11 +6,9 @@ public class AudioTheme : MonoBehaviour
     public AudioClip audioClip;
     public bool play = false;
     public bool onplay = false;
-    private bool iniciate = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     { 
-        iniciate = true;
         musicSource = GetComponent<AudioSource>();
         musicSource.clip = audioClip;
     }

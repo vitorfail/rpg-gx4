@@ -1,19 +1,16 @@
 using UnityEngine;
 
-public class AudioLoading : MonoBehaviour
+public class AudioLetras : MonoBehaviour
 {
     private AudioSource musicSource;
     public AudioClip audioClip;
     public bool play = false;
     public bool onplay = false;
-    private bool iniciate = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     { 
-        iniciate = true;
         musicSource = GetComponent<AudioSource>();
         musicSource.clip = audioClip;
-        musicSource.Play();
     }
 
     // Update is called once per frame
@@ -21,12 +18,10 @@ public class AudioLoading : MonoBehaviour
     {
         if(play && !onplay){
             onplay =true;
-            Debug.Log("Passou aqui");
-            musicSource.Pause(); // Pausa a música
+            musicSource.Play(); // Pausa a música
         }
-        if(!play && !onplay && !iniciate){
-            iniciate= true;
-             musicSource.Play();
+        if(musicSource.isPlaying){
+            play = false;
         }
     }
 
