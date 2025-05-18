@@ -4,42 +4,127 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - "B\xE1rbaro_Homem_Humano"
-  - Bardo_Homem_Humano
-  - Bruxo_Homem_Humano
-  - Clerigo_Homem_Humano
-  - Druida_Homem_Humano
-  - "Feiti\xE7eiro_Homem_Humano"
-  - Guerreiro_Homem_Humano
-  - Ladino_Homem_Humano
-  - Monge_Homem_Humano
-  - Paladino_Homem_Humano
-  - Mago_Homem_Humano
-  - Ranger_Homem_Humano
-  - "B\xE1rbaro_Mulher_Humano"
-  - Bardo_Mulher_Humano
-  - Bruxo_Mulher_Humano
-  - Clerigo_Mulher_Humano
-  - Druida_Mulher_Humano
-  - "Feiti\xE7eiro_Mulher_Humano"
-  - Guerreiro_Mulher_Humano
-  - Ladino_Mulher_Humano
-  - Monge_Mulher_Humano
-  - Paladino_Mulher_Humano
-  - Mago_Mulher_Humano
-  - Ranger_Mulher_Humano
-  - "B\xE1rbaro_Homem_Orcs"
-  - Bardo_Homem_Orcs
-  - Bruxo_Homem_Orcs
-  - Clerigo_Homem_Orcs
-  - Druida_Homem_Orcs
-  - "Feiti\xE7eiro_Homem_Orcs"
-  - Guerreiro_Homem_Orcs
-  - Ladino_Homem_Orcs
-  - Monge_Homem_Orcs
-  - Paladino_Homem_Orcs
-  - Mago_Homem_Orcs
-  - Ranger_Homem_Orcs
+- Barbaro_Homem_Humano
+- Barbaro_Homem_Orcs
+- Barbaro_Homem_Elfo
+- Barbaro_Homem_Anao
+- Barbaro_Homem_Demonio
+- Barbaro_Mulher_Humano
+- Barbaro_Mulher_Orcs
+- Barbaro_Mulher_Elfo
+- Barbaro_Mulher_Anao
+- Barbaro_Mulher_Demonio
+- Bardo_Homem_Humano
+- Bardo_Homem_Orcs
+- Bardo_Homem_Elfo
+- Bardo_Homem_Anao
+- Bardo_Homem_Demonio
+- Bardo_Mulher_Humano
+- Bardo_Mulher_Orcs
+- Bardo_Mulher_Elfo
+- Bardo_Mulher_Anao
+- Bardo_Mulher_Demonio
+- Bruxo_Homem_Humano
+- Bruxo_Homem_Orcs
+- Bruxo_Homem_Elfo
+- Bruxo_Homem_Anao
+- Bruxo_Homem_Demonio
+- Bruxo_Mulher_Humano
+- Bruxo_Mulher_Orcs
+- Bruxo_Mulher_Elfo
+- Bruxo_Mulher_Anao
+- Bruxo_Mulher_Demonio
+- Clerigo_Homem_Humano
+- Clerigo_Homem_Orcs
+- Clerigo_Homem_Elfo
+- Clerigo_Homem_Anao
+- Clerigo_Homem_Demonio
+- Clerigo_Mulher_Humano
+- Clerigo_Mulher_Orcs
+- Clerigo_Mulher_Elfo
+- Clerigo_Mulher_Anao
+- Clerigo_Mulher_Demonio
+- Druida_Homem_Humano
+- Druida_Homem_Orcs
+- Druida_Homem_Elfo
+- Druida_Homem_Anao
+- Druida_Homem_Demonio
+- Druida_Mulher_Humano
+- Druida_Mulher_Orcs
+- Druida_Mulher_Elfo
+- Druida_Mulher_Anao
+- Druida_Mulher_Demonio
+- Feiticeiro_Homem_Humano
+- Feiticeiro_Homem_Orcs
+- Feiticeiro_Homem_Elfo
+- Feiticeiro_Homem_Anao
+- Feiticeiro_Homem_Demonio
+- Feiticeiro_Mulher_Humano
+- Feiticeiro_Mulher_Orcs
+- Feiticeiro_Mulher_Elfo
+- Feiticeiro_Mulher_Anao
+- Feiticeiro_Mulher_Demonio
+- Guerreiro_Homem_Humano
+- Guerreiro_Homem_Orcs
+- Guerreiro_Homem_Elfo
+- Guerreiro_Homem_Anao
+- Guerreiro_Homem_Demonio
+- Guerreiro_Mulher_Humano
+- Guerreiro_Mulher_Orcs
+- Guerreiro_Mulher_Elfo
+- Guerreiro_Mulher_Anao
+- Guerreiro_Mulher_Demonio
+- Ladino_Homem_Humano
+- Ladino_Homem_Orcs
+- Ladino_Homem_Elfo
+- Ladino_Homem_Anao
+- Ladino_Homem_Demonio
+- Ladino_Mulher_Humano
+- Ladino_Mulher_Orcs
+- Ladino_Mulher_Elfo
+- Ladino_Mulher_Anao
+- Ladino_Mulher_Demonio
+- Monge_Homem_Humano
+- Monge_Homem_Orcs
+- Monge_Homem_Elfo
+- Monge_Homem_Anao
+- Monge_Homem_Demonio
+- Monge_Mulher_Humano
+- Monge_Mulher_Orcs
+- Monge_Mulher_Elfo
+- Monge_Mulher_Anao
+- Monge_Mulher_Demonio
+- Paladino_Homem_Humano
+- Paladino_Homem_Orcs
+- Paladino_Homem_Elfo
+- Paladino_Homem_Anao
+- Paladino_Homem_Demonio
+- Paladino_Mulher_Humano
+- Paladino_Mulher_Orcs
+- Paladino_Mulher_Elfo
+- Paladino_Mulher_Anao
+- Paladino_Mulher_Demonio
+- Mago_Homem_Humano
+- Mago_Homem_Orcs
+- Mago_Homem_Elfo
+- Mago_Homem_Anao
+- Mago_Homem_Demonio
+- Mago_Mulher_Humano
+- Mago_Mulher_Orcs
+- Mago_Mulher_Elfo
+- Mago_Mulher_Anao
+- Mago_Mulher_Demonio
+- Ranger_Homem_Humano
+- Ranger_Homem_Orcs
+- Ranger_Homem_Elfo
+- Ranger_Homem_Anao
+- Ranger_Homem_Demonio
+- Ranger_Mulher_Humano
+- Ranger_Mulher_Orcs
+- Ranger_Mulher_Elfo
+- Ranger_Mulher_Anao
+- Ranger_Mulher_Demonio
+
   layers:
   - Default
   - TransparentFX
