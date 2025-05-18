@@ -211,6 +211,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: 00a072ac0fa746e45bc63fc6707f4060, type: 3}
+      propertyPath: m_TagString
+      value: Bruxo_Homem_Humano
+      objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 00a072ac0fa746e45bc63fc6707f4060, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -346,6 +350,10 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: 8fb76f1da24eb34448eb0822683f853c, type: 3}
       propertyPath: m_Name
       value: druida
+      objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: 8fb76f1da24eb34448eb0822683f853c, type: 3}
+      propertyPath: m_TagString
+      value: Druida_Homem_Humano
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 8fb76f1da24eb34448eb0822683f853c, type: 3}
       propertyPath: m_LocalScale.x
@@ -577,6 +585,10 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: 478911b5087fffc4b874ac26da3fbe06, type: 3}
       propertyPath: m_Name
       value: bardo
+      objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: 478911b5087fffc4b874ac26da3fbe06, type: 3}
+      propertyPath: m_TagString
+      value: Bardo_Homem_Humano
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 478911b5087fffc4b874ac26da3fbe06, type: 3}
       propertyPath: m_LocalScale.x
@@ -2245,6 +2257,10 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: 50c596eb6e26d1f439556c0c8d723fe0, type: 3}
       propertyPath: m_Name
       value: clerigo
+      objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: 50c596eb6e26d1f439556c0c8d723fe0, type: 3}
+      propertyPath: m_TagString
+      value: Clerigo_Homem_Humano
       objectReference: {fileID: 0}
     - target: {fileID: -7816614522840424842, guid: 50c596eb6e26d1f439556c0c8d723fe0, type: 3}
       propertyPath: m_LocalRotation.w
