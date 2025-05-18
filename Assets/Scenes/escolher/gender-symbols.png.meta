@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 1d6c4f43b39a43449bdc41c09356113c
+guid: f3e0c57965084994882815c317027bf3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8287984193659030122
-    second: mago_0
+      213: -2860215509553037152
+    second: gender-symbols_0
+  - first:
+      213: -1622254692079009629
+    second: gender-symbols_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mago_0
+      name: gender-symbols_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 18
-        width: 476
-        height: 476
+        x: 0
+        y: 0
+        width: 240
+        height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 695b6e8994a2bfc80800000000000000
-      internalID: -8287984193659030122
+      spriteID: 0a0470ce5297e48d0800000000000000
+      internalID: -2860215509553037152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gender-symbols_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 58
+        width: 240
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a08b6fd3f79c79e0800000000000000
+      internalID: -1622254692079009629
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mago_0: -8287984193659030122
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

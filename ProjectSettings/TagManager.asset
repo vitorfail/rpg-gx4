@@ -3,7 +3,43 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - "B\xE1rbaro_Homem_Humano"
+  - Bardo_Homem_Humano
+  - Bruxo_Homem_Humano
+  - Clerigo_Homem_Humano
+  - Druida_Homem_Humano
+  - "Feiti\xE7eiro_Homem_Humano"
+  - Guerreiro_Homem_Humano
+  - Ladino_Homem_Humano
+  - Monge_Homem_Humano
+  - Paladino_Homem_Humano
+  - Mago_Homem_Humano
+  - Ranger_Homem_Humano
+  - "B\xE1rbaro_Mulher_Humano"
+  - Bardo_Mulher_Humano
+  - Bruxo_Mulher_Humano
+  - Clerigo_Mulher_Humano
+  - Druida_Mulher_Humano
+  - "Feiti\xE7eiro_Mulher_Humano"
+  - Guerreiro_Mulher_Humano
+  - Ladino_Mulher_Humano
+  - Monge_Mulher_Humano
+  - Paladino_Mulher_Humano
+  - Mago_Mulher_Humano
+  - Ranger_Mulher_Humano
+  - "B\xE1rbaro_Homem_Orcs"
+  - Bardo_Homem_Orcs
+  - Bruxo_Homem_Orcs
+  - Clerigo_Homem_Orcs
+  - Druida_Homem_Orcs
+  - "Feiti\xE7eiro_Homem_Orcs"
+  - Guerreiro_Homem_Orcs
+  - Ladino_Homem_Orcs
+  - Monge_Homem_Orcs
+  - Paladino_Homem_Orcs
+  - Mago_Homem_Orcs
+  - Ranger_Homem_Orcs
   layers:
   - Default
   - TransparentFX

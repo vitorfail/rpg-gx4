@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bardo_0: 9173306512388928108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

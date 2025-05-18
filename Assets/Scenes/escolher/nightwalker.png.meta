@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 1d6c4f43b39a43449bdc41c09356113c
+guid: 87dff2ac2289ee9498dc32ef59e4c1a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8287984193659030122
-    second: mago_0
+      213: 5198970251588361282
+    second: nightwalker_0
+  - first:
+      213: 4772584864535286687
+    second: nightwalker_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mago_0
+      name: nightwalker_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 18
-        width: 476
-        height: 476
+        x: 22
+        y: 0
+        width: 468
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 695b6e8994a2bfc80800000000000000
-      internalID: -8287984193659030122
+      spriteID: 24c5fb306e3762840800000000000000
+      internalID: 5198970251588361282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightwalker_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 118
+        width: 464
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f931807e5a0ab3240800000000000000
+      internalID: 4772584864535286687
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mago_0: -8287984193659030122
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

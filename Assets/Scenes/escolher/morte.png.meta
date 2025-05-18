@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 1d6c4f43b39a43449bdc41c09356113c
+guid: 18ec01a38454b974a900a7b95072ef22
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8287984193659030122
-    second: mago_0
+      213: -7602139660648939398
+    second: morte_0
+  - first:
+      213: 7881328492995143134
+    second: morte_1
+  - first:
+      213: 6201574880120248170
+    second: morte_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mago_0
+      name: morte_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 18
-        width: 476
-        height: 476
+        x: 30
+        y: 31
+        width: 148
+        height: 419
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 695b6e8994a2bfc80800000000000000
-      internalID: -8287984193659030122
+      spriteID: a708c1aa146cf7690800000000000000
+      internalID: -7602139660648939398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morte_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 384
+        width: 317
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5e32fd18a106d60800000000000000
+      internalID: 7881328492995143134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morte_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 31
+        width: 318
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a679d810f7b601650800000000000000
+      internalID: 6201574880120248170
       vertices: []
       indices: 
       edges: []
@@ -147,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mago_0: -8287984193659030122
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

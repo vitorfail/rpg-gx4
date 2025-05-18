@@ -1,22 +1,37 @@
 fileFormatVersion: 2
-guid: b5c4e2338bf4605499b28ba3fba79b5a
+guid: 7d880204dcf383044bdd843d2275eeed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1668108543157428926
-    second: druida_0
+      213: -3332791508022955970
+    second: anao_0
   - first:
-      213: 7667035177225935265
-    second: druida_1
+      213: -3300485546135214870
+    second: anao_1
   - first:
-      213: -7922100589536566763
-    second: druida_2
+      213: 8563371110078164594
+    second: anao_2
   - first:
-      213: -3927505875445791381
-    second: druida_3
+      213: -8620206665326203510
+    second: anao_3
   - first:
-      213: 7541281470766128654
-    second: druida_4
+      213: -2444955632378184759
+    second: anao_4
+  - first:
+      213: 5040364344155707767
+    second: anao_5
+  - first:
+      213: -2682424256689238826
+    second: anao_6
+  - first:
+      213: -2848798862998165473
+    second: anao_7
+  - first:
+      213: -2329542402529399467
+    second: anao_8
+  - first:
+      213: -4414745369562604200
+    second: anao_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,133 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: druida_0
+      name: anao_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 512
-        height: 511
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24d9e463e10b9d8e0800000000000000
-      internalID: -1668108543157428926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_1
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 347
-        width: 122
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a9d9fa3fd7c66a60800000000000000
-      internalID: 7667035177225935265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_2
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 347
-        width: 122
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 512a2c5ac7b0f0290800000000000000
-      internalID: -7922100589536566763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_3
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 227
-        width: 121
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b654bc01732be79c0800000000000000
-      internalID: -3927505875445791381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_4
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 17
-        width: 392
-        height: 303
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0e1040da8308a860800000000000000
-      internalID: 7541281470766128654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_5
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 378
-        width: 5
-        height: 108
+        x: 82
+        y: 44
+        width: 348
+        height: 293
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d2c16a3d2334d3a42ab6e2ec931cf16a
-      internalID: -1671002560
+      spriteID: e307ad508cb8fb1d0800000000000000
+      internalID: -3332791508022955970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 312
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4ac4ce1e15232d0800000000000000
+      internalID: -3300485546135214870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 275
+        width: 258
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e2d0867a437d670800000000000000
+      internalID: 8563371110078164594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 312
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8de6cea5bfde5880800000000000000
+      internalID: -8620206665326203510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 43
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbf1886ec5c11ed0800000000000000
+      internalID: -2444955632378184759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 106
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77912ff7aa8f2f540800000000000000
+      internalID: 5040364344155707767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 43
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc8523c95d16cad0800000000000000
+      internalID: -2682424256689238826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 43
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18257617880778d0800000000000000
+      internalID: -2848798862998165473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_8
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 106
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d6600078dcbafd0800000000000000
+      internalID: -2329542402529399467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anao_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 43
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d9b690a7cabb2c0800000000000000
+      internalID: -4414745369562604200
       vertices: []
       indices: 
       edges: []
@@ -260,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a45b189a56c9ec24f9977a654f1db92d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -269,13 +372,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      druida_0: -1668108543157428926
-      druida_1: 7667035177225935265
-      druida_2: -7922100589536566763
-      druida_3: -3927505875445791381
-      druida_4: 7541281470766128654
-      druida_5: -1671002560
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1d6c4f43b39a43449bdc41c09356113c
+guid: a8616264dd1d73947a177ef746a24c3e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8287984193659030122
-    second: mago_0
+      213: 8406198472801761938
+    second: menui_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mago_0
+      name: menui_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 18
-        width: 476
-        height: 476
+        x: 0
+        y: 0
+        width: 823
+        height: 1173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 695b6e8994a2bfc80800000000000000
-      internalID: -8287984193659030122
+      spriteID: 29ab7ca19f0d8a470800000000000000
+      internalID: 8406198472801761938
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mago_0: -8287984193659030122
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

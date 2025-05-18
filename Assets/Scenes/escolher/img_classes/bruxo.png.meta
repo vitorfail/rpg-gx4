@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bruxo_0: 1732879773014515146
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

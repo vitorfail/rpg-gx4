@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ladino_0: 3075840510746995990
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

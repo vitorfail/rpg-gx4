@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 1d6c4f43b39a43449bdc41c09356113c
+guid: 55e3c986f371fd74fb1dc56e08a1052b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8287984193659030122
-    second: mago_0
+      213: -3715280972482791317
+    second: oni_0
+  - first:
+      213: -4060842735387887154
+    second: oni_1
+  - first:
+      213: -290458317394170883
+    second: oni_2
+  - first:
+      213: 3799334773715596192
+    second: oni_3
+  - first:
+      213: 3881744765483902378
+    second: oni_4
+  - first:
+      213: -1406307862494000622
+    second: oni_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mago_0
+      name: oni_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 18
-        width: 476
-        height: 476
+        x: 107
+        y: 411
+        width: 62
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +143,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 695b6e8994a2bfc80800000000000000
-      internalID: -8287984193659030122
+      spriteID: b683562d3aba07cc0800000000000000
+      internalID: -3715280972482791317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 91
+        width: 276
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9ba742c0df4a7c0800000000000000
+      internalID: -4060842735387887154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 411
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfba9a103b518fbf0800000000000000
+      internalID: -290458317394170883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 269
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a37b12d8d2f9b430800000000000000
+      internalID: 3799334773715596192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 269
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5666f3c4abed530800000000000000
+      internalID: 3881744765483902378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 436
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ac433337acb7ce0800000000000000
+      internalID: -1406307862494000622
       vertices: []
       indices: 
       edges: []
@@ -147,8 +272,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mago_0: -8287984193659030122
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,22 +1,34 @@
 fileFormatVersion: 2
-guid: b5c4e2338bf4605499b28ba3fba79b5a
+guid: d3581f98df5805846a19b0887c83fc72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1668108543157428926
-    second: druida_0
+      213: -1367291550803677559
+    second: elf_0
   - first:
-      213: 7667035177225935265
-    second: druida_1
+      213: -7470292585982085316
+    second: elf_1
   - first:
-      213: -7922100589536566763
-    second: druida_2
+      213: -5347019310312548077
+    second: elf_2
   - first:
-      213: -3927505875445791381
-    second: druida_3
+      213: -1100899309465446319
+    second: elf_3
   - first:
-      213: 7541281470766128654
-    second: druida_4
+      213: 5138324271126351101
+    second: elf_4
+  - first:
+      213: 6341323926692188495
+    second: elf_5
+  - first:
+      213: 9214463265277267986
+    second: elf_6
+  - first:
+      213: 5257623328025080336
+    second: elf_7
+  - first:
+      213: -3081672384551181344
+    second: elf_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,133 +137,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: druida_0
+      name: elf_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 512
-        height: 511
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24d9e463e10b9d8e0800000000000000
-      internalID: -1668108543157428926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_1
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 347
-        width: 122
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a9d9fa3fd7c66a60800000000000000
-      internalID: 7667035177225935265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_2
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 347
-        width: 122
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 512a2c5ac7b0f0290800000000000000
-      internalID: -7922100589536566763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_3
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 227
-        width: 121
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b654bc01732be79c0800000000000000
-      internalID: -3927505875445791381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_4
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 17
-        width: 392
-        height: 303
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0e1040da8308a860800000000000000
-      internalID: 7541281470766128654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: druida_5
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 378
-        width: 5
-        height: 108
+        x: 63
+        y: 282
+        width: 52
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d2c16a3d2334d3a42ab6e2ec931cf16a
-      internalID: -1671002560
+      spriteID: 98e24f92497660de0800000000000000
+      internalID: -1367291550803677559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elf_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 375
+        width: 232
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37bd4ce870345890800000000000000
+      internalID: -7470292585982085316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elf_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 191
+        width: 232
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3199aa954429bc5b0800000000000000
+      internalID: -5347019310312548077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elf_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 282
+        width: 52
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158d6dd29e1d8b0f0800000000000000
+      internalID: -1100899309465446319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elf_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 150
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc014953befe4740800000000000000
+      internalID: 5138324271126351101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elf_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 78
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f415c287388e00850800000000000000
+      internalID: 6341323926692188495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elf_6
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 150
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210dcbaf48950ef70800000000000000
+      internalID: 9214463265277267986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elf_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 215
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012fdbd8f84d6f840800000000000000
+      internalID: 5257623328025080336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elf_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 215
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e322bc2b43bb35d0800000000000000
+      internalID: -3081672384551181344
       vertices: []
       indices: 
       edges: []
@@ -260,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a45b189a56c9ec24f9977a654f1db92d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -269,13 +347,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      druida_0: -1668108543157428926
-      druida_1: 7667035177225935265
-      druida_2: -7922100589536566763
-      druida_3: -3927505875445791381
-      druida_4: 7541281470766128654
-      druida_5: -1671002560
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
