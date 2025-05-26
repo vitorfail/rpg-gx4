@@ -9,17 +9,16 @@ namespace TipagemClasses
 
     public class ClassDetails
     {
-        public string Foco { get; set; }
-        public string Descri { get; set; }
-        public Dictionary<string, Archetype> Arquetipo { get; set; }
-        public List<Level> Level { get; set; }
+        public string Foco { get; set; } = string.Empty;
+        public string Descri { get; set; } =string.Empty;
+        public Dictionary<string, Archetype> Arquetipo { get; set; } = new();
+        public List<Level> Level { get; set; } = new();
     }
 
     public class Archetype
     {
-        public string Nome { get; set; }
-        public object Text { get; set; }
-        public string Img { get; set; }
+        public string Nome { get; set; } = string.Empty;
+        public object Text { get; set; } = new object();
     }
 
     public class Level
@@ -31,13 +30,13 @@ namespace TipagemClasses
         public int F { get; set; }
         public int Df { get; set; }
         public bool I { get; set; }
-        public List<int> H { get; set; }
-        public List<int> Magias { get; set; }
+        public List<int> H { get; set; } = new();
+        public List<int> Magias { get; set; } = new();
         public int Invo { get; set; }
         public int Mc { get; set; }
         public int Pf { get; set; }
-        public List<object> Af { get; set; }
-        public List<object> Am { get; set; }
+        public List<object> Af { get; set; } = new(){0,""};
+        public List<object> Am { get; set; } = new(){0,""};
         public int Chi { get; set; }
     }
 

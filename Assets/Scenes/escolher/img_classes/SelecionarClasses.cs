@@ -24,11 +24,17 @@ public class SelecionarClasses : MonoBehaviour
     public Sprite[] sprites;           // Array de imagens (sprites) que serão trocadas
     private int currentIndex = 0;
     public DndClassesData clastipagem;
+
     void Start()
     {
+        
         clastipagem = JsonConvert.DeserializeObject<DndClassesData>(json_class.text);
         Debug.Log(clastipagem.Classes["barbaro"].Foco);
 
+    }
+    public class Testando
+    {
+        public int t { get; set; }          // string
     }
     public void NextImage()
     {
@@ -147,7 +153,6 @@ public class SelecionarClasses : MonoBehaviour
             sabedoria.Attr(20.00f);
             carisma.Attr(80.00f);
         }
-        Debug.Log(clastipagem.Classes["barbaro"].Descri);
         int hp = clastipagem.Classes[clas[currentIndex].ToLower()].Level[0].Hp;
         text_hp.text = "HP: " + hp;
         person.Classes = clas[currentIndex];
@@ -269,7 +274,6 @@ public class SelecionarClasses : MonoBehaviour
             sabedoria.Attr(20.00f);
             carisma.Attr(80.00f);
         }
-        DndClassesData clastipagem = JsonUtility.FromJson<DndClassesData>(json_class.text);
         int hp = clastipagem.Classes[clas[currentIndex].ToLower()].Level[0].Hp;
         text_hp.text = "HP: "+hp;
         person.Classes = clas[currentIndex];
