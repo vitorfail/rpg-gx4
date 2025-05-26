@@ -1,7 +1,7 @@
 
 # JOGO DE RPG DE TURNO PVP
 
-Esse é um projeto para criação de um jogo mobile. As regras são totalmente baseadas no `Livro do Jogador D&D(5e)`. Cada player poderá ter até tres classes(diferentes) de personagens. 
+Esse é um projeto para criação de um jogo mobile 2d online. Feito em Unity, com banco de dados em Postgrsql e beckend em Golang. As regras são totalmente baseadas no `Livro do Jogador D&D(5e)`. Cada player poderá ter até tres classes(diferentes) de personagens. 
 O jogo terá 4 cenas de jogo.
 
 ## 1. Cena: Login
