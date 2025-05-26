@@ -17,31 +17,31 @@ Voce poderá escolher até tres perssonagens. De classes diferentes para poder b
 
 ### Classes
 
-**Bárbaro** : Focado na forção e podendo reduzir o dano por meio da fúria.
-**Bardo** : Focado em carisma e suporte por meio de músicas e magia.
-**Bruxo** : Focado em suporte por meio de magias e maldições, mas com pouco espaçõs de magia.
-**Clérigo** : Focado em suporte por meio da cura.
-**Druida** : Focado em suporte e ataque por meio das suas tranformações.
-**Feitiçeira** : Focado em uso de magias em grande quantidade.
-**Guerreiro** : Focado apenas em combate e atacar.
-**Ladino** : Focado na destreza e agilidade.
-**Mago** : Focado em inteligencia em uso de magias.
-**Monge** : Focado em stunar e na destreza.
-**Paladino** : Focado em atacar, defender e usar magia de cura.
-**Ranger** : Focado em estratégia e caça.
+**Bárbaro** : Focado na forção e podendo reduzir o dano por meio da fúria.<br>
+**Bardo** : Focado em carisma e suporte por meio de músicas e magia.<br>
+**Bruxo** : Focado em suporte por meio de magias e maldições, mas com pouco espaçõs de magia.<br>
+**Clérigo** : Focado em suporte por meio da cura.<br>
+**Druida** : Focado em suporte e ataque por meio das suas tranformações.<br>
+**Feitiçeira** : Focado em uso de magias em grande quantidade.<br>
+**Guerreiro** : Focado apenas em combate e atacar.<br>
+**Ladino** : Focado na destreza e agilidade.<br>
+**Mago** : Focado em inteligencia em uso de magias.<br>
+**Monge** : Focado em stunar e na destreza.<br>
+**Paladino** : Focado em atacar, defender e usar magia de cura.<br>
+**Ranger** : Focado em estratégia e caça.<br>
 
 ### Sexo
 
-**Homem**
-**Mulher**
+**Homem**<br>
+**Mulher**<br>
 
 ### Raça 
 
-**Humano**
-**Orc**
-**Elfo**
-**Anão**
-**Demonio**
+**Humano**<br>
+**Orc**<br>
+**Elfo**<br>
+**Anão**<br>
+**Demonio**<br>
 **Anjos**`Não possuem variação de Genero, e independente da classe escolhida tem a mesma aparencia`
 
 ### Cor
