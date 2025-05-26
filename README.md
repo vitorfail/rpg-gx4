@@ -2,7 +2,18 @@
 # JOGO DE RPG DE TURNO PVP
 
 Esse é um projeto para criação de um jogo mobile. As regras são totalmente baseadas no `Livro do Jogador D&D(5e)`. Cada player poderá ter até tres classes(diferentes) de personagens. 
-O Jogo tem as seguintes categorias para customização de perssonagens:
+O jogo terá 4 cenas de jogo.
+
+## 1. Cena: Login
+
+Essa cena terá um popup que questiona o player se ele sabe ou já jogou rpg de mea D&D. Dependento da escolha haverá dois caminhos: o Tutorial ou a cena de customização.
+
+### Tutorial
+O tutorial é bem simples. Os textos se escrevem e voce pode pular uma texto de cada vez, ou tutorial como um todo.
+
+## 2. Cena: Customização dos perssonagens.
+
+Voce poderá escolher até tres perssonagens. De classes diferentes para poder balançear. No momento da customização o player terá as seguintes opções.
 
 ### Classes
 
@@ -31,4 +42,8 @@ O Jogo tem as seguintes categorias para customização de perssonagens:
 **Elfo**
 **Anão**
 **Demonio**
-**Anjos**`Nãoc possuem variação de Genero, e independente da classe escolhida tem a mesma aparencia`
+**Anjos**`Não possuem variação de Genero, e independente da classe escolhida tem a mesma aparencia`
+
+### Cor
+Poderá definir o tem de cor do sprite do perssonagem, seja totalmente escuro, ou completamente braco.
+
