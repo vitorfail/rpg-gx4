@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 13c66fb5b7c69fc4eb35f7f5c50d36eb
+guid: feadeb08ea663f44f889038ce5470fc3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4345417376146879785
-    second: homem_0
+      213: -712025030414013557
+    second: homem_on_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: homem_0
+      name: homem_on_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 508
-        height: 546
+        x: 2
+        y: 6
+        width: 502
+        height: 535
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7da84fd5be9f1b3c0800000000000000
-      internalID: -4345417376146879785
+      spriteID: b8b6cfed1016e16f0800000000000000
+      internalID: -712025030414013557
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f0707a4e6cdfe7e40a2b094f8db15b71
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      homem_0: -4345417376146879785
+      homem_on_0: -712025030414013557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
