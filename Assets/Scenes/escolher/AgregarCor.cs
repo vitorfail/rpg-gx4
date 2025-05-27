@@ -1,24 +1,29 @@
 using UnityEngine;
-
+using System;
+using UnityEngine.UI;
 public class AgregarCor : MonoBehaviour
 {
-    public Cores[] objetos;
-    public float r;
-    public float g;
-    public float b;
+    public Slider redSlider;
+    public Slider greenSlider;
+    public Slider blueSlider;
+    public Color corAtual;
+
+    public delegate void CorAlteradaDelegate(Color novaCor);
+    public event CorAlteradaDelegate OnCorAlterada;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        redSlider.onValueChanged.AddListener(delegate { AtualizarCor(); });
+        greenSlider.onValueChanged.AddListener(delegate { AtualizarCor(); });
+        blueSlider.onValueChanged.AddListener(delegate { AtualizarCor(); });
+
+        AtualizarCor(); // aplica valor inicial
     }
-    void MudancadeCor()
+
+    public void AtualizarCor()
     {
-        foreach (Cores obj in objetos) {
-            obj.MudarCor();
-        }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
+        corAtual = new Color(redSlider.value, greenSlider.value, blueSlider.value, 1f);
+        OnCorAlterada?.Invoke(corAtual);
     }
 }

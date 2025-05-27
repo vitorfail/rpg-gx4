@@ -3,9 +3,7 @@ using UnityEngine;
 public class Cores : MonoBehaviour
 {
     private SpriteRenderer sprite;
-    public float r;
-    public float g;
-    public float b;
+    public AgregarCor agragador;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,11 +11,6 @@ public class Cores : MonoBehaviour
     }
     public void MudarCor()
     {
-        sprite.color = new Color(r, g, b, sprite.color.a);
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
+        sprite.color = agragador.corAtual;
     }
 }
