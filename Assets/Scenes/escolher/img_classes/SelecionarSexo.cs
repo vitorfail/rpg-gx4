@@ -9,7 +9,9 @@ public class SelecionarSexo : MonoBehaviour
 {
     public Personagens person;
     public ButtonSoundController sound;
-    public Image uiImage;              // Referência para o componente Image da UI
+    public Image uiImageMan;
+    public Image uiImageWoman;
+                  // Referência para o componente Image da UI
     public Sprite homem;
     public Sprite mulher;   
     public Sprite homem_on;
@@ -22,7 +24,8 @@ public class SelecionarSexo : MonoBehaviour
     }
     public void Homem()
     {
-        uiImage.sprite = homem_on;
+        uiImageWoman.sprite = mulher;
+        uiImageMan.sprite = homem_on;
         person.Desaparecer();
 
         person.Sexo = "Homem";
@@ -31,7 +34,8 @@ public class SelecionarSexo : MonoBehaviour
     }
     public void Mulher()
     {
-        uiImage.sprite = mulher;
+        uiImageWoman.sprite = mulher_on;
+        uiImageMan.sprite = homem;
         person.Desaparecer();
         person.Sexo = "Mulher";
         person.Mudar();
