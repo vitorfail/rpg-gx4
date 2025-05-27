@@ -44,6 +44,8 @@ Voce poderá escolher até tres perssonagens. De classes diferentes para poder b
 **Demonio**<br>
 **Anjos**`Não possuem variação de Genero, e independente da classe escolhida tem a mesma aparencia`
 
+![Beta](custom-demonstracao.gif)
+
 ### Cor
 Poderá definir o tem de cor do sprite do perssonagem, seja totalmente escuro, ou completamente braco.
 
