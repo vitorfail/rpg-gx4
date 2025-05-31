@@ -119,12 +119,12 @@ TextureImporter:
       name: humano_0
       rect:
         serializedVersion: 2
-        x: 41
+        x: 0
         y: 0
-        width: 430
-        height: 266
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,7 +146,7 @@ TextureImporter:
         width: 249
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2c43e1dc4d761974484692cddb8cde9a
     internalID: 0
     vertices: []
     indices: 
@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      humano_0: 2956019481997181711
+      humano_1: 7154740239526465582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

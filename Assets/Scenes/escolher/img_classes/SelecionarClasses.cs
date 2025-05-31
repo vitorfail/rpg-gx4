@@ -45,7 +45,7 @@ public class SelecionarClasses : MonoBehaviour
         uiText.text = messages[currentIndex];
         if (clas[currentIndex] == "Barbaro")
         {
-            forca.Attr(350.00f);
+            forca.Attr(326.85f);
             destreza.Attr(100.00f);
             cosntittuicao.Attr(200.00f);
             inteligencia.Attr(30.00f);
@@ -59,7 +59,7 @@ public class SelecionarClasses : MonoBehaviour
             cosntittuicao.Attr(60.00f);
             inteligencia.Attr(60.00f);
             sabedoria.Attr(100.00f);
-            carisma.Attr(350.00f);
+            carisma.Attr(326.85f);
         }
         if (clas[currentIndex] == "Bruxo")
         {
@@ -68,7 +68,7 @@ public class SelecionarClasses : MonoBehaviour
             cosntittuicao.Attr(60.00f);
             inteligencia.Attr(80.00f);
             sabedoria.Attr(100.00f);
-            carisma.Attr(350.00f);
+            carisma.Attr(326.85f);
         }
         if (clas[currentIndex] == "Clerigo")
         {
@@ -76,7 +76,7 @@ public class SelecionarClasses : MonoBehaviour
             destreza.Attr(30.00f);
             cosntittuicao.Attr(100.00f);
             inteligencia.Attr(100.00f);
-            sabedoria.Attr(350.00f);
+            sabedoria.Attr(326.85f);
             carisma.Attr(100.00f);
         }
         if (clas[currentIndex] == "Druida")
@@ -84,7 +84,7 @@ public class SelecionarClasses : MonoBehaviour
             forca.Attr(80.00f);
             destreza.Attr(70.00f);
             cosntittuicao.Attr(70.00f);
-            inteligencia.Attr(350.00f);
+            inteligencia.Attr(326.85f);
             sabedoria.Attr(100.00f);
             carisma.Attr(80.00f);
         }
@@ -95,11 +95,11 @@ public class SelecionarClasses : MonoBehaviour
             cosntittuicao.Attr(80.00f);
             inteligencia.Attr(100.00f);
             sabedoria.Attr(100.00f);
-            carisma.Attr(350.00f);
+            carisma.Attr(326.85f);
         }
         if (clas[currentIndex] == "Guerreiro")
         {
-            forca.Attr(350.00f);
+            forca.Attr(326.85f);
             destreza.Attr(100.00f);
             cosntittuicao.Attr(80.00f);
             inteligencia.Attr(100.00f);
@@ -109,7 +109,7 @@ public class SelecionarClasses : MonoBehaviour
         if (clas[currentIndex] == "Ladino")
         {
             forca.Attr(100.00f);
-            destreza.Attr(350.00f);
+            destreza.Attr(326.85f);
             cosntittuicao.Attr(80.00f);
             inteligencia.Attr(80.00f);
             sabedoria.Attr(70.00f);
@@ -118,7 +118,7 @@ public class SelecionarClasses : MonoBehaviour
         if (clas[currentIndex] == "Monge")
         {
             forca.Attr(100.00f);
-            destreza.Attr(350.00f);
+            destreza.Attr(326.85f);
             cosntittuicao.Attr(150.00f);
             inteligencia.Attr(80.00f);
             sabedoria.Attr(70.00f);
@@ -131,26 +131,27 @@ public class SelecionarClasses : MonoBehaviour
             cosntittuicao.Attr(200.00f);
             inteligencia.Attr(80.00f);
             sabedoria.Attr(70.00f);
-            carisma.Attr(350.00f);
+            carisma.Attr(326.85f);
         }
         if (clas[currentIndex] == "Mago")
         {
             forca.Attr(20.00f);
             destreza.Attr(30.00f);
             cosntittuicao.Attr(100.00f);
-            inteligencia.Attr(350.00f);
+            inteligencia.Attr(326.85f);
             sabedoria.Attr(100.00f);
             carisma.Attr(100.00f);
         }
         if (clas[currentIndex] == "Ranger")
         {
             forca.Attr(20.00f);
-            destreza.Attr(350.00f);
+            destreza.Attr(326.85f);
             cosntittuicao.Attr(100.00f);
             inteligencia.Attr(100.00f);
             sabedoria.Attr(20.00f);
             carisma.Attr(80.00f);
         }
+
         int hp = clastipagem.Classes[clas[currentIndex].ToLower()].Level[0].Hp;
         text_hp.text = "HP: " + hp;
         person.Classes = clas[currentIndex];
@@ -165,7 +166,7 @@ public class SelecionarClasses : MonoBehaviour
         uiText.text = messages[currentIndex];
         if (clas[currentIndex] == "Barbaro")
         {
-            forca.Attr(350.00f);
+            forca.Attr(326.85f);
             destreza.Attr(100.00f);
             cosntittuicao.Attr(200.00f);
             inteligencia.Attr(30.00f);
@@ -179,7 +180,7 @@ public class SelecionarClasses : MonoBehaviour
             cosntittuicao.Attr(60.00f);
             inteligencia.Attr(60.00f);
             sabedoria.Attr(100.00f);
-            carisma.Attr(350.00f);
+            carisma.Attr(326.85f);
         }
         if (clas[currentIndex] == "Bruxo")
         {
@@ -188,7 +189,7 @@ public class SelecionarClasses : MonoBehaviour
             cosntittuicao.Attr(60.00f);
             inteligencia.Attr(80.00f);
             sabedoria.Attr(100.00f);
-            carisma.Attr(350.00f);
+            carisma.Attr(326.85f);
         }
         if (clas[currentIndex] == "Clerigo")
         {
@@ -196,7 +197,7 @@ public class SelecionarClasses : MonoBehaviour
             destreza.Attr(30.00f);
             cosntittuicao.Attr(100.00f);
             inteligencia.Attr(100.00f);
-            sabedoria.Attr(350.00f);
+            sabedoria.Attr(326.85f);
             carisma.Attr(100.00f);
         }
         if (clas[currentIndex] == "Druida")
@@ -204,7 +205,7 @@ public class SelecionarClasses : MonoBehaviour
             forca.Attr(80.00f);
             destreza.Attr(70.00f);
             cosntittuicao.Attr(70.00f);
-            inteligencia.Attr(350.00f);
+            inteligencia.Attr(326.85f);
             sabedoria.Attr(100.00f);
             carisma.Attr(80.00f);
         }
@@ -215,11 +216,11 @@ public class SelecionarClasses : MonoBehaviour
             cosntittuicao.Attr(80.00f);
             inteligencia.Attr(100.00f);
             sabedoria.Attr(100.00f);
-            carisma.Attr(350.00f);
+            carisma.Attr(326.85f);
         }
         if (clas[currentIndex] == "Guerreiro")
         {
-            forca.Attr(350.00f);
+            forca.Attr(326.85f);
             destreza.Attr(100.00f);
             cosntittuicao.Attr(80.00f);
             inteligencia.Attr(100.00f);
@@ -229,7 +230,7 @@ public class SelecionarClasses : MonoBehaviour
         if (clas[currentIndex] == "Ladino")
         {
             forca.Attr(100.00f);
-            destreza.Attr(350.00f);
+            destreza.Attr(326.85f);
             cosntittuicao.Attr(80.00f);
             inteligencia.Attr(80.00f);
             sabedoria.Attr(70.00f);
@@ -238,7 +239,7 @@ public class SelecionarClasses : MonoBehaviour
         if (clas[currentIndex] == "Monge")
         {
             forca.Attr(100.00f);
-            destreza.Attr(350.00f);
+            destreza.Attr(326.85f);
             cosntittuicao.Attr(150.00f);
             inteligencia.Attr(80.00f);
             sabedoria.Attr(70.00f);
@@ -251,18 +252,26 @@ public class SelecionarClasses : MonoBehaviour
             cosntittuicao.Attr(200.00f);
             inteligencia.Attr(80.00f);
             sabedoria.Attr(70.00f);
-            carisma.Attr(350.00f);
+            carisma.Attr(326.85f);
         }
         if (clas[currentIndex] == "Mago")
         {
             forca.Attr(20.00f);
             destreza.Attr(30.00f);
             cosntittuicao.Attr(100.00f);
-            inteligencia.Attr(350.00f);
+            inteligencia.Attr(326.85f);
             sabedoria.Attr(100.00f);
             carisma.Attr(100.00f);
         }
         if (clas[currentIndex] == "Ranger")
+        {
+            forca.Attr(20.00f);
+            destreza.Attr(326.85f);
+            cosntittuicao.Attr(100.00f);
+            inteligencia.Attr(100.00f);
+            sabedoria.Attr(20.00f);
+            carisma.Attr(80.00f);
+        }
         {
             forca.Attr(20.00f);
             destreza.Attr(350.00f);
@@ -271,6 +280,7 @@ public class SelecionarClasses : MonoBehaviour
             sabedoria.Attr(20.00f);
             carisma.Attr(80.00f);
         }
+
         int hp = clastipagem.Classes[clas[currentIndex].ToLower()].Level[0].Hp;
         text_hp.text = "HP: "+hp;
         person.Classes = clas[currentIndex];
