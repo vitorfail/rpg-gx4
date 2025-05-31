@@ -29,7 +29,6 @@ public class SelecionarClasses : MonoBehaviour
     {
         
         clastipagem = JsonConvert.DeserializeObject<DndClassesData>(json_class.text);
-        Debug.Log(clastipagem.Classes["barbaro"].Foco);
 
     }
     public class Testando

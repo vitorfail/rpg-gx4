@@ -39,17 +39,16 @@ public class Personagens : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
+        Debug.Log($"Caracters/{Raca}/{Sexo}/{Classes}/{Classes}");
         GameObject request = Resources.Load<GameObject>($"Caracters/{Raca}/{Sexo}/{Classes}/{Classes}");
         // Instancia o novo personagem como filho do prefab
         GameObject newCharacter = Instantiate(request, prefab.transform);
-        Debug.Log(newCharacter.transform.localPosition);
         SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);
 
         foreach (SpriteRenderer renderer in spriteRenderers)
         {
             renderer.material = material;
         }
-        //Debug.Log(newCharacter.transform.localPosition);
         //newCharacter.transform.localPosition = new Vector3(0f,0f,0f); // Posiciona no centro do pai
         //newCharacter.transform.localRotation = Quaternion.identity;
     }

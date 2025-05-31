@@ -15,7 +15,6 @@ public class SliderColors : MonoBehaviour
 
     void OnSliderValueChanged(float value)
     {
-        Debug.Log("Novo valor do slider: " + value);
         // Aqui você pode usar o valor como quiser
     }
 }

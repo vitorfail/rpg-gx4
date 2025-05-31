@@ -23,7 +23,6 @@ public class AgregarCor : MonoBehaviour
 
     public void AtualizarCor()
     {
-        Debug.Log(redSlider.value.GetType());
         corAtual = new Color(24.0f, 48.0f, 80.0f, 1f);
         OnCorAlterada?.Invoke(corAtual);
     }
