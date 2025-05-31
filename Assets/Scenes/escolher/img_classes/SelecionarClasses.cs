@@ -44,7 +44,6 @@ public class SelecionarClasses : MonoBehaviour
         currentIndex = (currentIndex + 1) % sprites.Length;
         uiImage.sprite = sprites[currentIndex];
         uiText.text = messages[currentIndex];
-        person.Desaparecer();
         if (clas[currentIndex] == "Barbaro")
         {
             forca.Attr(350.00f);
@@ -165,7 +164,6 @@ public class SelecionarClasses : MonoBehaviour
         currentIndex = (currentIndex - 1 + sprites.Length) % sprites.Length;
         uiImage.sprite = sprites[currentIndex];
         uiText.text = messages[currentIndex];
-        person.Desaparecer();
         if (clas[currentIndex] == "Barbaro")
         {
             forca.Attr(350.00f);

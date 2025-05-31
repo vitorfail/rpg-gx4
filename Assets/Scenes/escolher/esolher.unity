@@ -1762,7 +1762,7 @@ Transform:
   m_GameObject: {fileID: 494277770}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -4.1, z: 0}
+  m_LocalPosition: {x: 0.26, y: -3.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3368,6 +3368,7 @@ MonoBehaviour:
   Sexo: 
   Raca: 
   prefab: {fileID: 494277770}
+  material: {fileID: 2100000, guid: 435e08cb571279f449a8dfc93d454f63, type: 2}
 --- !u!1 &920161356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4131,7 +4132,7 @@ MonoBehaviour:
   redSlider: {fileID: 920891461}
   greenSlider: {fileID: 2123643821}
   blueSlider: {fileID: 504264470}
-  spriteMaterial: {fileID: 2100000, guid: cc86f7cc17f5ba54ca1f0dee1fd2b09e, type: 2}
+  spriteMaterial: {fileID: 2100000, guid: 435e08cb571279f449a8dfc93d454f63, type: 2}
   targetColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &1137779497
 GameObject:

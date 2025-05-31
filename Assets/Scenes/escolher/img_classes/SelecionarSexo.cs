@@ -26,8 +26,6 @@ public class SelecionarSexo : MonoBehaviour
     {
         uiImageWoman.sprite = mulher;
         uiImageMan.sprite = homem_on;
-        person.Desaparecer();
-
         person.Sexo = "Homem";
         person.Mudar();
         sound.PlayClickSound();
@@ -36,7 +34,6 @@ public class SelecionarSexo : MonoBehaviour
     {
         uiImageWoman.sprite = mulher_on;
         uiImageMan.sprite = homem;
-        person.Desaparecer();
         person.Sexo = "Mulher";
         person.Mudar();
         sound.PlayClickSound();
