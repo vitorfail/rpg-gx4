@@ -1711,8 +1711,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SelecionarClasses, Assembly-CSharp
+      - m_Target: {fileID: 860651761}
+        m_TargetAssemblyTypeName: SelecionarRaca, Assembly-CSharp
         m_MethodName: NextImage
         m_Mode: 1
         m_Arguments:
@@ -2208,8 +2208,7 @@ Transform:
   m_LocalPosition: {x: -0.18, y: -4.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1637854319}
+  m_Children: []
   m_Father: {fileID: 909214248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &504264468
@@ -3755,7 +3754,7 @@ MonoBehaviour:
   - Elfo
   - Demonio
   - Anao
-  uiImage: {fileID: 0}
+  uiImage: {fileID: 860651763}
   sprites:
   - {fileID: 2956019481997181711, guid: 3f6c312859ecca6428522d8b6b8fa372, type: 3}
   - {fileID: 6362832775884612094, guid: 58e512dacca34924e9249e0531b11711, type: 3}
@@ -6471,68 +6470,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626334199}
   m_CullTransparentMesh: 1
---- !u!1001 &1637854318
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 494277771}
-    m_Modifications:
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5998007170879757942, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-      propertyPath: m_Name
-      value: Ranger
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
---- !u!4 &1637854319 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4896866808482743829, guid: b00fbd1f1e71bda4ba2136d351a8f712, type: 3}
-  m_PrefabInstance: {fileID: 1637854318}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1652824521
 GameObject:
   m_ObjectHideFlags: 0
@@ -6652,8 +6589,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SelecionarClasses, Assembly-CSharp
+      - m_Target: {fileID: 860651761}
+        m_TargetAssemblyTypeName: SelecionarRaca, Assembly-CSharp
         m_MethodName: PreviousImage
         m_Mode: 1
         m_Arguments:

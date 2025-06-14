@@ -18,8 +18,11 @@ public class SelecionarRaca : MonoBehaviour
 
     void Start()
     {
-        
-
+        raca = new string[] { "Humano", "Orc", "Elfo", "Demonio", "Anao" };
+        person.Raca = raca[0];
+        uiImage.sprite = sprites[0];
+        uiText.text = messages[0];
+        person.Mudar();
     }
     public class Testando
     {
@@ -27,7 +30,6 @@ public class SelecionarRaca : MonoBehaviour
     }
     public void NextImage()
     {
-        raca = new string[] { "Humano", "Orc", "Elfo", "Demonio", "Anao" };
         if (sprites.Length == 0) return;
 
         currentIndex = (currentIndex + 1) % sprites.Length;

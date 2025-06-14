@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f965f1053c57a23409384a9e43658073
+guid: b7a5ac786a477a344b9fc712f598aa93
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      clerigo_0: 1654982878518861434
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
