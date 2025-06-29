@@ -39,7 +39,6 @@ public class Personagens : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
-        Debug.Log($"Caracters/{Raca}/{Sexo}/{Classes}/{Classes}");
         GameObject request = Resources.Load<GameObject>($"Caracters/{Raca}/{Sexo}/{Classes}/{Classes}");
         // Instancia o novo personagem como filho do prefab
         GameObject newCharacter = Instantiate(request, prefab.transform);
