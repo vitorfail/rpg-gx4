@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2908900086550741896
+--- !u!1001 &8750039680523662865
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: be4a5229310343c46af1086169cdfa82, type: 3}
       propertyPath: m_Name
-      value: Feiticeiro
+      value: Feiticeiro 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: be4a5229310343c46af1086169cdfa82, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: be4a5229310343c46af1086169cdfa82, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: be4a5229310343c46af1086169cdfa82, type: 3}
       propertyPath: m_LocalPosition.x
@@ -218,21 +218,21 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: be4a5229310343c46af1086169cdfa82, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2030277527555679461}
+      addedObject: {fileID: 3116231264956928667}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: be4a5229310343c46af1086169cdfa82, type: 3}
---- !u!1 &3438976502986400309 stripped
+--- !u!1 &9118009570339444652 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: be4a5229310343c46af1086169cdfa82, type: 3}
-  m_PrefabInstance: {fileID: 2908900086550741896}
+  m_PrefabInstance: {fileID: 8750039680523662865}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2030277527555679461
+--- !u!95 &3116231264956928667
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3438976502986400309}
+  m_GameObject: {fileID: 9118009570339444652}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 70d431ba1beb99a47b1cce0bf1b633fd, type: 2}
