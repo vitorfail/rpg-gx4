@@ -3616,22 +3616,19 @@ MonoBehaviour:
   messages:
   - Humano
   - Orc
-  - Elfo
   - "Dem\xF4nio"
-  - "An\xE3o"
+  - Morte
   raca:
   - Humano
   - Orc
-  - Elfo
   - Demonio
-  - Anao
+  - Morte
   uiImage: {fileID: 860651763}
   sprites:
-  - {fileID: 2956019481997181711, guid: 3f6c312859ecca6428522d8b6b8fa372, type: 3}
-  - {fileID: 6362832775884612094, guid: 58e512dacca34924e9249e0531b11711, type: 3}
-  - {fileID: -1367291550803677559, guid: d3581f98df5805846a19b0887c83fc72, type: 3}
-  - {fileID: -3715280972482791317, guid: 55e3c986f371fd74fb1dc56e08a1052b, type: 3}
-  - {fileID: -3332791508022955970, guid: 7d880204dcf383044bdd843d2275eeed, type: 3}
+  - {fileID: 7280532954602043111, guid: 95af03e4428eb4e4581e9ef45a1c772b, type: 3}
+  - {fileID: 7280532954602043111, guid: a372961eb68561c47bf76d883bab5232, type: 3}
+  - {fileID: 7280532954602043111, guid: b5653e151eb85b44bb6fed39cc028e1d, type: 3}
+  - {fileID: 7280532954602043111, guid: 49c9d239a1831eb4ea75ad8d58a8ec31, type: 3}
 --- !u!114 &860651762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3696,7 +3693,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2956019481997181711, guid: 3f6c312859ecca6428522d8b6b8fa372, type: 3}
+  m_Sprite: {fileID: 7280532954602043111, guid: 95af03e4428eb4e4581e9ef45a1c772b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4396,7 +4393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -59.000145, y: -135.7}
+  m_AnchoredPosition: {x: -59.000175, y: -135.7}
   m_SizeDelta: {x: 0, y: -271.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018783156

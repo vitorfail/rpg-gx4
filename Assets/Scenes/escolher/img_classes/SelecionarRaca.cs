@@ -18,7 +18,7 @@ public class SelecionarRaca : MonoBehaviour
 
     void Start()
     {
-        raca = new string[] { "Humano", "Orc", "Elfo", "Demonio", "Anao" };
+        raca = new string[] { "Humano", "Orc", "Demonio", "Morte" };
         person.Raca = raca[0];
         uiImage.sprite = sprites[0];
         uiText.text = messages[0];

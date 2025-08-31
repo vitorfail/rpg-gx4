@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2528f3f4cac103c4e86a4ca936ca58fe
+guid: 50b25a0765c0003458662fdc731a2e3a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -83,7 +83,7 @@ ScriptedImporter:
       y: 0
       width: 0
       height: 0
-    spriteID: 6cde7d7eb68e6db4c8a44984770f010e
+    spriteID: 8fcb74f1c0a213546a066714cc938117
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -103,11 +103,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 271
-      y: 390
-      width: 75
-      height: 100
-    spriteID: 3d587ad09011b014c93d9459b1a61f87
+      x: 305
+      y: 118
+      width: 80
+      height: 80
+    spriteID: 0f45110e698cf2b4cab4a74085b1bddd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -115,9 +115,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 271, y: 390}
-    spritePosition: {x: 106, y: 265}
-  - name: braco-direito
+    uvTransform: {x: 305, y: 118}
+    spritePosition: {x: 116, y: 264}
+  - name: braco-direto
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -125,11 +125,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 382
-      y: 280
-      width: 65
-      height: 90
-    spriteID: 6ad1ac7a53e164f4c950e15a1880f172
+      x: 147
+      y: 227
+      width: 50
+      height: 75
+    spriteID: 6f31f74ca72f46747a6a0fd1e689f4bf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -137,8 +137,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 382, y: 280}
-    spritePosition: {x: 195, y: 162}
+    uvTransform: {x: 147, y: 227}
+    spritePosition: {x: 201, y: 133}
   - name: ombro-direito
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -147,11 +147,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 382
-      y: 378
-      width: 55
-      height: 75
-    spriteID: 04b4fe42863efe946bad81a2324a3d7e
+      x: 217
+      y: 4
+      width: 80
+      height: 110
+    spriteID: 1cb5742f86f068d499d1129ea355fd32
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,8 +159,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 382, y: 378}
-    spritePosition: {x: 163, y: 182}
+    uvTransform: {x: 217, y: 4}
+    spritePosition: {x: 166, y: 175}
   - name: mao-direito
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -169,11 +169,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 455
-      y: 280
-      width: 31
-      height: 50
-    spriteID: b57186d1fbc309f438e77072a6653a28
+      x: 466
+      y: 118
+      width: 40
+      height: 45
+    spriteID: 4aaddb6670ebebe4eaf288c7c5f69178
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,8 +181,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 455, y: 280}
-    spritePosition: {x: 253, y: 175}
+    uvTransform: {x: 466, y: 118}
+    spritePosition: {x: 196, y: 95}
   - name: corpo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -191,11 +191,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 147
-      y: 187
-      width: 116
-      height: 211
-    spriteID: 50d7478c9ce11034ba8515aed46f7a01
+      x: 4
+      y: 227
+      width: 135
+      height: 240
+    spriteID: 9aa3d84ef447726469f43a8c96a260af
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -203,9 +203,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 147, y: 187}
-    spritePosition: {x: 86, y: 88}
-  - name: rabo
+    uvTransform: {x: 4, y: 227}
+    spritePosition: {x: 71, y: 55}
+  - name: braco-esquerdo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -213,11 +213,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 147
-      y: 406
-      width: 75
-      height: 100
-    spriteID: cc60eec11fa01fa4582161d1fb49229a
+      x: 268
+      y: 227
+      width: 60
+      height: 50
+    spriteID: cdbd3a34b2f3fe14ea765e7613eb12e5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -225,8 +225,184 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 147, y: 406}
-    spritePosition: {x: 95, y: 106}
+    uvTransform: {x: 268, y: 227}
+    spritePosition: {x: 34, y: 163}
+  - name: ombro-esquerdo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 227
+      width: 55
+      height: 65
+    spriteID: 4ddda9636284e1043a84d50f71aad115
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 227}
+    spritePosition: {x: 66, y: 188}
+  - name: mao-esquerdo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 461
+      y: 4
+      width: 45
+      height: 40
+    spriteID: 7e4c5d04831fb9e4595b77200ceab0cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 461, y: 4}
+    spritePosition: {x: 0, y: 163}
+  - name: coxa-direito
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 122
+      width: 70
+      height: 95
+    spriteID: da2bd12e7c2500349ab961004446a2ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 122}
+    spritePosition: {x: 141, y: 88}
+  - name: perna-direito
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 118
+      width: 65
+      height: 95
+    spriteID: 7fd98419fb0da334caffa069a2cea721
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 118}
+    spritePosition: {x: 161, y: 20}
+  - name: pe-direito
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 227
+      width: 70
+      height: 40
+    spriteID: d4659f3eb9a134742825aa589f42056a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 336, y: 227}
+    spritePosition: {x: 161, y: 0}
+  - name: perna-esquerdo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 305
+      y: 4
+      width: 70
+      height: 106
+    spriteID: 75b85944a0f27104985748da09294b73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 305, y: 4}
+    spritePosition: {x: 51, y: 29}
+  - name: coxa-esquerdo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 4
+      width: 70
+      height: 95
+    spriteID: d80905ec0e1d1d24fb40109d36926c6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 4}
+    spritePosition: {x: 81, y: 93}
+  - name: pe-esquerdo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 414
+      y: 227
+      width: 70
+      height: 40
+    spriteID: 5f502890f1891d44cb4383befc57d236
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 414, y: 227}
+    spritePosition: {x: 46, y: 9}
   - name: capa
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,9 +413,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 170
-      height: 175
-    spriteID: 10488d53967506d4183f3e4b44ed6aa8
+      width: 205
+      height: 215
+    spriteID: dfdf8a61bdf3a604eaa11c762a3e0a69
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -248,117 +424,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 59, y: 0}
-  - name: mao-esquerdo
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 460
-      y: 187
-      width: 40
-      height: 60
-    spriteID: 69e8f0bf5b342fe43964feebddef5ff0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 460, y: 187}
-    spritePosition: {x: 0, y: 168}
-  - name: braco-esquerdo
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 400
-      width: 75
-      height: 90
-    spriteID: 1d6f205a173a71847a8eac08402fcdef
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 400}
-    spritePosition: {x: 20, y: 152}
-  - name: ombro-esquerdo
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 382
-      y: 187
-      width: 70
-      height: 85
-    spriteID: b9951d9ce8fa8b543b889fb55ecfd23d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 382, y: 187}
-    spritePosition: {x: 65, y: 167}
-  - name: asa1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 187
-      width: 135
-      height: 205
-    spriteID: f8ff7c939d5b84a4f8099d4bfc266056
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 187}
-    spritePosition: {x: 0, y: 110}
-  - name: asa2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 271
-      y: 187
-      width: 103
-      height: 195
-    spriteID: 4b29ba5ec000c9e45b352db7b3d124ee
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 271, y: 187}
-    spritePosition: {x: 181, y: 120}
+    spritePosition: {x: 89, y: 20}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -402,19 +468,19 @@ ScriptedImporter:
     spriteName: cabeca
     isGroup: 0
     parentIndex: -1
-    spriteID: 3d587ad09011b014c93d9459b1a61f87
-    layerID: 4
-    mosaicPosition: {x: 271, y: 390}
+    spriteID: 0f45110e698cf2b4cab4a74085b1bddd
+    layerID: 5
+    mosaicPosition: {x: 305, y: 118}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: braco-direito
-    spriteName: braco-direito
+  - name: braco-direto
+    spriteName: braco-direto
     isGroup: 0
     parentIndex: -1
-    spriteID: 6ad1ac7a53e164f4c950e15a1880f172
-    layerID: 10
-    mosaicPosition: {x: 382, y: 280}
+    spriteID: 6f31f74ca72f46747a6a0fd1e689f4bf
+    layerID: 14
+    mosaicPosition: {x: 147, y: 227}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -422,9 +488,9 @@ ScriptedImporter:
     spriteName: ombro-direito
     isGroup: 0
     parentIndex: -1
-    spriteID: 04b4fe42863efe946bad81a2324a3d7e
-    layerID: 9
-    mosaicPosition: {x: 382, y: 378}
+    spriteID: 1cb5742f86f068d499d1129ea355fd32
+    layerID: 13
+    mosaicPosition: {x: 217, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -432,9 +498,9 @@ ScriptedImporter:
     spriteName: mao-direito
     isGroup: 0
     parentIndex: -1
-    spriteID: b57186d1fbc309f438e77072a6653a28
-    layerID: 11
-    mosaicPosition: {x: 455, y: 280}
+    spriteID: 4aaddb6670ebebe4eaf288c7c5f69178
+    layerID: 15
+    mosaicPosition: {x: 466, y: 118}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -442,39 +508,9 @@ ScriptedImporter:
     spriteName: corpo
     isGroup: 0
     parentIndex: -1
-    spriteID: 50d7478c9ce11034ba8515aed46f7a01
-    layerID: 3
-    mosaicPosition: {x: 147, y: 187}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: rabo
-    spriteName: rabo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: cc60eec11fa01fa4582161d1fb49229a
-    layerID: 12
-    mosaicPosition: {x: 147, y: 406}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: capa
-    spriteName: capa
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 10488d53967506d4183f3e4b44ed6aa8
-    layerID: 8
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: mao-esquerdo
-    spriteName: mao-esquerdo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 69e8f0bf5b342fe43964feebddef5ff0
-    layerID: 7
-    mosaicPosition: {x: 460, y: 187}
+    spriteID: 9aa3d84ef447726469f43a8c96a260af
+    layerID: 6
+    mosaicPosition: {x: 4, y: 227}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -482,9 +518,9 @@ ScriptedImporter:
     spriteName: braco-esquerdo
     isGroup: 0
     parentIndex: -1
-    spriteID: 1d6f205a173a71847a8eac08402fcdef
-    layerID: 6
-    mosaicPosition: {x: 4, y: 400}
+    spriteID: cdbd3a34b2f3fe14ea765e7613eb12e5
+    layerID: 8
+    mosaicPosition: {x: 268, y: 227}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -492,29 +528,89 @@ ScriptedImporter:
     spriteName: ombro-esquerdo
     isGroup: 0
     parentIndex: -1
-    spriteID: b9951d9ce8fa8b543b889fb55ecfd23d
-    layerID: 5
-    mosaicPosition: {x: 382, y: 187}
+    spriteID: 4ddda9636284e1043a84d50f71aad115
+    layerID: 7
+    mosaicPosition: {x: 205, y: 227}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: asa1
-    spriteName: asa1
+  - name: mao-esquerdo
+    spriteName: mao-esquerdo
     isGroup: 0
     parentIndex: -1
-    spriteID: f8ff7c939d5b84a4f8099d4bfc266056
-    layerID: 15
-    mosaicPosition: {x: 4, y: 187}
+    spriteID: 7e4c5d04831fb9e4595b77200ceab0cf
+    layerID: 9
+    mosaicPosition: {x: 461, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: asa2
-    spriteName: asa2
+  - name: coxa-direito
+    spriteName: coxa-direito
     isGroup: 0
     parentIndex: -1
-    spriteID: 4b29ba5ec000c9e45b352db7b3d124ee
+    spriteID: da2bd12e7c2500349ab961004446a2ba
     layerID: 16
-    mosaicPosition: {x: 271, y: 187}
+    mosaicPosition: {x: 217, y: 122}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: perna-direito
+    spriteName: perna-direito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7fd98419fb0da334caffa069a2cea721
+    layerID: 3
+    mosaicPosition: {x: 393, y: 118}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pe-direito
+    spriteName: pe-direito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d4659f3eb9a134742825aa589f42056a
+    layerID: 18
+    mosaicPosition: {x: 336, y: 227}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: perna-esquerdo
+    spriteName: perna-esquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 75b85944a0f27104985748da09294b73
+    layerID: 11
+    mosaicPosition: {x: 305, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: coxa-esquerdo
+    spriteName: coxa-esquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d80905ec0e1d1d24fb40109d36926c6c
+    layerID: 10
+    mosaicPosition: {x: 383, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pe-esquerdo
+    spriteName: pe-esquerdo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5f502890f1891d44cb4383befc57d236
+    layerID: 12
+    mosaicPosition: {x: 414, y: 227}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: capa
+    spriteName: capa
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dfdf8a61bdf3a604eaa11c762a3e0a69
+    layerID: 4
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1

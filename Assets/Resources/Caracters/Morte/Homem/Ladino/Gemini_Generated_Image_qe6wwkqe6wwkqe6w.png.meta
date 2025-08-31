@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bb150696b899ca442ada01e8b1e31871
+guid: e4e7298473a466a428b010267d9e1506
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gemini_Generated_Image_qe6wwkqe6wwkqe6w_0: -2662257194485854009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
