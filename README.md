@@ -39,13 +39,17 @@ Voce poderá escolher até tres perssonagens. De classes diferentes para poder b
 
 **Humano**<br>
 **Orc**<br>
-**Elfo**<br>
-**Anão**<br>
 **Demonio**<br>
-**Anjos**`Não possuem variação de Genero, e independente da classe escolhida tem a mesma aparencia`
+**Morte**`Não possuem variação de Genero, e independente da classe escolhida tem a mesma aparência`
 
 ![Beta](custom-demonstracao.gif)
 
 ### Cor
-Poderá definir o tem de cor do sprite do perssonagem, seja totalmente escuro, ou completamente braco.
+Poderá definir o tema de cor do sprite do perssonagem, seja totalmente escuro, ou completamente braco.
 
+## 3. Cena: Luta PVP.
+
+A luta é PVP online, isso é organizado no Beckend feito em GO. A dinâmica da batlaha é por trunos. Cada player ter três acões:
+**Ataque(Mágico ou Mano-aMano)**<br>
+**Movimentação**<br>
+**Ação Bõnus**<br>
