@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: 46cadf66d5bed2b46be7073748821789, type: 3}
       propertyPath: m_Name
-      value: Bardo 1
+      value: Bardo
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 46cadf66d5bed2b46be7073748821789, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 46cadf66d5bed2b46be7073748821789, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 46cadf66d5bed2b46be7073748821789, type: 3}
       propertyPath: m_LocalPosition.x

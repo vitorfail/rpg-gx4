@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
       propertyPath: m_Name
-      value: Paladino1
+      value: Paladino
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
       propertyPath: m_LocalPosition.x

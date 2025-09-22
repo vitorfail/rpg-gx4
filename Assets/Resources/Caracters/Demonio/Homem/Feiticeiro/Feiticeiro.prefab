@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: 404f1b9f1ee3e24428b875a8742404db, type: 3}
       propertyPath: m_Name
-      value: Feiticeiro1
+      value: Feiticeiro
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 404f1b9f1ee3e24428b875a8742404db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.87
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 404f1b9f1ee3e24428b875a8742404db, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.87
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 404f1b9f1ee3e24428b875a8742404db, type: 3}
       propertyPath: m_LocalPosition.x

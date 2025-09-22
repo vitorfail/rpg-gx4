@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: 88f6281d0b360b6448556bd88ddf5090, type: 3}
       propertyPath: m_Name
-      value: Clerigo 1
+      value: Clerigo
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 88f6281d0b360b6448556bd88ddf5090, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.82
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 88f6281d0b360b6448556bd88ddf5090, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.82
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 88f6281d0b360b6448556bd88ddf5090, type: 3}
       propertyPath: m_LocalPosition.x
