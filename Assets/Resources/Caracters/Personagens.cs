@@ -21,10 +21,11 @@ public class Personagens : MonoBehaviour
         }
         // Instancia o novo personagem como filho do prefab
         GameObject newCharacter = Instantiate(request, prefab.transform);
+
+        //Arma
         //newCharacter.transform.localPosition = Vector3.zero; // Posiciona no centro do pai
         newCharacter.transform.localRotation = Quaternion.identity;
         SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);
-
         foreach (SpriteRenderer renderer in spriteRenderers)
         {
             renderer.material = material;
@@ -39,7 +40,6 @@ public class Personagens : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
-        Debug.Log($"Caracters/{Raca}/{Sexo}/{Classes}/{Classes}");
         GameObject request = Resources.Load<GameObject>($"Caracters/{Raca}/{Sexo}/{Classes}/{Classes}");
         // Instancia o novo personagem como filho do prefab
         GameObject newCharacter = Instantiate(request, prefab.transform);
@@ -49,8 +49,23 @@ public class Personagens : MonoBehaviour
         {
             renderer.material = material;
         }
-        //newCharacter.transform.localPosition = new Vector3(0f,0f,0f); // Posiciona no centro do pai
-        //newCharacter.transform.localRotation = Quaternion.identity;
+                GameObject armaPrefab = Resources.Load<GameObject>($"Items/Armas/Espadas/Espada-1/espada1");
+        if (armaPrefab != null)
+        {
+            // Supondo que dentro do personagem existe um "ponto de ancoragem"
+            Transform maoEsquerda = newCharacter.transform.Find("mao-esquerdo");
+
+            if (maoEsquerda != null)
+            {
+                GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado
+                arma.transform.localPosition = Vector3.zero;
+                arma.transform.localRotation = Quaternion.identity;
+            }
+            else
+            {
+                Debug.Log("testando");
+            }
+        }
     }
     // Update is called once per frame
     void Update()
