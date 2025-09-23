@@ -1,6 +1,37 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6752037682317537058
+--- !u!1 &1455598059390733208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6977359806465352213}
+  m_Layer: 0
+  m_Name: Mao-esquerdoSlot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6977359806465352213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455598059390733208}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.967332, y: 0.25351304, z: -0, w: 0}
+  m_LocalPosition: {x: -0.18687828, y: 0.014753352, z: 0}
+  m_LocalScale: {x: 1.1200006, y: 1.1200002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7123125737862482607}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7177102567476304628
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +41,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: 16da3296c6f062f4987c9784e8aea35a, type: 3}
       propertyPath: m_Name
-      value: Feiticeiro
+      value: Feiticeiro 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 16da3296c6f062f4987c9784e8aea35a, type: 3}
       propertyPath: m_LocalScale.x
@@ -62,25 +93,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -9133196844744814501, guid: 16da3296c6f062f4987c9784e8aea35a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6977359806465352213}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 16da3296c6f062f4987c9784e8aea35a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 884845684548823275}
+      addedObject: {fileID: 8849809715508302235}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 16da3296c6f062f4987c9784e8aea35a, type: 3}
---- !u!1 &6508758780594359967 stripped
+--- !u!4 &7123125737862482607 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9133196844744814501, guid: 16da3296c6f062f4987c9784e8aea35a, type: 3}
+  m_PrefabInstance: {fileID: 7177102567476304628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7241224278323411785 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: 16da3296c6f062f4987c9784e8aea35a, type: 3}
-  m_PrefabInstance: {fileID: 6752037682317537058}
+  m_PrefabInstance: {fileID: 7177102567476304628}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &884845684548823275
+--- !u!95 &8849809715508302235
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6508758780594359967}
+  m_GameObject: {fileID: 7241224278323411785}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 26357eae56639ee4c9f5be8bcb15b028, type: 2}

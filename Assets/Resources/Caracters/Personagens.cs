@@ -49,17 +49,22 @@ public class Personagens : MonoBehaviour
         {
             renderer.material = material;
         }
-                GameObject armaPrefab = Resources.Load<GameObject>($"Items/Armas/Espadas/Espada-1/espada1");
+        GameObject armaPrefab = Resources.Load<GameObject>($"Items/Armas/Espadas/Espada-1/espada1");
         if (armaPrefab != null)
         {
             // Supondo que dentro do personagem existe um "ponto de ancoragem"
-            Transform maoEsquerda = newCharacter.transform.Find("mao-esquerdo");
-
+            Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "bone_8");
+            Debug.Log(maoEsquerda.transform);
             if (maoEsquerda != null)
             {
                 GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado
-                arma.transform.localPosition = Vector3.zero;
+                arma.transform.localPosition = new Vector3(0.2f, 1.0f, 0f);
                 arma.transform.localRotation = Quaternion.identity;
+                SpriteRenderer sr = arma.GetComponent<SpriteRenderer>();
+                if (sr != null)
+                {
+                    sr.sortingOrder = 3;
+                }
             }
             else
             {

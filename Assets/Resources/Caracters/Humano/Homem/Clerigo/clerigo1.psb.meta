@@ -949,7 +949,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 276, y: 724}
     spritePosition: {x: 232, y: 170}
-  - name: mao-direita
+  - name: mao-direito
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2481,7 +2481,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 841}
     spritePosition: {x: 61, y: 0}
-  - name: perna-esquerda
+  - name: perna-esquerdo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2886,7 +2886,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 316, y: 484}
     spritePosition: {x: 113, y: 40}
-  - name: coxa-esquerda
+  - name: coxa-esquerdo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3258,7 +3258,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 252, y: 484}
     spritePosition: {x: 109, y: 78}
-  - name: perna-direita
+  - name: perna-direito
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3619,7 +3619,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 156, y: 897}
     spritePosition: {x: 212, y: 48}
-  - name: coxa-direita
+  - name: coxa-direito
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5890,16 +5890,6 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
-  - name: cabeca
-    spriteName: cabeca
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 1d02ba0910a20234f94e6cc5cccb6724
-    layerID: 5
-    mosaicPosition: {x: 372, y: 284}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
   - name: braco-direito
     spriteName: braco-direito
     isGroup: 0
@@ -5910,8 +5900,8 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: mao-direita
-    spriteName: mao-direita
+  - name: mao-direito
+    spriteName: mao-direito
     isGroup: 0
     parentIndex: -1
     spriteID: 03e67d4b9bc54b2498cb4f54477edf22
@@ -5927,6 +5917,16 @@ ScriptedImporter:
     spriteID: 1010e8aaeb8d45844be0865199c6c5ef
     layerID: 16
     mosaicPosition: {x: 252, y: 356}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeca
+    spriteName: cabeca
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1d02ba0910a20234f94e6cc5cccb6724
+    layerID: 5
+    mosaicPosition: {x: 372, y: 284}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -5950,8 +5950,8 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: perna-esquerda
-    spriteName: perna-esquerda
+  - name: perna-esquerdo
+    spriteName: perna-esquerdo
     isGroup: 0
     parentIndex: -1
     spriteID: 7a83287e791b2544ebf10124ee44d6a2
@@ -5960,8 +5960,8 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: coxa-esquerda
-    spriteName: coxa-esquerda
+  - name: coxa-esquerdo
+    spriteName: coxa-esquerdo
     isGroup: 0
     parentIndex: -1
     spriteID: 8d6c29fcbbc79b343b3fab8ba78e509c
@@ -5970,8 +5970,8 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: perna-direita
-    spriteName: perna-direita
+  - name: perna-direito
+    spriteName: perna-direito
     isGroup: 0
     parentIndex: -1
     spriteID: 5327eb20b0edf0e4fbb6de88bc8be658
@@ -5980,8 +5980,18 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: coxa-direita
-    spriteName: coxa-direita
+  - name: pe-direito
+    spriteName: pe-direito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 84d333cdd1cc8d74186204ef0c7b77fc
+    layerID: 11
+    mosaicPosition: {x: 76, y: 897}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: coxa-direito
+    spriteName: coxa-direito
     isGroup: 0
     parentIndex: -1
     spriteID: 7cb801012264d39459d21ff81d4f857f
@@ -6027,16 +6037,6 @@ ScriptedImporter:
     spriteID: 351ae3a1a03a972469947bb362e30afc
     layerID: 6
     mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: pe-direito
-    spriteName: pe-direito
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 84d333cdd1cc8d74186204ef0c7b77fc
-    layerID: 11
-    mosaicPosition: {x: 76, y: 897}
     flatten: 0
     isImported: 1
     isVisible: 1
