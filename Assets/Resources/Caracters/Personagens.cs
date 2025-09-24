@@ -53,7 +53,7 @@ public class Personagens : MonoBehaviour
         if (armaPrefab != null)
         {
             // Supondo que dentro do personagem existe um "ponto de ancoragem"
-            Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "bone_8");
+            Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Mao_Esquerda(Slot)");
             Debug.Log(maoEsquerda.transform);
             if (maoEsquerda != null)
             {
