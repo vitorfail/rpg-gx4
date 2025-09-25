@@ -53,13 +53,14 @@ public class Personagens : MonoBehaviour
         if (armaPrefab != null)
         {
             // Supondo que dentro do personagem existe um "ponto de ancoragem"
-            Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Mao_Esquerda(Slot)");
+            Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Mao-Esquerda(Slot)");
             Debug.Log(maoEsquerda.transform);
             if (maoEsquerda != null)
             {
                 GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado
                 arma.transform.localPosition = new Vector3(0.2f, 1.0f, 0f);
-                arma.transform.localRotation = Quaternion.identity;
+                arma.transform.localRotation = Quaternion.Euler(0f, 0f, 180f);
+                arma.transform.FlipY = true;
                 SpriteRenderer sr = arma.GetComponent<SpriteRenderer>();
                 if (sr != null)
                 {
