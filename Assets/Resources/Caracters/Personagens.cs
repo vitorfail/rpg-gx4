@@ -14,22 +14,7 @@ public class Personagens : MonoBehaviour
         Classes = "Barbaro";
         Sexo = "Homem";
         Raca = "Humano";
-        GameObject request = Resources.Load<GameObject>($"Caracters/{Raca}/{Sexo}/{Classes}/{Classes}");
-        if (request == null)
-        {
-            Debug.Log("passando aqui");
-        }
-        // Instancia o novo personagem como filho do prefab
-        GameObject newCharacter = Instantiate(request, prefab.transform);
-
-        //Arma
-        //newCharacter.transform.localPosition = Vector3.zero; // Posiciona no centro do pai
-        newCharacter.transform.localRotation = Quaternion.identity;
-        SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);
-        foreach (SpriteRenderer renderer in spriteRenderers)
-        {
-            renderer.material = material;
-        }
+        Mudar();
     }
     public void Mudar()
     {
@@ -58,9 +43,9 @@ public class Personagens : MonoBehaviour
             if (maoEsquerda != null)
             {
                 GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado
-                arma.transform.localPosition = new Vector3(0.2f, 1.0f, 0f);
+                arma.transform.localPosition = new Vector3(0.2f, -1.0f, 0f);
                 arma.transform.localRotation = Quaternion.Euler(0f, 0f, 180f);
-                arma.transform.FlipY = true;
+
                 SpriteRenderer sr = arma.GetComponent<SpriteRenderer>();
                 if (sr != null)
                 {
