@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6523859863630710459
+--- !u!1001 &4493892395365486616
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,14 +11,6 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
       propertyPath: m_Name
       value: Mago
-      objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60,31 +52,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4257508509235537429, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.1266719
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3276179092252769877}
+      addedObject: {fileID: 3492641796022106042}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
---- !u!1 &6732503369341839110 stripped
+--- !u!1 &4159721374942261669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
-  m_PrefabInstance: {fileID: 6523859863630710459}
+  m_PrefabInstance: {fileID: 4493892395365486616}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &3276179092252769877
+--- !u!95 &3492641796022106042
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6732503369341839110}
+  m_GameObject: {fileID: 4159721374942261669}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 80d03eff91ea8ef4e889c6e93aa7d9b3, type: 2}

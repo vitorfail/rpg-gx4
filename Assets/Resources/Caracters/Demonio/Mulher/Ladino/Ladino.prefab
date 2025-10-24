@@ -31,6 +31,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8474859334751791202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7526760381278689006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3872070468295126731}
+  m_Layer: 0
+  m_Name: Mao-Direita(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3872070468295126731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7526760381278689006}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2626188183621362785}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &193482202107093808
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90,6 +121,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2800530008725014353, guid: de8d6b3eb1c73994fb8d8a637b008d9f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3872070468295126731}
     - targetCorrespondingSourceObject: {fileID: 8589451495953173330, guid: de8d6b3eb1c73994fb8d8a637b008d9f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2943524234789262859}
@@ -125,6 +159,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &2626188183621362785 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2800530008725014353, guid: de8d6b3eb1c73994fb8d8a637b008d9f, type: 3}
+  m_PrefabInstance: {fileID: 193482202107093808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8474859334751791202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8589451495953173330, guid: de8d6b3eb1c73994fb8d8a637b008d9f, type: 3}

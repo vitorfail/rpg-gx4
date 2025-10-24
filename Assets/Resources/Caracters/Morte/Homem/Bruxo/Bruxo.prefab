@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6547730787519749158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4335656262609021927}
+  m_Layer: 0
+  m_Name: Mao-Esquerda(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4335656262609021927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547730787519749158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8289458744005814372}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7478338390720678705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7397329198426198081}
+  m_Layer: 0
+  m_Name: Mao-Direita(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7397329198426198081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478338390720678705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1775211429249178322}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &980224307687797590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: 8ca10f3f486767d4bb2e68a54920c116, type: 3}
       propertyPath: m_Name
-      value: Bruxo1
+      value: Bruxo
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 8ca10f3f486767d4bb2e68a54920c116, type: 3}
       propertyPath: m_LocalScale.x
@@ -114,7 +176,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -7694217771748202108, guid: 8ca10f3f486767d4bb2e68a54920c116, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7397329198426198081}
+    - targetCorrespondingSourceObject: {fileID: -103470509922460878, guid: 8ca10f3f486767d4bb2e68a54920c116, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4335656262609021927}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 8ca10f3f486767d4bb2e68a54920c116, type: 3}
       insertIndex: -1
@@ -147,3 +215,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1775211429249178322 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7694217771748202108, guid: 8ca10f3f486767d4bb2e68a54920c116, type: 3}
+  m_PrefabInstance: {fileID: 980224307687797590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8289458744005814372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -103470509922460878, guid: 8ca10f3f486767d4bb2e68a54920c116, type: 3}
+  m_PrefabInstance: {fileID: 980224307687797590}
+  m_PrefabAsset: {fileID: 0}

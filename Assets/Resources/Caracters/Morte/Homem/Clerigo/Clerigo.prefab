@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3495537804254016976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4203585013441262498}
+  m_Layer: 0
+  m_Name: Mao-Direita(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4203585013441262498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3495537804254016976}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1330465856389080784}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5851864074198153027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3241908397913425100}
+  m_Layer: 0
+  m_Name: Mao-Esquerda(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3241908397913425100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5851864074198153027}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8781456361721418854}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &526470453165297492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: 2528f3f4cac103c4e86a4ca936ca58fe, type: 3}
       propertyPath: m_Name
-      value: Clerigo1
+      value: Clerigo
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 2528f3f4cac103c4e86a4ca936ca58fe, type: 3}
       propertyPath: m_LocalScale.x
@@ -66,7 +128,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -7694217771748202108, guid: 2528f3f4cac103c4e86a4ca936ca58fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4203585013441262498}
+    - targetCorrespondingSourceObject: {fileID: -103470509922460878, guid: 2528f3f4cac103c4e86a4ca936ca58fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3241908397913425100}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 2528f3f4cac103c4e86a4ca936ca58fe, type: 3}
       insertIndex: -1
@@ -99,3 +167,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1330465856389080784 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7694217771748202108, guid: 2528f3f4cac103c4e86a4ca936ca58fe, type: 3}
+  m_PrefabInstance: {fileID: 526470453165297492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8781456361721418854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -103470509922460878, guid: 2528f3f4cac103c4e86a4ca936ca58fe, type: 3}
+  m_PrefabInstance: {fileID: 526470453165297492}
+  m_PrefabAsset: {fileID: 0}
