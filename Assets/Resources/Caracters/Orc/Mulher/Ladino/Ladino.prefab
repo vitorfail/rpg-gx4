@@ -1,6 +1,68 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8072138228148884215
+--- !u!1 &5048683347051006521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3126936916950186504}
+  m_Layer: 0
+  m_Name: Mao-Esquerda(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3126936916950186504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5048683347051006521}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7514137098192442707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6831278214457592745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958623383682280111}
+  m_Layer: 0
+  m_Name: Mao-Direita(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958623383682280111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6831278214457592745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4154909812569971024}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2266523655161044481
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,14 +73,6 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
       propertyPath: m_Name
       value: Ladino
-      objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7552582706839291426, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
       propertyPath: m_LocalPosition.x
@@ -62,25 +116,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2800530008725014353, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3958623383682280111}
+    - targetCorrespondingSourceObject: {fileID: 8589451495953173330, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3126936916950186504}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2108976368446849755}
+      addedObject: {fileID: 2159393197333523729}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
---- !u!1 &8638521102851961674 stripped
+--- !u!1 &1770900497641406396 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
-  m_PrefabInstance: {fileID: 8072138228148884215}
+  m_PrefabInstance: {fileID: 2266523655161044481}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2108976368446849755
+--- !u!95 &2159393197333523729
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8638521102851961674}
+  m_GameObject: {fileID: 1770900497641406396}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 39ac2d1629053a746b4086e9a71c5417, type: 2}
@@ -95,3 +155,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &4154909812569971024 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2800530008725014353, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
+  m_PrefabInstance: {fileID: 2266523655161044481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7514137098192442707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8589451495953173330, guid: a69d2111726918a4da4a1c5cfec38b81, type: 3}
+  m_PrefabInstance: {fileID: 2266523655161044481}
+  m_PrefabAsset: {fileID: 0}
