@@ -5,12 +5,6 @@ TextureImporter:
   - first:
       213: 5776051026702532176
     second: barbaro_0
-  - first:
-      213: 4243097609781998778
-    second: barbaro_1
-  - first:
-      213: 6209422921627557799
-    second: barbaro_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,6 +97,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -122,12 +129,12 @@ TextureImporter:
       name: barbaro_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3
-        width: 60
-        height: 58
+        x: 0
+        y: 0
+        width: 68
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,55 +147,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: barbaro_1
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 3
-        width: 50
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab47d529bc282ea30800000000000000
-      internalID: 4243097609781998778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barbaro_2
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 32
-        width: 17
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7af57cf8f3d4c2650800000000000000
-      internalID: 6209422921627557799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: eade485ecc1d2f74897106e3aa4fa019
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -197,10 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      barbaro_0: 5776051026702532176
-      barbaro_1: 4243097609781998778
-      barbaro_2: 6209422921627557799
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

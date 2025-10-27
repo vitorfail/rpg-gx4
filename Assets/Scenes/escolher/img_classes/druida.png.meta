@@ -109,6 +109,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -129,11 +142,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 512
-        height: 511
+        y: 31
+        width: 21
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,12 +163,12 @@ TextureImporter:
       name: druida_1
       rect:
         serializedVersion: 2
-        x: 120
-        y: 347
-        width: 122
-        height: 148
+        x: 19
+        y: 51
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -172,12 +185,12 @@ TextureImporter:
       name: druida_2
       rect:
         serializedVersion: 2
-        x: 270
-        y: 347
-        width: 122
-        height: 148
+        x: 43
+        y: 51
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,12 +207,12 @@ TextureImporter:
       name: druida_3
       rect:
         serializedVersion: 2
-        x: 391
-        y: 227
-        width: 121
-        height: 148
+        x: 63
+        y: 31
+        width: 17
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,12 +229,12 @@ TextureImporter:
       name: druida_4
       rect:
         serializedVersion: 2
-        x: 60
-        y: 17
-        width: 392
-        height: 303
+        x: 11
+        y: 0
+        width: 62
+        height: 49
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,33 +247,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: druida_5
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 378
-        width: 5
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2c16a3d2334d3a42ab6e2ec931cf16a
-      internalID: -1671002560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a45b189a56c9ec24f9977a654f1db92d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -269,13 +260,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      druida_0: -1668108543157428926
-      druida_1: 7667035177225935265
-      druida_2: -7922100589536566763
-      druida_3: -3927505875445791381
-      druida_4: 7541281470766128654
-      druida_5: -1671002560
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

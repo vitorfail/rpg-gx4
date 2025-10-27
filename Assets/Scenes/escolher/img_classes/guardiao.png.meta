@@ -5,39 +5,6 @@ TextureImporter:
   - first:
       213: -6196471547550944322
     second: guardiao_0
-  - first:
-      213: -4456480816053945761
-    second: guardiao_1
-  - first:
-      213: 2292863334216683512
-    second: guardiao_2
-  - first:
-      213: -2074682306985736698
-    second: guardiao_3
-  - first:
-      213: 6883787618666888809
-    second: guardiao_4
-  - first:
-      213: -7157813787071413928
-    second: guardiao_5
-  - first:
-      213: -2654270970103102094
-    second: guardiao_6
-  - first:
-      213: -892205244767476300
-    second: guardiao_7
-  - first:
-      213: -7571692578148798850
-    second: guardiao_8
-  - first:
-      213: 3419212999400438809
-    second: guardiao_9
-  - first:
-      213: 8013072483492153377
-    second: guardiao_10
-  - first:
-      213: 8672145452912601324
-    second: guardiao_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,6 +97,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -151,10 +131,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 511
-        height: 496
+        width: 72
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -167,253 +147,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: guardiao_1
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 410
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5af2ca2f466722c0800000000000000
-      internalID: -4456480816053945761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_2
-      rect:
-        serializedVersion: 2
-        x: 458
-        y: 458
-        width: 31
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ffc08aed03e1df10800000000000000
-      internalID: 2292863334216683512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_3
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 331
-        width: 83
-        height: 122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 606c3561f6f3533e0800000000000000
-      internalID: -2074682306985736698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_4
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 410
-        width: 47
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96e3fd70e50288f50800000000000000
-      internalID: 6883787618666888809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_5
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 367
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 851073dc8465aac90800000000000000
-      internalID: -7157813787071413928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_6
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 111
-        width: 261
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2758f599d922a2bd0800000000000000
-      internalID: -2654270970103102094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_7
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 23
-        width: 266
-        height: 317
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b5e4e69e004e93f0800000000000000
-      internalID: -892205244767476300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_8
-      rect:
-        serializedVersion: 2
-        x: 328
-        y: 328
-        width: 55
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7eaafa77b1fbe690800000000000000
-      internalID: -7571692578148798850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_9
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 325
-        width: 31
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91c39a07b1c737f20800000000000000
-      internalID: 3419212999400438809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_10
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 26
-        width: 71
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 128c10af7f6243f60800000000000000
-      internalID: 8013072483492153377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guardiao_11
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 58
-        width: 253
-        height: 261
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce8ef59a756a95870800000000000000
-      internalID: 8672145452912601324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6b6cd64d9f0bd5e42a838cea11b10ead
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -422,19 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      guardiao_0: -6196471547550944322
-      guardiao_1: -4456480816053945761
-      guardiao_10: 8013072483492153377
-      guardiao_11: 8672145452912601324
-      guardiao_2: 2292863334216683512
-      guardiao_3: -2074682306985736698
-      guardiao_4: 6883787618666888809
-      guardiao_5: -7157813787071413928
-      guardiao_6: -2654270970103102094
-      guardiao_7: -892205244767476300
-      guardiao_8: -7571692578148798850
-      guardiao_9: 3419212999400438809
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
