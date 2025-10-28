@@ -31,6 +31,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6505613544277092547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5073491805083455179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6324235579635027455}
+  m_Layer: 0
+  m_Name: Mao-Direita(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6324235579635027455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5073491805083455179}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 839414009232352448}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3277294159327110033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: b1be1615464c3034a88001aa6eb5156a, type: 3}
       propertyPath: m_Name
-      value: Feiticeiro 1
+      value: Feiticeiro
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: b1be1615464c3034a88001aa6eb5156a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -106,6 +137,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2800530008725014353, guid: b1be1615464c3034a88001aa6eb5156a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6324235579635027455}
     - targetCorrespondingSourceObject: {fileID: 8589451495953173330, guid: b1be1615464c3034a88001aa6eb5156a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3904099616368015558}
@@ -114,6 +148,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7456029699416449689}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: b1be1615464c3034a88001aa6eb5156a, type: 3}
+--- !u!4 &839414009232352448 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2800530008725014353, guid: b1be1615464c3034a88001aa6eb5156a, type: 3}
+  m_PrefabInstance: {fileID: 3277294159327110033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3070476875608949292 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: b1be1615464c3034a88001aa6eb5156a, type: 3}

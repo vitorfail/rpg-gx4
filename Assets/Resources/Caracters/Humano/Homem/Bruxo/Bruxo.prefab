@@ -31,6 +31,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6386755426780766317}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7981500535886097405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8942471509937749761}
+  m_Layer: 0
+  m_Name: Mao-Direita(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8942471509937749761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981500535886097405}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 670182762942835822}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3427675378270628671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: 7d3f0f60b4604f54281d4473043bd9f0, type: 3}
       propertyPath: m_Name
-      value: Bruxo 1
+      value: Bruxo
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 7d3f0f60b4604f54281d4473043bd9f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -86,6 +117,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2800530008725014353, guid: 7d3f0f60b4604f54281d4473043bd9f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8942471509937749761}
     - targetCorrespondingSourceObject: {fileID: 8589451495953173330, guid: 7d3f0f60b4604f54281d4473043bd9f0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1714971781857331955}
@@ -94,6 +128,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 6419720010946773946}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 7d3f0f60b4604f54281d4473043bd9f0, type: 3}
+--- !u!4 &670182762942835822 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2800530008725014353, guid: 7d3f0f60b4604f54281d4473043bd9f0, type: 3}
+  m_PrefabInstance: {fileID: 3427675378270628671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2915591782160059010 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: 7d3f0f60b4604f54281d4473043bd9f0, type: 3}
