@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3189127239124613342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543750323519574391}
+  m_Layer: 0
+  m_Name: Mao-Esquerda(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543750323519574391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189127239124613342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4477609998388776415}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3872129095731830791
 GameObject:
   m_ObjectHideFlags: 0
@@ -30,7 +61,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8636174336549170060}
+  m_Father: {fileID: 1713004370023602432}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6412008843491378358
 Animator:
@@ -140,12 +171,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1149694593772675687}
     - targetCorrespondingSourceObject: {fileID: 2800530008725014353, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1100404359631058135}
-    - targetCorrespondingSourceObject: {fileID: 8589451495953173330, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4524337502883179777, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1149694593772675687}
+      addedObject: {fileID: 3543750323519574391}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
       insertIndex: -1
@@ -178,13 +212,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1713004370023602432 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
+  m_PrefabInstance: {fileID: 65872210105409758}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2753807520832645007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2800530008725014353, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
   m_PrefabInstance: {fileID: 65872210105409758}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &8636174336549170060 stripped
+--- !u!4 &4477609998388776415 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8589451495953173330, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4524337502883179777, guid: a8dc2ddd1a980d4488b4a986e0541b89, type: 3}
   m_PrefabInstance: {fileID: 65872210105409758}
   m_PrefabAsset: {fileID: 0}

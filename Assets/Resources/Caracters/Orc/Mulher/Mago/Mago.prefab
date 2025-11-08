@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5291272107394227018}
+  m_Father: {fileID: 2986543347709192646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4201268064608966015
 GameObject:
@@ -61,6 +61,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1765684172719298377}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4478007212207570052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4289455295586884032}
+  m_Layer: 0
+  m_Name: Mao-Esquerda(Slot)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4289455295586884032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478007212207570052}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 41710721121303833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4493892395365486616
 PrefabInstance:
@@ -117,20 +148,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651385419196764351}
     - targetCorrespondingSourceObject: {fileID: 2800530008725014353, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
       insertIndex: -1
       addedObject: {fileID: 295261350004606248}
-    - targetCorrespondingSourceObject: {fileID: 8589451495953173330, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4524337502883179777, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1651385419196764351}
+      addedObject: {fileID: 4289455295586884032}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3492641796022106042}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
+--- !u!4 &41710721121303833 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4524337502883179777, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
+  m_PrefabInstance: {fileID: 4493892395365486616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1765684172719298377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2800530008725014353, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
+  m_PrefabInstance: {fileID: 4493892395365486616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2986543347709192646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
   m_PrefabInstance: {fileID: 4493892395365486616}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4159721374942261669 stripped
@@ -160,8 +204,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!4 &5291272107394227018 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8589451495953173330, guid: a04e85e56fe171b45b63c9e37a6a8377, type: 3}
-  m_PrefabInstance: {fileID: 4493892395365486616}
-  m_PrefabAsset: {fileID: 0}
