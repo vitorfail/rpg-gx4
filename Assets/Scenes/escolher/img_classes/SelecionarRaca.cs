@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
-using UnityEditor.ShaderGraph.Serialization;
 using Newtonsoft.Json;
 using TipagemClasses;
 public class SelecionarRaca : MonoBehaviour

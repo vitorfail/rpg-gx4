@@ -969,6 +969,51 @@ RectTransform:
   m_AnchoredPosition: {x: -300, y: 3}
   m_SizeDelta: {x: 340.33, y: 272.7}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &242286972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 242286974}
+  - component: {fileID: 242286973}
+  m_Layer: 0
+  m_Name: Arma_atack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &242286973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242286972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 999772881e456ac48a6b1251ade057c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ataque: 0
+--- !u!4 &242286974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242286972}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.94581574, y: -0.15292576, z: 0.04980268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &257911265
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,7 +4437,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -59.00106, y: -135.7}
+  m_AnchoredPosition: {x: -59.00123, y: -135.7}
   m_SizeDelta: {x: 0, y: -271.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018783156
@@ -8795,3 +8840,4 @@ SceneRoots:
   - {fileID: 1859638970}
   - {fileID: 909214248}
   - {fileID: 743015914}
+  - {fileID: 242286974}
