@@ -17,25 +17,19 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Update()
+    void OnMouseDown()
     {
-        // Conta o tempo
-        timer += Time.deltaTime;
+        Debug.Log("Ataque-1 ativado!");
 
-        // Quando chegar a 60 segundos...
-        if (timer >= attackInterval)
-        {
             // Ativa o bool "ataque-1" como true
             animator.SetBool("ataque-1", true);
 
-            Debug.Log("Ataque-1 ativado!");
 
             // Reinicia o timer
             timer = 0f;
 
             // (Opcional) depois de um tempo, volta o bool para false
-            StartCoroutine(ResetAtaque());
-        }
+
     }
 
     // Coroutine opcional para resetar a variável depois de 1 segundo

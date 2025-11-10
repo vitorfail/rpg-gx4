@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class Espada1 : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class Espada1 : MonoBehaviour
     private Arma_ataque controlador;
 
     // Arrays para armazenar todos os efeitos do objeto
-    private ParticleSystem[] particleSystems;
+    private VisualEffect[] particleSystems;
     private TrailRenderer[] trailRenderers;
 
     void Start()
@@ -20,13 +21,13 @@ public class Espada1 : MonoBehaviour
         }
 
         // Pega todos os ParticleSystems e TrailRenderers dentro deste GameObject e filhos
-        particleSystems = GetComponentsInChildren<ParticleSystem>(true);
+        particleSystems = GetComponentsInChildren<VisualEffect>(true);
         trailRenderers = GetComponentsInChildren<TrailRenderer>(true);
 
         // Desativa todos os efeitos no início
         foreach (var ps in particleSystems)
         {
-            ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            ps.Stop();
         }
 
         foreach (var tr in trailRenderers)
@@ -43,10 +44,10 @@ public class Espada1 : MonoBehaviour
         // Ativa ou desativa efeitos dependendo da variável
         foreach (var ps in particleSystems)
         {
-            if (armaAtiva && !ps.isPlaying)
+            if (armaAtiva && ps.aliveParticleCount < 0)
                 ps.Play();
-            else if (!armaAtiva && ps.isPlaying)
-                ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            else if (!armaAtiva && ps.aliveParticleCount > 0)
+                ps.Stop();
         }
 
         foreach (var tr in trailRenderers)
