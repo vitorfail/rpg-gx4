@@ -60,10 +60,14 @@ public class Espada1 : MonoBehaviour
         // Ativa ou desativa efeitos dependendo da variável
         foreach (var ps in particleSystems)
         {
-            if (armaAtiva && ps.aliveParticleCount < 0)
+            if (armaAtiva)
+            {
                 ps.Play();
-            else if (!armaAtiva && ps.aliveParticleCount > 0)
+            }
+            else
+            {
                 ps.Stop();
+            }
         }
 
         foreach (var tr in trailRenderers)
