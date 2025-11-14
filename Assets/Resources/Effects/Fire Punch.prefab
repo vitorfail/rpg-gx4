@@ -351,6 +351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8315054275830572483}
+  - component: {fileID: 929858331011232170}
   m_Layer: 0
   m_Name: Fire Punch
   m_TagString: Untagged
@@ -376,3 +377,20 @@ Transform:
   - {fileID: 8041457414070793375}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &929858331011232170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040819862820771137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85522451a62e804458493d22ca87d149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ar_at: {fileID: 0}
+  visualEffects:
+  - {fileID: 3537550406350904542}
+  - {fileID: 2917004444161654255}
+  - {fileID: 2381536059918665865}

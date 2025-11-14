@@ -9,6 +9,7 @@ public class Espada1 : MonoBehaviour
     // Arrays para armazenar todos os efeitos do objeto
     private VisualEffect[] particleSystems;
     private TrailRenderer[] trailRenderers;
+    public VisualEffect[] visualEffects; // Novo array para Visual Effect Graphs
 
     void Start()
     {
@@ -20,7 +21,8 @@ public class Espada1 : MonoBehaviour
             Debug.LogWarning("Nenhum objeto com 'SeuScript' encontrado na cena!");
             return;
         }
-        // Pega todos os ParticleSystems e TrailRenderers dentro deste GameObject e filhos
+        
+        // Pega todos os ParticleSystems, TrailRenderers e Visual Effects dentro deste GameObject e filhos
         particleSystems = GetComponentsInChildren<VisualEffect>(true);
         trailRenderers = GetComponentsInChildren<TrailRenderer>(true);
 
@@ -34,6 +36,12 @@ public class Espada1 : MonoBehaviour
         {
             tr.enabled = false;
         }
+
+        foreach (var vfx in visualEffects)
+        {
+            vfx.Stop();
+        }
+
         ar_at.OnAtaqueMudou += OnAtaqueMudou;
         OnAtaqueMudou(ar_at.ataque);
         if (ar_at.ataque)
@@ -47,13 +55,15 @@ public class Espada1 : MonoBehaviour
         if (ar_at != null)
             ar_at.OnAtaqueMudou -= OnAtaqueMudou;
     }
+    
     private void OnAtaqueMudou(bool ativo)
     {
         Ativar(ativo);
     }
+    
     private void Ativar(bool ativo)
     {
-        if (ar_at == null|| ar_at == false) return;
+        if (ar_at == null || ar_at == false) return;
 
         bool armaAtiva = ar_at.ataque;
 
@@ -73,6 +83,18 @@ public class Espada1 : MonoBehaviour
         foreach (var tr in trailRenderers)
         {
             tr.enabled = armaAtiva;
+        }
+
+        foreach (var vfx in visualEffects)
+        {
+            if (armaAtiva)
+            {
+                vfx.Play();
+            }
+            else
+            {
+                vfx.Stop();
+            }
         }
     }
 }
