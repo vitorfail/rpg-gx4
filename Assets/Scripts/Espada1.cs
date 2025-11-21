@@ -13,7 +13,6 @@ public class Espada1 : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Adicionando denovo");
         // Procura automaticamente o controlador na cena
         ar_at = FindFirstObjectByType<Arma_ataque>();
         if (ar_at == null || ar_at == false)

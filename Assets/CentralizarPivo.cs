@@ -36,7 +36,6 @@ public class CentralizarPivo : MonoBehaviour
 
         transform.localScale = novaEscala;
 
-        Debug.Log("Tamanho do pai ajustado para o filho: " + filho.name);
     }
 
     Transform EncontrarFilhoComTagRecursivo(Transform parent, string tag)

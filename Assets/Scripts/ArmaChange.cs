@@ -63,10 +63,11 @@ public class ArmaChange : MonoBehaviour
 
     private List<JsonArmas> listaMartelos = new List<JsonArmas>()
     {
-        new JsonArmas() { nome = "Martelo-1", titulo = "Martelo do Destino" },
-        new JsonArmas() { nome = "Martelo-2", titulo = "Martelo de Avantes" },
-        new JsonArmas() { nome = "Martelo-3", titulo = "Martelo do Purgatório" },
-        new JsonArmas() { nome = "Martelo-4", titulo = "Martelo do Conde" }
+        new JsonArmas() { nome = "Martelo-1", titulo = "Martelo do Purgatório" },
+        new JsonArmas() { nome = "Martelo-2", titulo = "Destino dos Justos" },
+        new JsonArmas() { nome = "Martelo-3", titulo = "Fim do Túnel" },
+        new JsonArmas() { nome = "Martelo-4", titulo = "Martelo Celestial" },
+        new JsonArmas() { nome = "Martelo-5", titulo = "Esmaga Demônios" }
     };
 
     private List<JsonArmas> listaArco = new List<JsonArmas>()

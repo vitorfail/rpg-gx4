@@ -29,7 +29,6 @@ public class Player : MonoBehaviour
     void Ataque()
     {
         ar_at.ataque = true;
-        Debug.Log("Ataque-1 ativado!");
         // Ativa o bool "ataque-1" como true
         animator.SetBool("ataque-1", true);
         StartCoroutine(Resetar("ataque-1", 0.5f));
@@ -52,7 +51,6 @@ public class Player : MonoBehaviour
             animator.SetBool(nomeDaVariavel, false);
             // (Opcional) Se você usa a variável ar_at.ataque, resete aqui:
             // ar_at.ataque = false; 
-            Debug.Log($"Bool '{nomeDaVariavel}' resetado após {tempoDeEspera}s.");
             yield return new WaitForSeconds(tempoDeEspera);
             ar_at.ataque = false;
         }

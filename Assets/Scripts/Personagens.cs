@@ -57,7 +57,6 @@ public class Personagens : MonoBehaviour
         {
             // Supondo que dentro do personagem existe um "ponto de ancoragem"
             Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Mao-Esquerda(Slot)");
-            Debug.Log(maoEsquerda.transform);
             if (maoEsquerda != null)
             {
                 GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado

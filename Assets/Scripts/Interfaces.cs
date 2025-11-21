@@ -18,7 +18,8 @@ namespace TipagemClasses
     public class Archetype
     {
         public string Nome { get; set; } = string.Empty;
-        public object Text { get; set; } = new object();
+        public string Img { get; set; } = string.Empty;
+        public string Text { get; set; } = string.Empty;
     }
 
     public class Level
