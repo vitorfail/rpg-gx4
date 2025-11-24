@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using TMPro;
 using Newtonsoft.Json;
 using TipagemClasses;
+using System;
 
 public class RenderSubclasse : MonoBehaviour
 {
@@ -20,19 +21,24 @@ public class RenderSubclasse : MonoBehaviour
     void OnEnable()
     {   ClearGrid();
         clastipagem = JsonConvert.DeserializeObject<DndClassesData>(json_class.text);
-        arquetipo = clastipagem.Classes[person.Classes.ToLower()];
-
-        foreach (var kv in arquetipo.Arquetipo)
+        if(person.Classes.ToLower() != null && person.Classes.ToLower() != "")
         {
-            string chave = kv.Key;
-            Archetype arq = kv.Value;
+            Debug.Log(person.Classes.ToLower());
+            arquetipo = clastipagem.Classes[person.Classes.ToLower()];
+            foreach (var kv in arquetipo.Arquetipo)
+            {
+                string chave = kv.Key;
+                Archetype arq = kv.Value;
 
-            if (string.IsNullOrEmpty(arq.Nome))
-                continue;
+                if (string.IsNullOrEmpty(arq.Nome))
+                    continue;
 
-            CreateButton(arq);
+                CreateButton(arq);
+            }
+            allButtons[0].onClick.Invoke();
+
         }
-        allButtons[0].onClick.Invoke();
+
     }
 
     void CreateButton(Archetype arq)

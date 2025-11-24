@@ -55,8 +55,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6901336796522501202}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.000000037252896, w: 1}
+  m_LocalPosition: {x: 0.00000042777614, y: 0.0000002674595, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73,6 +73,14 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: b06b1018e1527fa419f2f211fdde377a, type: 3}
       propertyPath: m_Name
       value: Barbaro
+      objectReference: {fileID: 0}
+    - target: {fileID: -7694217771748202108, guid: b06b1018e1527fa419f2f211fdde377a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99362004
+      objectReference: {fileID: 0}
+    - target: {fileID: -7694217771748202108, guid: b06b1018e1527fa419f2f211fdde377a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.11277975
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: b06b1018e1527fa419f2f211fdde377a, type: 3}
       propertyPath: m_LocalScale.x
@@ -195,6 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce10d633a7e362a43a63380bc50f3d68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ar_at: {fileID: 0}
 --- !u!61 &2146262953123318732
 BoxCollider2D:
   m_ObjectHideFlags: 0

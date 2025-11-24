@@ -1,0 +1,33 @@
+{
+    "id": null,
+    "user_id": null,
+
+    "name": "",
+    "level": 1,
+    "xp": 0,
+    "win": 0,
+    "lose": 0,
+
+    "class": 0,
+    "subclass": null,
+    "subclass_traits": [],
+    "spells": [],
+    "is_summoner": false,
+
+    "race": 0,
+    "gender": 0,
+    "color": [0, 0, 0],
+
+    "sabedoria":8,
+    "inteligencia":8,
+    "carisma":8,
+    "forca":8,
+    "contituicao":8,
+    "destreza":8,
+
+    "talents": [],
+    "weapons": [],
+    "attack_effect": null,
+
+    "created_at": null
+}

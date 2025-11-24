@@ -12,8 +12,10 @@ public class ArmaChange : MonoBehaviour
         public string nome;
         public string titulo;
         public GameObject handler;
+        public GameObject Clicks;
         public List<JsonArmas> listaArmas;
         public int index;
+        public List<string> classesPermitidas; // Classes que podem usar esta arma
     }
 
     [System.Serializable]
@@ -32,6 +34,13 @@ public class ArmaChange : MonoBehaviour
     public GameObject MachadosHandler;
     public GameObject MartelosHandler;
     public GameObject ArcosHandler;
+
+    public GameObject Espadas_Click;
+    public GameObject Banjo_Click;
+    public GameObject Cajados_Click;
+    public GameObject Machados_Click;
+    public GameObject Martelos_Click;
+    public GameObject Arcos_Click;
 
     private Dictionary<string, ArmaData> armasData;
     private ArmaData armaAtual;
@@ -78,10 +87,17 @@ public class ArmaChange : MonoBehaviour
         new JsonArmas() { nome = "Arco-4", titulo = "Arco de Luz" }
     };
 
-    void Start()
+    private List<JsonArmas> listaBanjo = new List<JsonArmas>()
+    {
+        new JsonArmas() { nome = "Banjo-1", titulo = "Banjo da Alegria" },
+        new JsonArmas() { nome = "Banjo-2", titulo = "Banjo Triste" }
+    };
+
+    void OnEnable()
     {   
         InicializarArmasData();
         DesativarTodosHandlers();
+        AtualizarRestricoesClasses();
         
         // Configurar arma inicial baseada na classe
         if (Render_Arma.Classes == "Barbaro" || Render_Arma.Classes == "Guerreiro" || 
@@ -95,6 +111,10 @@ public class ArmaChange : MonoBehaviour
         {
             AtivarArma("cajado");
         }
+        else if (Render_Arma.Classes == "Bardo")
+        {
+            AtivarArma("banjo");
+        }
     }
 
     private void InicializarArmasData()
@@ -104,32 +124,44 @@ public class ArmaChange : MonoBehaviour
             { "espada", new ArmaData { 
                 handler = EspadasHandler, 
                 listaArmas = listaEspadas, 
-                index = 0 
+                index = 0,
+                classesPermitidas = new List<string> { "Guerreiro", "Paladino", "Ladino", "Ranger", "Barbaro" },
+                Clicks = Espadas_Click
             }},
             { "banjo", new ArmaData { 
                 handler = BanjoHandler, 
-                listaArmas = new List<JsonArmas>(), // Adicione os dados do banjo se necessário
-                index = 0 
+                listaArmas = listaBanjo, 
+                index = 0,
+                classesPermitidas = new List<string> { "Bardo" },
+                Clicks = Banjo_Click
             }},
             { "cajado", new ArmaData { 
                 handler = CajadosHandler, 
                 listaArmas = listaCajados, 
-                index = 0 
+                index = 0,
+                classesPermitidas = new List<string> { "Mago", "Bruxo", "Feiticeiro", "Clerigo", "Druida" },
+                Clicks = Cajados_Click
             }},
             { "machado", new ArmaData { 
                 handler = MachadosHandler, 
                 listaArmas = listaMachado, 
-                index = 0 
+                index = 0,
+                classesPermitidas = new List<string> { "Barbaro", "Guerreiro", "Paladino" },
+                Clicks = Machados_Click
             }},
             { "martelo", new ArmaData { 
                 handler = MartelosHandler, 
                 listaArmas = listaMartelos, 
-                index = 0 
+                index = 0,
+                classesPermitidas = new List<string> { "Barbaro", "Guerreiro", "Paladino" },
+                Clicks = Martelos_Click
             }},
             { "arco", new ArmaData { 
                 handler = ArcosHandler, 
                 listaArmas = listaArco, 
-                index = 0 
+                index = 0,
+                classesPermitidas = new List<string> { "Ranger", "Ladino" },
+                Clicks = Arcos_Click
             }}
         };
     }
@@ -141,6 +173,62 @@ public class ArmaChange : MonoBehaviour
             if (arma.handler != null)
                 arma.handler.SetActive(false);
         }
+    }
+
+    // Método para atualizar as restrições baseadas na classe
+    private void AtualizarRestricoesClasses()
+    {
+        string classeAtual = Render_Arma.Classes;
+        
+        foreach (var arma in armasData.Values)
+        {
+            if (arma.handler != null)
+            {
+                Button botao = arma.handler.GetComponent<Button>();
+                Image imagem = arma.handler.GetComponent<Image>();
+                Button btn = arma.Clicks.GetComponent<Button>();
+                
+                bool classePermitida = arma.classesPermitidas.Contains(classeAtual);
+                
+                // Configurar interatividade do botão
+                if (botao != null)
+                {
+                    botao.interactable = classePermitida;
+                }
+                
+                // Escurecer o handler se não for permitido
+                Color32 corNormal = new Color32(80, 80, 80, 255); // R,G,B,A
+                ColorBlock cb = btn.colors;  // pega as cores atuais do botão
+                if(!classePermitida) {
+                    cb.normalColor = corNormal;
+                }    // altera apenas o Normal Color
+                else
+                {
+                    cb.normalColor = new Color32(255, 255, 255, 255);
+                }
+                btn.colors = cb;                 
+                
+                // Escurecer também o texto se existir
+                TextMeshProUGUI texto = arma.handler.transform.Find("TextoHandler")?.GetComponent<TextMeshProUGUI>();
+                if (texto != null)
+                {
+                    Color corTexto = texto.color;
+                    corTexto.a = classePermitida ? 1f : 0.4f;
+                    texto.color = corTexto;
+                }
+            }
+        }
+    }
+
+    // Método para verificar se uma arma é permitida para a classe atual
+    private bool ArmaPermitida(string tipoArma)
+    {
+        if (armasData.ContainsKey(tipoArma))
+        {
+            string classeAtual = Render_Arma.Classes;
+            return armasData[tipoArma].classesPermitidas.Contains(classeAtual);
+        }
+        return false;
     }
 
     public void NextArma()
@@ -185,7 +273,7 @@ public class ArmaChange : MonoBehaviour
                     "machado" => "Machados",
                     "martelo" => "Martelos",
                     "arco" => "Arcos",
-                    "banjo" => "Banjos", // Ajuste conforme necessário
+                    "banjo" => "Banjos",
                     _ => "Espadas"
                 };
         }
@@ -194,6 +282,13 @@ public class ArmaChange : MonoBehaviour
 
     public void AtivarArma(string tipoArma)
     {
+        // Verificar se a arma é permitida para a classe atual
+        if (!ArmaPermitida(tipoArma))
+        {
+            Debug.Log($"A classe {Render_Arma.Classes} não pode usar {tipoArma}");
+            return;
+        }
+
         if (armasData.ContainsKey(tipoArma))
         {
             DesativarTodosHandlers();
@@ -211,11 +306,28 @@ public class ArmaChange : MonoBehaviour
         }
     }
 
-    // Métodos públicos para os botões (mantendo compatibilidade)
+    // Métodos públicos para os botões (com verificação de permissão)
     public void Botao_espada() => AtivarArma("espada");
     public void Botao_banjo() => AtivarArma("banjo");
     public void Botao_cajado() => AtivarArma("cajado");
     public void Botao_machado() => AtivarArma("machado");
     public void Botao_martelo() => AtivarArma("martelo");
     public void Botao_arco() => AtivarArma("arco");
+
+    // Método para obter a lista de armas permitidas
+    public List<string> GetArmasPermitidas()
+    {
+        List<string> armasPermitidas = new List<string>();
+        string classeAtual = Render_Arma.Classes;
+        
+        foreach (var arma in armasData)
+        {
+            if (arma.Value.classesPermitidas.Contains(classeAtual))
+            {
+                armasPermitidas.Add(arma.Key);
+            }
+        }
+        
+        return armasPermitidas;
+    }
 }

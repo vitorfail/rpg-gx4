@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine.UI;
+using Newtonsoft.Json;
 public class Personagens : MonoBehaviour
 {
     public string Classes;
@@ -9,16 +11,42 @@ public class Personagens : MonoBehaviour
     public GameObject prefab;
     public GameObject newCharacter;
     public Material material;
+    public Button botao_sexo;
+    public Sprite mulherOffSprite; 
+    private PlayerData_SO player;
+    public Sprite mulherOn;  
+    public List<string> lista_classes = new List<string>{"Barbaro","Bardo","Bruxo","Clerigo","Druida","Feiticeiro","Guerreiro","Ladino","Monge","Mago","Paladino","Ranger"   };
+    public List<string> lista_sexos = new List<string>{"Homem", "Mulher"};
+    public List<string> lista_Raca = new List<string>{"Humano", "Orc", "Demonio", "Morte"};
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Classes = "Barbaro";
-        Sexo = "Homem";
-        Raca = "Humano";
+        player = DadosJogador.Instance_jogador.playerData;
+        Classes = lista_classes[player.characterClass];
+        Sexo = lista_sexos[player.gender];
+        Raca = lista_Raca[player.race];
         Mudar();
     }
     public void Mudar()
     {
+        if(Raca == "Morte" && Sexo == "Mulher")
+        {
+            Sexo ="Homem";
+        }
+        if(Raca == "" || Classes== "")
+        {
+            return;
+        }
+        if(Raca == "Morte")
+        {
+            botao_sexo.image.sprite = mulherOffSprite; ;
+            botao_sexo.interactable  =false;
+        }
+        else
+        {
+            botao_sexo.image.sprite = mulherOn; ;
+            botao_sexo.interactable  =true;
+        }
         if (prefab.transform.childCount > 0)
         {
             foreach (Transform child in prefab.transform)
@@ -26,7 +54,10 @@ public class Personagens : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
-        GameObject request = Resources.Load<GameObject>($"Caracters/{Raca}/{Sexo}/{Classes}/{Classes}");
+        player.characterClass= lista_classes.IndexOf(Classes);
+        player.gender = lista_sexos.IndexOf(Sexo);
+        player.race = lista_Raca.IndexOf(Raca);
+        GameObject request = Resources.Load<GameObject>($"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}");
         // Instancia o novo personagem como filho do prefab
         newCharacter = Instantiate(request, prefab.transform);
         SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);

@@ -8,6 +8,7 @@ public class Mover_inicial : MonoBehaviour
     public GameObject menu_1;
     public GameObject Player;
     public GameObject Armas;
+    public GameObject Pontos;
     public GameObject Subclasse;
     private Vector3 posOriginalPlayer;
     private Vector3 escalaOriginalPlayer;
@@ -17,6 +18,7 @@ public class Mover_inicial : MonoBehaviour
         atributos.SetActive(true);
         Armas.SetActive(false);   
         Subclasse.SetActive(false);  
+        Pontos.SetActive(false);
         posOriginalPlayer = Player.transform.position;
         escalaOriginalPlayer = Player.transform.localScale;
     }
@@ -26,6 +28,7 @@ public class Mover_inicial : MonoBehaviour
         atributos.SetActive(false);
         Armas.SetActive(false);   
         Subclasse.SetActive(true);
+        Pontos.SetActive(false);
         StartCoroutine(MoverEScalear(Player, Player.transform.position + new Vector3(-1f, 0f, 0f), new Vector3(1.2f, 1.2f, Player.transform.localScale.z), 0.5f));    }
     public void Voltar_1()
     {
@@ -33,6 +36,7 @@ public class Mover_inicial : MonoBehaviour
         atributos.SetActive(true);
         Armas.SetActive(false);   
         Subclasse.SetActive(false);
+        Pontos.SetActive(false);
         StartCoroutine(MoverEScalear(Player, posOriginalPlayer, escalaOriginalPlayer, 0.5f));
     }
     public void Mover_2()
@@ -41,6 +45,7 @@ public class Mover_inicial : MonoBehaviour
         atributos.SetActive(false);
         Armas.SetActive(true);   
         Subclasse.SetActive(false);
+        Pontos.SetActive(false);
     }
     public void Voltar_2()
     {
@@ -48,6 +53,23 @@ public class Mover_inicial : MonoBehaviour
         atributos.SetActive(false);
         Armas.SetActive(false);   
         Subclasse.SetActive(true);
+        Pontos.SetActive(false);
+    }
+    public void Mover_3()
+    {
+        menu_1.SetActive(false);
+        atributos.SetActive(false);
+        Armas.SetActive(false);   
+        Subclasse.SetActive(false);
+        Pontos.SetActive(true);
+    }
+    public void Voltar_3()
+    {
+        menu_1.SetActive(false);
+        atributos.SetActive(false);
+        Armas.SetActive(true);   
+        Subclasse.SetActive(false);
+        Pontos.SetActive(false);
     }
     private IEnumerator MoverEScalear(GameObject alvo, Vector3 posFinal, Vector3 escalaFinal, float duracao)
     {

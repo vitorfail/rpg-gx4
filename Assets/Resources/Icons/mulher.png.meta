@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0163a550db19d804099c4e838a6983b3
+guid: f44e8d91a23b79a40b4f4ae91e5cf853
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8496398428886034932
-    second: form_menu_0
+      213: -7284759586207656206
+    second: mulher_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: form_menu_0
+      name: mulher_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 436
-        height: 606
+        width: 508
+        height: 546
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c069f0015aab61a80800000000000000
-      internalID: -8496398428886034932
+      spriteID: 2f698fda0c557ea90800000000000000
+      internalID: -7284759586207656206
       vertices: []
       indices: 
       edges: []
@@ -151,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d1006e627e319644194b29d83b4719aa
+    spriteID: 2ea1d32174ffcc94eb544d0bc3d37168
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      form_menu_0: -8496398428886034932
+      mulher_0: -7284759586207656206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
