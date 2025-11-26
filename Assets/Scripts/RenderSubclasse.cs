@@ -8,6 +8,7 @@ using System;
 
 public class RenderSubclasse : MonoBehaviour
 {
+    public GameObject container;
     public TextAsset json_class;
     public DndClassesData clastipagem;
     public Personagens person;
@@ -44,7 +45,7 @@ public class RenderSubclasse : MonoBehaviour
     void CreateButton(Archetype arq)
     {
         GameObject btnObj = new GameObject("Btn_" + arq.Nome, typeof(RectTransform));
-        btnObj.transform.SetParent(this.transform, false);
+        btnObj.transform.SetParent(container.transform, false);
 
         Image img = btnObj.AddComponent<Image>();
         Sprite sprite = Resources.Load<Sprite>(arq.Img.Replace(".png", ""));
