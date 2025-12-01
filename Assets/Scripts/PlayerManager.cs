@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using Newtonsoft.Json;
 
 public class PlayerManager  : MonoBehaviour
 {
+    private bool isEscolher;
     private Animator animator;
     public Arma_ataque ar_at;
 
@@ -11,30 +13,39 @@ public class PlayerManager  : MonoBehaviour
     private float autoAttackInterval = 4f; // ataque automático a cada 4 segundos
     void Start()
     {   
-        ar_at = FindFirstObjectByType<Arma_ataque>();
-        animator = GetComponent<Animator>();
+        isEscolher = SceneManager.GetActiveScene().name == "Customization";
+        if(isEscolher){
+            ar_at = FindFirstObjectByType<Arma_ataque>();
+            animator = GetComponent<Animator>();
 
-        if (animator == null)
-        {
-            Debug.LogError("⚠️ Nenhum Animator encontrado no objeto Player!");
+            if (animator == null)
+            {
+                Debug.LogError("⚠️ Nenhum Animator encontrado no objeto Player!");
+            }
         }
     }
 
     void Update()
     {
-        // Incrementa o timer
-        autoAttackTimer += Time.deltaTime;
-
-        // Se já passou o intervalo, realiza ataque automático
-        if (autoAttackTimer >= autoAttackInterval)
+        if (isEscolher)
         {
-            Ataque();
+            // Incrementa o timer
+            autoAttackTimer += Time.deltaTime;
+
+            // Se já passou o intervalo, realiza ataque automático
+            if (autoAttackTimer >= autoAttackInterval)
+            {
+                Ataque();
+            }
         }
     }
 
     void OnMouseDown()
     {
-        Ataque(); // Ataque manual ao clicar
+        if (isEscolher)
+        {
+            Ataque(); // Ataque manual ao clicar
+        }
     }
     void Ataque()
     {

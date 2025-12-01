@@ -135,7 +135,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 1
   m_Time: 0.5
   m_PreviewTimeScale: 1
   m_Parameters:
@@ -1158,7 +1158,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 13
+  m_SortingOrder: 1
   m_Time: 0.5
   m_PreviewTimeScale: 1
   m_Parameters:
@@ -1273,9 +1273,9 @@ TrailRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
@@ -1306,7 +1306,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 14
+  m_SortingOrder: 1
   m_Time: 0.5
   m_PreviewTimeScale: 1
   m_Parameters:
@@ -1948,6 +1948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85522451a62e804458493d22ca87d149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ar_at: {fileID: 0}
+  visualEffects: []
 --- !u!1 &6724759678527520302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2494,7 +2496,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 40
+  m_SortingOrder: 5
   m_Sprite: {fileID: 5291881858394707114, guid: eb942dd30fa12b243b25bf7ef6e924fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2910,7 +2912,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2934,3 +2936,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85522451a62e804458493d22ca87d149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ar_at: {fileID: 0}
+  visualEffects: []

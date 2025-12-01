@@ -10,11 +10,13 @@ public class Mover_inicial : MonoBehaviour
     public GameObject Armas;
     public GameObject Pontos;
     public GameObject Subclasse;
+    public GameObject popup;
     private Vector3 posOriginalPlayer;
     private Vector3 escalaOriginalPlayer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        popup.SetActive(false);
         atributos.SetActive(true);
         Armas.SetActive(false);   
         Subclasse.SetActive(false);  
@@ -70,6 +72,15 @@ public class Mover_inicial : MonoBehaviour
         Armas.SetActive(true);   
         Subclasse.SetActive(false);
         Pontos.SetActive(false);
+    }
+    public void Mover_4()
+    {
+        menu_1.SetActive(false);
+        atributos.SetActive(false);
+        Armas.SetActive(false);   
+        Subclasse.SetActive(false);
+        Pontos.SetActive(true);
+        popup.SetActive(true);
     }
     private IEnumerator MoverEScalear(GameObject alvo, Vector3 posFinal, Vector3 escalaFinal, float duracao)
     {

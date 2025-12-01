@@ -1,0 +1,2349 @@
+fileFormatVersion: 2
+guid: 67eae4aca7327e040b21262e976a9ce1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7907336577712263196
+    second: leafs_0
+  - first:
+      213: 475831575996482037
+    second: leafs_1
+  - first:
+      213: -2468744221454933728
+    second: leafs_2
+  - first:
+      213: -653623646821751481
+    second: leafs_3
+  - first:
+      213: -6474381531732600587
+    second: leafs_4
+  - first:
+      213: -621000397423673866
+    second: leafs_5
+  - first:
+      213: -6713215946161261573
+    second: leafs_6
+  - first:
+      213: -7214241093070786190
+    second: leafs_7
+  - first:
+      213: -432694905946437238
+    second: leafs_8
+  - first:
+      213: -3254321067436344028
+    second: leafs_9
+  - first:
+      213: -4656888486754054596
+    second: leafs_10
+  - first:
+      213: -4889443276791871956
+    second: leafs_11
+  - first:
+      213: -6085870067738316709
+    second: leafs_12
+  - first:
+      213: -951245176565535433
+    second: leafs_13
+  - first:
+      213: 4474557853845813366
+    second: leafs_14
+  - first:
+      213: 9197473506207631414
+    second: leafs_15
+  - first:
+      213: -8798711612320317754
+    second: leafs_16
+  - first:
+      213: -4529935048684417580
+    second: leafs_17
+  - first:
+      213: -6724870457215950386
+    second: leafs_18
+  - first:
+      213: -4119701657099850201
+    second: leafs_19
+  - first:
+      213: 5136987194737822529
+    second: leafs_20
+  - first:
+      213: 8273646021330697458
+    second: leafs_21
+  - first:
+      213: -6845088530658678355
+    second: leafs_22
+  - first:
+      213: -1242250651297888003
+    second: leafs_23
+  - first:
+      213: 2228570040109056987
+    second: leafs_24
+  - first:
+      213: 4233634613066119260
+    second: leafs_25
+  - first:
+      213: -651351230073812841
+    second: leafs_26
+  - first:
+      213: -2550862430636147473
+    second: leafs_27
+  - first:
+      213: 1619626851846960718
+    second: leafs_28
+  - first:
+      213: -5151003616692723458
+    second: leafs_29
+  - first:
+      213: -839225430539876212
+    second: leafs_30
+  - first:
+      213: -4132267996602814826
+    second: leafs_31
+  - first:
+      213: 4691208009198492086
+    second: leafs_32
+  - first:
+      213: -4343796146893977040
+    second: leafs_33
+  - first:
+      213: -8373005275506557279
+    second: leafs_34
+  - first:
+      213: -7485765104895902425
+    second: leafs_35
+  - first:
+      213: 7748844425180442512
+    second: leafs_36
+  - first:
+      213: 599543665844394402
+    second: leafs_37
+  - first:
+      213: -4055594935982820391
+    second: leafs_38
+  - first:
+      213: -4337014284429978754
+    second: leafs_39
+  - first:
+      213: 1725015433827943754
+    second: leafs_40
+  - first:
+      213: 6186898812474709655
+    second: leafs_41
+  - first:
+      213: 5454779964118010356
+    second: leafs_42
+  - first:
+      213: 3095795329455431031
+    second: leafs_43
+  - first:
+      213: 5245654139260363435
+    second: leafs_44
+  - first:
+      213: 1079656477820261659
+    second: leafs_45
+  - first:
+      213: 271406317546655756
+    second: leafs_46
+  - first:
+      213: -1315894561361865846
+    second: leafs_47
+  - first:
+      213: 2718595910187352956
+    second: leafs_48
+  - first:
+      213: 688747097602132043
+    second: leafs_49
+  - first:
+      213: -602941194396571484
+    second: leafs_50
+  - first:
+      213: 4565677968977404148
+    second: leafs_51
+  - first:
+      213: -4117788620582847684
+    second: leafs_52
+  - first:
+      213: 2285213658692369264
+    second: leafs_53
+  - first:
+      213: -8923314272204914448
+    second: leafs_54
+  - first:
+      213: 3794512844460100068
+    second: leafs_55
+  - first:
+      213: 6273698972517112801
+    second: leafs_56
+  - first:
+      213: 3607245269023962112
+    second: leafs_57
+  - first:
+      213: 2208369876293116532
+    second: leafs_58
+  - first:
+      213: 5958273125946799220
+    second: leafs_59
+  - first:
+      213: -5074034647926436457
+    second: leafs_60
+  - first:
+      213: 8639395831307122628
+    second: leafs_61
+  - first:
+      213: 6639420127491462618
+    second: leafs_62
+  - first:
+      213: -4270483446039792356
+    second: leafs_63
+  - first:
+      213: -6463161377543318902
+    second: leafs_64
+  - first:
+      213: -6637185277140967410
+    second: leafs_65
+  - first:
+      213: 6095097326105948589
+    second: leafs_66
+  - first:
+      213: 2728500838964304281
+    second: leafs_67
+  - first:
+      213: 5134138764856363928
+    second: leafs_68
+  - first:
+      213: 832018622347086375
+    second: leafs_69
+  - first:
+      213: 6440535314884994794
+    second: leafs_70
+  - first:
+      213: -5625521531965826145
+    second: leafs_71
+  - first:
+      213: -2084226894307988533
+    second: leafs_72
+  - first:
+      213: -2219091805882156360
+    second: leafs_73
+  - first:
+      213: 3916695248059976790
+    second: leafs_74
+  - first:
+      213: -1991333151900165278
+    second: leafs_75
+  - first:
+      213: 6318292202947969439
+    second: leafs_76
+  - first:
+      213: -8833042116292959008
+    second: leafs_77
+  - first:
+      213: -8416496574737519726
+    second: leafs_78
+  - first:
+      213: 3077554941365340428
+    second: leafs_79
+  - first:
+      213: 1718864891102463826
+    second: leafs_80
+  - first:
+      213: 6562046351822735704
+    second: leafs_81
+  - first:
+      213: 721238570550587477
+    second: leafs_82
+  - first:
+      213: 8608158660496054077
+    second: leafs_83
+  - first:
+      213: 3994399509774624175
+    second: leafs_84
+  - first:
+      213: 7302321642052585447
+    second: leafs_85
+  - first:
+      213: -679996126994222914
+    second: leafs_86
+  - first:
+      213: -779746567638355319
+    second: leafs_87
+  - first:
+      213: 6285915940130328878
+    second: leafs_88
+  - first:
+      213: -728964854151776321
+    second: leafs_89
+  - first:
+      213: 8897535385597483801
+    second: leafs_90
+  - first:
+      213: -4117430354896518274
+    second: leafs_91
+  - first:
+      213: -3906251159849283738
+    second: leafs_92
+  - first:
+      213: -1142004360328182903
+    second: leafs_93
+  - first:
+      213: -5659664237465048960
+    second: leafs_94
+  - first:
+      213: 4639223222883304177
+    second: leafs_95
+  - first:
+      213: 4316641290312681727
+    second: leafs_96
+  - first:
+      213: 5731427386544624740
+    second: leafs_97
+  - first:
+      213: 4798968603164208651
+    second: leafs_98
+  - first:
+      213: -3089821236393978117
+    second: leafs_99
+  - first:
+      213: -5981383800569698807
+    second: leafs_100
+  - first:
+      213: -6070893273455818329
+    second: leafs_101
+  - first:
+      213: 996367647910083014
+    second: leafs_102
+  - first:
+      213: 2621375353228190229
+    second: leafs_103
+  - first:
+      213: 9064418747547425672
+    second: leafs_104
+  - first:
+      213: 315602272143224556
+    second: leafs_105
+  - first:
+      213: -8735639222499307874
+    second: leafs_106
+  - first:
+      213: -2866962620288694355
+    second: leafs_107
+  - first:
+      213: 7455402630820707329
+    second: leafs_108
+  - first:
+      213: 30600013638273804
+    second: leafs_109
+  - first:
+      213: -6292375486483820106
+    second: leafs_110
+  - first:
+      213: 2088374101540916911
+    second: leafs_111
+  - first:
+      213: 7093544702557806517
+    second: leafs_112
+  - first:
+      213: -2498767738958240393
+    second: leafs_113
+  - first:
+      213: 1378028897175662931
+    second: leafs_114
+  - first:
+      213: -8696648530025694828
+    second: leafs_115
+  - first:
+      213: 1439312539303934653
+    second: leafs_116
+  - first:
+      213: -2103025839533044492
+    second: leafs_117
+  - first:
+      213: -2387527920416337890
+    second: leafs_118
+  - first:
+      213: 927420764452870548
+    second: leafs_119
+  - first:
+      213: -8626362463243004508
+    second: leafs_120
+  - first:
+      213: -7915166770745155581
+    second: leafs_121
+  - first:
+      213: 196581810072271990
+    second: leafs_122
+  - first:
+      213: -6719157407582259097
+    second: leafs_123
+  - first:
+      213: -6580913802252457860
+    second: leafs_124
+  - first:
+      213: 6474336314589308897
+    second: leafs_125
+  - first:
+      213: -2935453749543829638
+    second: leafs_126
+  - first:
+      213: 7638413304977219269
+    second: leafs_127
+  - first:
+      213: -1107175998856007394
+    second: leafs_128
+  - first:
+      213: 4585618365000916651
+    second: leafs_129
+  - first:
+      213: 6479826566713018313
+    second: leafs_130
+  - first:
+      213: -169440903409478682
+    second: leafs_131
+  - first:
+      213: -6405091999259444037
+    second: leafs_132
+  - first:
+      213: 3962468286452471317
+    second: leafs_133
+  - first:
+      213: -4005664497255201008
+    second: leafs_134
+  - first:
+      213: 389899025577901181
+    second: leafs_135
+  - first:
+      213: -1921351213197031086
+    second: leafs_136
+  - first:
+      213: 811130095093700692
+    second: leafs_137
+  - first:
+      213: 3410269411414046716
+    second: leafs_138
+  - first:
+      213: 732181210434108261
+    second: leafs_139
+  - first:
+      213: -2945919609467789811
+    second: leafs_140
+  - first:
+      213: -272867972395696633
+    second: leafs_141
+  - first:
+      213: 3168854387673209331
+    second: leafs_142
+  - first:
+      213: 3121771601283385564
+    second: leafs_143
+  - first:
+      213: -4803070329754589567
+    second: leafs_144
+  - first:
+      213: 4995936718823089161
+    second: leafs_145
+  - first:
+      213: 9048181446430783832
+    second: leafs_146
+  - first:
+      213: -7299872787427388292
+    second: leafs_147
+  - first:
+      213: -6683518692912538083
+    second: leafs_148
+  - first:
+      213: -4104817372595470532
+    second: leafs_149
+  - first:
+      213: -8785112438358107
+    second: leafs_150
+  - first:
+      213: 6627122098991050773
+    second: leafs_151
+  - first:
+      213: -374341012078597076
+    second: leafs_152
+  - first:
+      213: 5731558604077885943
+    second: leafs_153
+  - first:
+      213: 7531479578377640178
+    second: leafs_154
+  - first:
+      213: -774254854897008591
+    second: leafs_155
+  - first:
+      213: 3483591792652942089
+    second: leafs_156
+  - first:
+      213: -5203583092564966780
+    second: leafs_157
+  - first:
+      213: -6231968027791773233
+    second: leafs_158
+  - first:
+      213: -8706479555136886082
+    second: leafs_159
+  - first:
+      213: 5713504664185309186
+    second: leafs_160
+  - first:
+      213: 4026058368787401473
+    second: leafs_161
+  - first:
+      213: -1122204663057558202
+    second: leafs_162
+  - first:
+      213: 5303531483190241727
+    second: leafs_163
+  - first:
+      213: 2544405752171978781
+    second: leafs_164
+  - first:
+      213: -3410472231466915735
+    second: leafs_165
+  - first:
+      213: 5021345913090544842
+    second: leafs_166
+  - first:
+      213: 3511232864386352382
+    second: leafs_167
+  - first:
+      213: 5685106845383105117
+    second: leafs_168
+  - first:
+      213: 6406998257893349313
+    second: leafs_169
+  - first:
+      213: -111510030688411574
+    second: leafs_170
+  - first:
+      213: 4347721106045433304
+    second: leafs_171
+  - first:
+      213: 6876339307111702354
+    second: leafs_172
+  - first:
+      213: 2756850683377543676
+    second: leafs_173
+  - first:
+      213: 6730726609627521450
+    second: leafs_174
+  - first:
+      213: -3113163515299552448
+    second: leafs_175
+  - first:
+      213: 2436745464934193979
+    second: leafs_176
+  - first:
+      213: -7355724457347871998
+    second: leafs_177
+  - first:
+      213: -2983162112716343214
+    second: leafs_178
+  - first:
+      213: -8091900434047780080
+    second: leafs_179
+  - first:
+      213: 4693372855014626098
+    second: leafs_180
+  - first:
+      213: 6031395725334723366
+    second: leafs_181
+  - first:
+      213: 7142255051792100736
+    second: leafs_182
+  - first:
+      213: -8161083986478279953
+    second: leafs_183
+  - first:
+      213: -3425001438950358571
+    second: leafs_184
+  - first:
+      213: 7626335371859695929
+    second: leafs_185
+  - first:
+      213: 8460967113725729782
+    second: leafs_186
+  - first:
+      213: 351925256518966033
+    second: leafs_187
+  - first:
+      213: 3456868712257759297
+    second: leafs_188
+  - first:
+      213: 2800017628264353447
+    second: leafs_189
+  - first:
+      213: 1004197776665065933
+    second: leafs_190
+  - first:
+      213: 2106680708338160064
+    second: leafs_191
+  - first:
+      213: 6584764325333345008
+    second: leafs_192
+  - first:
+      213: -5592209207646763132
+    second: leafs_193
+  - first:
+      213: 2585537995746725981
+    second: leafs_194
+  - first:
+      213: -6261549271014187991
+    second: leafs_195
+  - first:
+      213: 6559177356324084562
+    second: leafs_196
+  - first:
+      213: -909551260488185601
+    second: leafs_197
+  - first:
+      213: 8958073932155752433
+    second: leafs_198
+  - first:
+      213: -122741053251683720
+    second: leafs_199
+  - first:
+      213: -4107943479784411490
+    second: leafs_200
+  - first:
+      213: 1788547066124823939
+    second: leafs_201
+  - first:
+      213: 5230716570229714269
+    second: leafs_202
+  - first:
+      213: 6764134381848802871
+    second: leafs_203
+  - first:
+      213: 6292373766747942959
+    second: leafs_204
+  - first:
+      213: -1992129338081729790
+    second: leafs_205
+  - first:
+      213: 1144671316085501951
+    second: leafs_206
+  - first:
+      213: 5476829879366360998
+    second: leafs_207
+  - first:
+      213: -936315449355283863
+    second: leafs_208
+  - first:
+      213: -521084593340849878
+    second: leafs_209
+  - first:
+      213: -8694120237918427163
+    second: leafs_210
+  - first:
+      213: -6491944567980100080
+    second: leafs_211
+  - first:
+      213: 8743323193536701136
+    second: leafs_212
+  - first:
+      213: 4546539938408065207
+    second: leafs_213
+  - first:
+      213: 4143460231104398663
+    second: leafs_214
+  - first:
+      213: -221074331186954674
+    second: leafs_215
+  - first:
+      213: -4561353276479449941
+    second: leafs_216
+  - first:
+      213: 7926642297743681234
+    second: leafs_217
+  - first:
+      213: -5457818162020798748
+    second: leafs_218
+  - first:
+      213: -3891303844884008044
+    second: leafs_219
+  - first:
+      213: 4762849870966432814
+    second: leafs_220
+  - first:
+      213: -5216032662026292249
+    second: leafs_221
+  - first:
+      213: 5072504714201600878
+    second: leafs_222
+  - first:
+      213: 5052952030933192970
+    second: leafs_223
+  - first:
+      213: 3119990838183160545
+    second: leafs_224
+  - first:
+      213: 8870788600805112298
+    second: leafs_225
+  - first:
+      213: 2302954794728523310
+    second: leafs_226
+  - first:
+      213: -7837233558615436982
+    second: leafs_227
+  - first:
+      213: -1777235038681264925
+    second: leafs_228
+  - first:
+      213: -5351568573027977368
+    second: leafs_229
+  - first:
+      213: -253571462575829810
+    second: leafs_230
+  - first:
+      213: -8188673896248679157
+    second: leafs_231
+  - first:
+      213: 4064563305593893774
+    second: leafs_232
+  - first:
+      213: 6742984572393153509
+    second: leafs_233
+  - first:
+      213: -4948358393296533481
+    second: leafs_234
+  - first:
+      213: -3831859682035726799
+    second: leafs_235
+  - first:
+      213: 2081715563545627555
+    second: leafs_236
+  - first:
+      213: 3671362997886530835
+    second: leafs_237
+  - first:
+      213: 1626482983543555509
+    second: leafs_238
+  - first:
+      213: 5142005397002501128
+    second: leafs_239
+  - first:
+      213: 1378139717459970634
+    second: leafs_240
+  - first:
+      213: -5617332516843968074
+    second: leafs_241
+  - first:
+      213: 6370548186004819632
+    second: leafs_242
+  - first:
+      213: -6024240929855422113
+    second: leafs_243
+  - first:
+      213: 7370694770733933134
+    second: leafs_244
+  - first:
+      213: -62863193630484052
+    second: leafs_245
+  - first:
+      213: 3466107233167899254
+    second: leafs_246
+  - first:
+      213: -1938373919082023289
+    second: leafs_247
+  - first:
+      213: -5116308560890159251
+    second: leafs_248
+  - first:
+      213: 7223299806384961043
+    second: leafs_249
+  - first:
+      213: -1752222746644489343
+    second: leafs_250
+  - first:
+      213: -4446347487291624377
+    second: leafs_251
+  - first:
+      213: -5202387996275676291
+    second: leafs_252
+  - first:
+      213: 9047095811236955837
+    second: leafs_253
+  - first:
+      213: 7663547369560725797
+    second: leafs_254
+  - first:
+      213: 6545685865774190739
+    second: leafs_255
+  - first:
+      213: 1691317363926193975
+    second: leafs_256
+  - first:
+      213: -2215291793769809425
+    second: leafs_257
+  - first:
+      213: 4203638387832559837
+    second: leafs_258
+  - first:
+      213: -4881151280192644670
+    second: leafs_259
+  - first:
+      213: -5656719300620833402
+    second: leafs_260
+  - first:
+      213: -5606778752528504108
+    second: leafs_261
+  - first:
+      213: 6218471528189147877
+    second: leafs_262
+  - first:
+      213: -7130272412551653359
+    second: leafs_263
+  - first:
+      213: 6447021015136901410
+    second: leafs_264
+  - first:
+      213: 3531310227052831772
+    second: leafs_265
+  - first:
+      213: -3524354040663310122
+    second: leafs_266
+  - first:
+      213: 2816152461066303062
+    second: leafs_267
+  - first:
+      213: -358950651964717044
+    second: leafs_268
+  - first:
+      213: 8294967977762665491
+    second: leafs_269
+  - first:
+      213: 9211864765439565808
+    second: leafs_270
+  - first:
+      213: -7620071470594953917
+    second: leafs_271
+  - first:
+      213: 7156871573211393809
+    second: leafs_272
+  - first:
+      213: 7790979126086691872
+    second: leafs_273
+  - first:
+      213: 6742847002559850148
+    second: leafs_274
+  - first:
+      213: -8347394480136004936
+    second: leafs_275
+  - first:
+      213: 1080637862911267966
+    second: leafs_276
+  - first:
+      213: -1955764489447519319
+    second: leafs_277
+  - first:
+      213: -9208042545695487626
+    second: leafs_278
+  - first:
+      213: 3978459543945193647
+    second: leafs_279
+  - first:
+      213: -1958784497257827979
+    second: leafs_280
+  - first:
+      213: 8883867238449217562
+    second: leafs_281
+  - first:
+      213: 2522478163336193543
+    second: leafs_282
+  - first:
+      213: 999995035046860639
+    second: leafs_283
+  - first:
+      213: -8866368575675801910
+    second: leafs_284
+  - first:
+      213: 7080683595674222253
+    second: leafs_285
+  - first:
+      213: 5032559077785503071
+    second: leafs_286
+  - first:
+      213: 6300010064821222991
+    second: leafs_287
+  - first:
+      213: -7737734533345689852
+    second: leafs_288
+  - first:
+      213: 1251031423151410281
+    second: leafs_289
+  - first:
+      213: -8092499786606979944
+    second: leafs_290
+  - first:
+      213: -8541177513246777241
+    second: leafs_291
+  - first:
+      213: 7169861702537206118
+    second: leafs_292
+  - first:
+      213: -52312130468456808
+    second: leafs_293
+  - first:
+      213: 2037026691876941882
+    second: leafs_294
+  - first:
+      213: 4792847933405084091
+    second: leafs_295
+  - first:
+      213: -7034847432677769245
+    second: leafs_296
+  - first:
+      213: -7164507027886867001
+    second: leafs_297
+  - first:
+      213: -8646753256070133819
+    second: leafs_298
+  - first:
+      213: -8003081157019768311
+    second: leafs_299
+  - first:
+      213: -1594190976107117345
+    second: leafs_300
+  - first:
+      213: -4260388327667817232
+    second: leafs_301
+  - first:
+      213: 570709818883386122
+    second: leafs_302
+  - first:
+      213: -8389024760537395540
+    second: leafs_303
+  - first:
+      213: -4490993865958122754
+    second: leafs_304
+  - first:
+      213: -160890034516271843
+    second: leafs_305
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: leafs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2513
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1cd38877f071d49858d5ceca805e7f
+      internalID: -360571996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2513
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c91c32a249df74a8294ac3eb552fe6
+      internalID: -201067310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2513
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0285fc61ee50314ca95f441abb1b623
+      internalID: -283583583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2513
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4996fdc559f41294ba8231edcfbb02f7
+      internalID: 2050719618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2513
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536989a311d84964e8c6c4905fe87639
+      internalID: -760743005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2513
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a2f3b0645316843a004992a78e02c8
+      internalID: -355798643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2513
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7931aab732afa754293ec84556d15d29
+      internalID: 1329559255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2154
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62db150a3cc097447a6000eff9c61bc6
+      internalID: 1240390665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_8
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2154
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf72f76aea77a0b4d83d262c93af1816
+      internalID: -1590641486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2154
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d498d812422bf49a5b352a1a6db9a6
+      internalID: 230935410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2154
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c674afb16a114654a82096011d14a1e6
+      internalID: -1657586839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_11
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2154
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8224dae369f924082d7d88d18bbea1
+      internalID: -2047197614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_12
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2154
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17629b01fb121343996add372205445
+      internalID: -1207298529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2154
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ed498b0d2958248a82343e1b914b0d
+      internalID: 516943335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1795
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c08b46b92727c24293a2f4a22b09793
+      internalID: -786645392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1795
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f4a1039e99e2847bcf4f13c0257bc9
+      internalID: -41422870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1795
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c5de93fd397a34b901543449407806
+      internalID: 1065367128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1795
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9850d782b6c73544b838bfb8c003996
+      internalID: -1521304201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1795
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676e4d182d6f66e418dada2150b46838
+      internalID: -475298020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_19
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1795
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5589a6881102843b025058329822ef
+      internalID: 1182245887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1795
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf0bf43236ce6344a46e94215fbea7f
+      internalID: -99864134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1436
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2274a43a443f20e4c9a74752a9d687df
+      internalID: 36933032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1436
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8f5a1c8d23a3f43a453bf3ed7cbea6
+      internalID: -1262109967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_23
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1436
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e643cb0ce64763e46ab3071345ecc554
+      internalID: -1849730190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_24
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1436
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f94178c242d0ac41b11940bd0fe4592
+      internalID: 965427806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1436
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651dc5665d79cea44a002087ba41984e
+      internalID: -5456380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_26
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1436
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4969c696ebe14f34fb6324eb64449afa
+      internalID: 1734692655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_27
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1436
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0866856423199f41b38cce293cf01ea
+      internalID: -1455326612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1077
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23a8ac45e3806d48b776aa5b33ff6d6
+      internalID: -525988136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1077
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df4a44ed65b9864fb0631ddd3b3e5b1
+      internalID: -1238397824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_30
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1077
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1466dddfe2a259646b4358dd43540881
+      internalID: -667718839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_31
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1077
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6fec99ecefcdb44a42ea8b000a74d1
+      internalID: 1065807186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1077
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16afeaefe249b954fa70992b6a10612e
+      internalID: -797773298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_33
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1077
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e782d685ead02db42add1af6e45dbd8f
+      internalID: 995741260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_34
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1077
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cacb683a2834844a7d8dcd75ee9808
+      internalID: -1183804419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7283b395c624544b42d397014b7ceb
+      internalID: -1254802262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 718
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e474a89156fb204d91d273de40640a1
+      internalID: 471575131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_37
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 718
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8c133716b7e7d48b981726955d0acf
+      internalID: -45484732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 718
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2161e7f3c63da0146b93880dd5b1cd0e
+      internalID: 161528133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_39
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 718
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e9c2f28a5781b4096da9ef41dba2d5
+      internalID: 916321025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_40
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 718
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d34401c5caead4985088dc914b4ca3
+      internalID: 1402528648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_41
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 718
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48910a1987bd7b4db97840110f01c25
+      internalID: 2110321739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4a2b357eddb0f4ab1cd7549a21726b
+      internalID: -1059228150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 359
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eae71e56073cf942aee2e2dfda28516
+      internalID: -904169271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 359
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579230f7fbabf49468e42bca97708b30
+      internalID: 1443866185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_45
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 359
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2f040f22938344e915a3985ab9f670
+      internalID: 1125979156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_46
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 359
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1582e12d149177c409381eb8233485b4
+      internalID: 1329905342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_47
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 359
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0d7adf417efa44399547d4e0d1e71a
+      internalID: 1827537792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_48
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 359
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d5ad5240368534ab7bfb77857cabd2
+      internalID: -1344146032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa0344ca1e373641a35056715b19054
+      internalID: -1807573716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_50
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47806213e4bd8a6438213cfb1e7f77d3
+      internalID: -25988148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_51
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427f39252cbdf0a448d130605ed76421
+      internalID: -220373705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_52
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7831725e56a02c846a1601ed109cb1b5
+      internalID: -209802111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_53
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a972a5cb960a99b4caaa9cd1382cbefb
+      internalID: -923267532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_54
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef0c02dcc665dc42b2ff77e52f11789
+      internalID: -1612510374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leafs_55
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3759a07d78223884ea0c74ba7cb04cbc
+      internalID: -544601887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9c587b971574fb64eafd11a61f77517f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      leafs_0: -360571996
+      leafs_1: -201067310
+      leafs_10: -1657586839
+      leafs_11: -2047197614
+      leafs_12: -1207298529
+      leafs_13: 516943335
+      leafs_14: -786645392
+      leafs_15: -41422870
+      leafs_16: 1065367128
+      leafs_17: -1521304201
+      leafs_18: -475298020
+      leafs_19: 1182245887
+      leafs_2: -283583583
+      leafs_20: -99864134
+      leafs_21: 36933032
+      leafs_22: -1262109967
+      leafs_23: -1849730190
+      leafs_24: 965427806
+      leafs_25: -5456380
+      leafs_26: 1734692655
+      leafs_27: -1455326612
+      leafs_28: -525988136
+      leafs_29: -1238397824
+      leafs_3: 2050719618
+      leafs_30: -667718839
+      leafs_31: 1065807186
+      leafs_32: -797773298
+      leafs_33: 995741260
+      leafs_34: -1183804419
+      leafs_35: -1254802262
+      leafs_36: 471575131
+      leafs_37: -45484732
+      leafs_38: 161528133
+      leafs_39: 916321025
+      leafs_4: -760743005
+      leafs_40: 1402528648
+      leafs_41: 2110321739
+      leafs_42: -1059228150
+      leafs_43: -904169271
+      leafs_44: 1443866185
+      leafs_45: 1125979156
+      leafs_46: 1329905342
+      leafs_47: 1827537792
+      leafs_48: -1344146032
+      leafs_49: -1807573716
+      leafs_5: -355798643
+      leafs_50: -25988148
+      leafs_51: -220373705
+      leafs_52: -209802111
+      leafs_53: -923267532
+      leafs_54: -1612510374
+      leafs_55: -544601887
+      leafs_6: 1329559255
+      leafs_7: 1240390665
+      leafs_8: -1590641486
+      leafs_9: 230935410
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
