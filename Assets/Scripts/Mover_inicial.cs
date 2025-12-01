@@ -1,8 +1,14 @@
 using System.Collections;
 using UnityEngine;
+using System.IO;
+using UnityEngine.SceneManagement;
 
 public class Mover_inicial : MonoBehaviour
 {   
+    private PlayerData_SO player;
+    private PlayerData_Json playerJson;
+
+
     public GameObject nivel;
     public GameObject atributos;
     public GameObject menu_1;
@@ -81,6 +87,40 @@ public class Mover_inicial : MonoBehaviour
         Subclasse.SetActive(false);
         Pontos.SetActive(true);
         popup.SetActive(true);
+    }
+    public void Irparatutorial()
+    {
+        playerJson.name = player.name;
+
+        playerJson.characterClass = player.characterClass;
+        playerJson.subclass = player.subclass;
+        playerJson.subclass_traits = player.subclass_traits;
+        playerJson.spells = player.spells;
+        playerJson.is_summoner = player.is_summoner;
+
+        playerJson.race = player.race;
+        playerJson.gender = player.gender;
+        playerJson.color = player.color;
+
+        playerJson.talents = player.talents;
+        playerJson.weapons = player.weapons;
+        playerJson.attack_effect = player.attack_effect;
+
+        playerJson.sabedoria = player.sabedoria;
+        playerJson.inteligencia = player.inteligencia;
+        playerJson.carisma = player.carisma;
+        playerJson.forca = player.forca;
+        playerJson.contituicao = player.contituicao;
+        playerJson.destreza = player.destreza;
+
+
+        string json = JsonUtility.ToJson(playerJson, true);
+
+        string path = Path.Combine(Application.persistentDataPath, "Player.json");
+        File.WriteAllText(path, json);
+
+        Debug.Log("Player salvo em: " + path);
+        SceneManager.LoadScene("tutorial");
     }
     private IEnumerator MoverEScalear(GameObject alvo, Vector3 posFinal, Vector3 escalaFinal, float duracao)
     {
