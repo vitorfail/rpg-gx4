@@ -29,6 +29,9 @@ public class Mover_inicial : MonoBehaviour
         Pontos.SetActive(false);
         posOriginalPlayer = Player.transform.position;
         escalaOriginalPlayer = Player.transform.localScale;
+        player = DadosJogador.Instance_jogador.playerData;
+        playerJson = DadosJogador.Instance_jogador.jsonData;
+
     }
     public void Mover_1()
     {

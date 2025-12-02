@@ -6,6 +6,7 @@ public class DadosJogador  : MonoBehaviour
     public TextAsset player_json;
     public static DadosJogador Instance_jogador;
     public PlayerData_SO playerData;
+    public PlayerData_Json jsonData;
     public event System.Action OnPlayerStatsChanged;
     void Awake()
     {   
@@ -33,7 +34,7 @@ public class DadosJogador  : MonoBehaviour
         }
 
         // Deserializar o JSON diretamente para Character_Tipagem
-        PlayerData_Json jsonData = JsonUtility.FromJson<PlayerData_Json>(player_json.text);
+        jsonData = JsonUtility.FromJson<PlayerData_Json>(player_json.text);
         // Copiar dados para o ScriptableObject
         playerData.name = jsonData.name;
 
