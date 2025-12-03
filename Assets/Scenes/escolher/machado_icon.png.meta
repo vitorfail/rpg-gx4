@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      machado_icon_0: 5864070109909875885
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

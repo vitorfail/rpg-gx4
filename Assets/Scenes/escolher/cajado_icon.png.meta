@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cajado_icon_0: 8109103758449532097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

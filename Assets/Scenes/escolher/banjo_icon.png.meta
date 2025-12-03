@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      banjo_icon_0: -2131734080304630234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
