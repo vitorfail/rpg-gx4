@@ -22,7 +22,7 @@ public class PlayerData_SO : ScriptableObject
 
     [Header("Talentos e Armas")]
     public int[] talents;
-    public int[] weapons;
+    public string[] weapons;
 
     [Header("Combate")]
     public int? attack_effect;

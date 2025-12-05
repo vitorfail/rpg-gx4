@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 
@@ -17,16 +18,25 @@ public class RenderPlayer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = DadosJogador.Instance_jogador.playerData;
+        string path = Path.Combine(Application.persistentDataPath, "Player.json");
+
+        if (!File.Exists(path))
+        {
+            Debug.LogError("Arquivo Player.json não encontrado em: " + path);
+        }
+
+        string json = File.ReadAllText(path);
+        PlayerData_Json player = JsonUtility.FromJson<PlayerData_Json>(json);
         Classes = lista_classes[player.characterClass];
         Sexo = lista_sexos[player.gender];
         Raca = lista_Raca[player.race];
-                player.characterClass= lista_classes.IndexOf(Classes);
+        player.characterClass= lista_classes.IndexOf(Classes);
         player.gender = lista_sexos.IndexOf(Sexo);
         player.race = lista_Raca.IndexOf(Raca);
+        Debug.Log($"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}");
         GameObject request = Resources.Load<GameObject>($"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}");
         // Instancia o novo personagem como filho do prefab
-        newCharacter = Instantiate(request, prefab.transform);
+        newCharacter = Instantiate(request, transform);
         SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);
 
         foreach (SpriteRenderer renderer in spriteRenderers)
@@ -36,9 +46,9 @@ public class RenderPlayer : MonoBehaviour
         string[] espadas_machados_martelos = { $"Items/Armas/Espadas/Espada-1/Espada-1", $"Items/Armas/Espadas/Espada-2/Espada-2", $"Items/Armas/Espadas/Espada-3/Espada-3" };
 
         GameObject armaPrefab;
+        string[] armaRender = player.weapons[0].Split(".");
         // 2. Gere um índice aleatório dentro do intervalo do array
-        int index = UnityEngine.Random.Range(0, espadas_machados_martelos.Length);
-        armaPrefab = Resources.Load<GameObject>(espadas_machados_martelos[index]);
+        armaPrefab = Resources.Load<GameObject>($"Items/Armas/"+armaRender[0]+"/"+armaRender[1]+"/"+armaRender[1]);
         Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Mao-Esquerda(Slot)");
         GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado
         //arma.transform.localPosition = new Vector3(-0.64f, -0.7f, 0f);

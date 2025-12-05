@@ -11,7 +11,7 @@ public class PlayerData_Json{
     public int gender;
     public float[] color; // RGB
     public int[] talents;
-    public int[] weapons;
+    public string[] weapons;
     public int? attack_effect;
     public int sabedoria;
     public int inteligencia;

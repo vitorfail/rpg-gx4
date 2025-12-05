@@ -18,12 +18,6 @@ public class ArmaChange : MonoBehaviour
         public List<string> classesPermitidas; // Classes que podem usar esta arma
     }
 
-    [System.Serializable]
-    public class JsonArmas
-    {
-        public string nome;
-        public string titulo;
-    }
 
     public Personagens Render_Arma;
     
@@ -41,63 +35,35 @@ public class ArmaChange : MonoBehaviour
     public GameObject Machados_Click;
     public GameObject Martelos_Click;
     public GameObject Arcos_Click;
+    private PlayerData_SO player;
 
     private Dictionary<string, ArmaData> armasData;
+     public ArmasJson armas;
     private ArmaData armaAtual;
     private TextMeshProUGUI textoAtual;
 
     // Listas de armas
-    private List<JsonArmas> listaEspadas = new List<JsonArmas>()
-    {
-        new JsonArmas() { nome = "Espada-1", titulo = "Espada de Sangue" },
-        new JsonArmas() { nome = "Espada-2", titulo = "Espada Negra" },
-        new JsonArmas() { nome = "Espada-3", titulo = "Espada Celestial" }
-    };
-
-    private List<JsonArmas> listaCajados = new List<JsonArmas>()
-    {
-        new JsonArmas() { nome = "Cajado-1", titulo = "Cajado do Poder" },
-        new JsonArmas() { nome = "Cajado-2", titulo = "Cajado do Destino" },
-        new JsonArmas() { nome = "Cajado-3", titulo = "Cajado Diabólico" },
-        new JsonArmas() { nome = "Cajado-4", titulo = "Cajado Da Floresta" }
-    };
-
-    private List<JsonArmas> listaMachado = new List<JsonArmas>()
-    {
-        new JsonArmas() { nome = "Machado-1", titulo = "Machado de Antares" },
-        new JsonArmas() { nome = "Machado-2", titulo = "Machado do Abismo" },
-        new JsonArmas() { nome = "Machado-3", titulo = "Machado de Asis" },
-        new JsonArmas() { nome = "Machado-4", titulo = "Machado Da Perdição" }
-    };
-
-    private List<JsonArmas> listaMartelos = new List<JsonArmas>()
-    {
-        new JsonArmas() { nome = "Martelo-1", titulo = "Martelo do Purgatório" },
-        new JsonArmas() { nome = "Martelo-2", titulo = "Destino dos Justos" },
-        new JsonArmas() { nome = "Martelo-3", titulo = "Fim do Túnel" },
-        new JsonArmas() { nome = "Martelo-4", titulo = "Martelo Celestial" },
-        new JsonArmas() { nome = "Martelo-5", titulo = "Esmaga Demônios" }
-    };
-
-    private List<JsonArmas> listaArco = new List<JsonArmas>()
-    {
-        new JsonArmas() { nome = "Arco-1", titulo = "Arco da Matriz" },
-        new JsonArmas() { nome = "Arco-2", titulo = "Arco Zoonder" },
-        new JsonArmas() { nome = "Arco-3", titulo = "Arco Mastral" },
-        new JsonArmas() { nome = "Arco-4", titulo = "Arco de Luz" }
-    };
-
-    private List<JsonArmas> listaBanjo = new List<JsonArmas>()
-    {
-        new JsonArmas() { nome = "Banjo-1", titulo = "Banjo da Alegria" },
-        new JsonArmas() { nome = "Banjo-2", titulo = "Banjo Triste" }
-    };
+    private List<JsonArmas> listaEspadas = new List<JsonArmas>();
+    private List<JsonArmas> listaCajados = new List<JsonArmas>();
+    private List<JsonArmas> listaMachado = new List<JsonArmas>();
+    private List<JsonArmas> listaMartelos = new List<JsonArmas>();
+    private List<JsonArmas> listaArco = new List<JsonArmas>();
+    private List<JsonArmas> listaBanjo = new List<JsonArmas>();
 
     void OnEnable()
-    {   
+    {
+        TextAsset jsonFile = Resources.Load<TextAsset>("Jsons/Armas");
+        armas = JsonUtility.FromJson<ArmasJson>(jsonFile.text);
+        listaEspadas = armas.listaEspadas;
+        listaCajados = armas.listaCajados;
+        listaMachado = armas.listaMachado;
+        listaMartelos = armas.listaMartelos;
+        listaArco = armas.listaArco;
+        listaBanjo = armas.listaBanjo;
         InicializarArmasData();
         DesativarTodosHandlers();
         AtualizarRestricoesClasses();
+
         
         // Configurar arma inicial baseada na classe
         if (Render_Arma.Classes == "Barbaro" || Render_Arma.Classes == "Guerreiro" || 
@@ -256,6 +222,9 @@ public class ArmaChange : MonoBehaviour
             textoAtual.text = armaSelecionada.titulo;
         
         // Atualizar renderização
+        player = DadosJogador.Instance_jogador.playerData;
+        player.weapons = new string[1]; 
+        player.weapons[0] =GetTipoArmaPasta(armaAtual)+"."+armaSelecionada.nome;
         string comando = $"Items/Armas/{GetTipoArmaPasta(armaAtual)}/{armaSelecionada.nome}/{armaSelecionada.nome}";
         Render_Arma.Render_Arma(comando);
     }
@@ -285,14 +254,12 @@ public class ArmaChange : MonoBehaviour
         // Verificar se a arma é permitida para a classe atual
         if (!ArmaPermitida(tipoArma))
         {
-            Debug.Log($"A classe {Render_Arma.Classes} não pode usar {tipoArma}");
             return;
         }
 
         if (armasData.ContainsKey(tipoArma))
         {
             DesativarTodosHandlers();
-            
             armaAtual = armasData[tipoArma];
             armaAtual.handler.SetActive(true);
             

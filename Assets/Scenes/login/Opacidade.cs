@@ -19,7 +19,6 @@ public class Opacidade : MonoBehaviour
         spriteRenderer.color = color;
         if (spriteRenderer == null)
         {
-            Debug.LogError("Nenhum SpriteRenderer encontrado neste GameObject.");
             enabled = false;
             return;
         }

@@ -24,7 +24,6 @@ public class RenderSubclasse : MonoBehaviour
         clastipagem = JsonConvert.DeserializeObject<DndClassesData>(json_class.text);
         if(person.Classes.ToLower() != null && person.Classes.ToLower() != "")
         {
-            Debug.Log(person.Classes.ToLower());
             arquetipo = clastipagem.Classes[person.Classes.ToLower()];
             foreach (var kv in arquetipo.Arquetipo)
             {
@@ -85,7 +84,6 @@ public class RenderSubclasse : MonoBehaviour
 
     void OnSubclasseClicked(Button clickedButton, Archetype arq)
     {
-        Debug.Log("Clicou no arquetipo: " + arq.Nome);
         nome_subclasse.text = arq.Nome;
         nome_descri.text = arq.Text;
 

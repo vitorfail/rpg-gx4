@@ -1,0 +1,41 @@
+{
+  "listaEspadas": [
+    { "nome": "Espada-1", "titulo": "Espada de Sangue" },
+    { "nome": "Espada-2", "titulo": "Espada Negra" },
+    { "nome": "Espada-3", "titulo": "Espada Celestial" }
+  ],
+
+  "listaCajados": [
+    { "nome": "Cajado-1", "titulo": "Cajado do Poder" },
+    { "nome": "Cajado-2", "titulo": "Cajado do Destino" },
+    { "nome": "Cajado-3", "titulo": "Cajado Diabólico" },
+    { "nome": "Cajado-4", "titulo": "Cajado Da Floresta" }
+  ],
+
+  "listaMachado": [
+    { "nome": "Machado-1", "titulo": "Machado de Antares" },
+    { "nome": "Machado-2", "titulo": "Machado do Abismo" },
+    { "nome": "Machado-3", "titulo": "Machado de Asis" },
+    { "nome": "Machado-4", "titulo": "Machado Da Perdição" }
+  ],
+
+  "listaMartelos": [
+    { "nome": "Martelo-1", "titulo": "Martelo do Purgatório" },
+    { "nome": "Martelo-2", "titulo": "Destino dos Justos" },
+    { "nome": "Martelo-3", "titulo": "Fim do Túnel" },
+    { "nome": "Martelo-4", "titulo": "Martelo Celestial" },
+    { "nome": "Martelo-5", "titulo": "Esmaga Demônios" }
+  ],
+
+  "listaArco": [
+    { "nome": "Arco-1", "titulo": "Arco da Matriz" },
+    { "nome": "Arco-2", "titulo": "Arco Zoonder" },
+    { "nome": "Arco-3", "titulo": "Arco Mastral" },
+    { "nome": "Arco-4", "titulo": "Arco de Luz" }
+  ],
+
+  "listaBanjo": [
+    { "nome": "Banjo-1", "titulo": "Banjo da Alegria" },
+    { "nome": "Banjo-2", "titulo": "Banjo Triste" }
+  ]
+}

@@ -107,7 +107,6 @@ public class DiceRoller : MonoBehaviour {
         
         System.Random random = new System.Random();
         int numero = random.Next(0, 19);
-        Debug.Log($"Indice {numero} correspondente {faces[numero]}");
         resultText.text = faces[numero].ToString();
         
         // Opcional: Girar o dado para mostrar a face 2 fisicamente

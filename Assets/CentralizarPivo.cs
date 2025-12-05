@@ -9,7 +9,6 @@ public class CentralizarPivo : MonoBehaviour
         Transform filho = EncontrarFilhoComTagRecursivo(transform, "Arma");
         if (filho == null)
         {
-            Debug.LogWarning("Nenhum filho com a tag 'Arma' encontrado!");
             return;
         }
 
@@ -18,7 +17,6 @@ public class CentralizarPivo : MonoBehaviour
 
         if (filhoRenderer == null || paiRenderer == null)
         {
-            Debug.LogWarning("Renderers não encontrados no pai ou filho!");
             return;
         }
 

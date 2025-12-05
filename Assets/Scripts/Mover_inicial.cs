@@ -93,6 +93,7 @@ public class Mover_inicial : MonoBehaviour
     }
     public void Irparatutorial()
     {
+        Debug.Log(player.characterClass);
         playerJson.name = player.name;
 
         playerJson.characterClass = player.characterClass;
@@ -121,8 +122,7 @@ public class Mover_inicial : MonoBehaviour
 
         string path = Path.Combine(Application.persistentDataPath, "Player.json");
         File.WriteAllText(path, json);
-
-        Debug.Log("Player salvo em: " + path);
+        Debug.Log(path);
         SceneManager.LoadScene("tutorial");
     }
     private IEnumerator MoverEScalear(GameObject alvo, Vector3 posFinal, Vector3 escalaFinal, float duracao)
