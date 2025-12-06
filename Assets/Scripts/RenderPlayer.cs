@@ -36,55 +36,31 @@ public class RenderPlayer : MonoBehaviour
         Debug.Log($"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}");
         GameObject request = Resources.Load<GameObject>($"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}");
         // Instancia o novo personagem como filho do prefab
-        newCharacter = Instantiate(request, transform);
-        SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);
+        Quaternion rotation = Quaternion.Euler(90, 0, 0);
 
-        foreach (SpriteRenderer renderer in spriteRenderers)
-        {
-            renderer.material = material;
-        }
-        string[] espadas_machados_martelos = { $"Items/Armas/Espadas/Espada-1/Espada-1", $"Items/Armas/Espadas/Espada-2/Espada-2", $"Items/Armas/Espadas/Espada-3/Espada-3" };
+        newCharacter = Instantiate(request, prefab.transform.position, rotation, prefab.transform);
+        //SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);
 
-        GameObject armaPrefab;
-        string[] armaRender = player.weapons[0].Split(".");
-        // 2. Gere um índice aleatório dentro do intervalo do array
-        armaPrefab = Resources.Load<GameObject>($"Items/Armas/"+armaRender[0]+"/"+armaRender[1]+"/"+armaRender[1]);
-        Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Mao-Esquerda(Slot)");
-        GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado
-        //arma.transform.localPosition = new Vector3(-0.64f, -0.7f, 0f);
-        arma.transform.localRotation = Quaternion.Euler(0f, 0f, 180f);
+//        foreach (SpriteRenderer renderer in spriteRenderers)
+//        {
+//            renderer.material = material;
+//        }
+//        string[] espadas_machados_martelos = { $"Items/Armas/Espadas/Espada-1/Espada-1", $"Items/Armas/Espadas/Espada-2/Espada-2", $"Items/Armas/Espadas/Espada-3/Espada-3" };
 
-        SpriteRenderer sr = arma.GetComponent<SpriteRenderer>();
-        if (sr != null)
-        {
-            sr.sortingOrder = 3;
-        }
+//        GameObject armaPrefab;
+//        string[] armaRender = player.weapons[0].Split(".");
+//        // 2. Gere um índice aleatório dentro do intervalo do array
+//        armaPrefab = Resources.Load<GameObject>($"Items/Armas/"+armaRender[0]+"/"+armaRender[1]+"/"+armaRender[1]);
+//        Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Mao-Esquerda(Slot)");
+//        GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado
+//        //arma.transform.localPosition = new Vector3(-0.64f, -0.7f, 0f);
+//        arma.transform.localRotation = Quaternion.Euler(0f, 0f, 180f);
+
+//        SpriteRenderer sr = arma.GetComponent<SpriteRenderer>();
+//        if (sr != null)
+//        {
+//            sr.sortingOrder = 3;
+//        }
     }
     // Update is called once per frame
-    public void Render_Arma(string v){
-        
-        GameObject armaPrefab = null;
-        armaPrefab = Resources.Load<GameObject>($""+v);
-
-
-        Transform maoEsquerda = newCharacter.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "Mao-Esquerda(Slot)");
-        if (maoEsquerda.childCount > 0)
-        {
-            Transform armaAntiga = maoEsquerda.GetChild(0);
-            Destroy(armaAntiga.gameObject);
-        }
-            if (maoEsquerda != null)
-            {
-                GameObject arma = Instantiate(armaPrefab, maoEsquerda); // já fica aninhado
-                //arma.transform.localPosition = new Vector3(-0.64f, -0.7f, 0f);
-                arma.transform.localRotation = Quaternion.Euler(0f, 0f, 180f);
-
-                SpriteRenderer sr = arma.GetComponent<SpriteRenderer>();
-                if (sr != null)
-                {
-                    sr.sortingOrder = 3;
-                }
-            }
-    }
-
 }

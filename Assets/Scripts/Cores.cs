@@ -17,6 +17,7 @@ public class Cores : MonoBehaviour
     }
     private void AtualizarCor(Color novaCor)
     {
+        Debug.Log(novaCor);
        GetComponent<SpriteRenderer>().color = novaCor;
     }
 }

@@ -602,81 +602,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394961633}
   m_CullTransparentMesh: 1
---- !u!1 &568314011
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 568314012}
-  - component: {fileID: 568314013}
-  m_Layer: 5
-  m_Name: Personagem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &568314012
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568314011}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1553804298}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &568314013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568314011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fc277c773412ef449314bc6c1edad4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RenderPlayer
-  Classes: 
-  Sexo: 
-  Raca: 
-  prefab: {fileID: 0}
-  newCharacter: {fileID: 0}
-  material: {fileID: 0}
-  lista_classes:
-  - Barbaro
-  - Bardo
-  - Bruxo
-  - Clerigo
-  - Druida
-  - Feiticeiro
-  - Guerreiro
-  - Ladino
-  - Monge
-  - Mago
-  - Paladino
-  - Ranger
-  lista_sexos:
-  - Homem
-  - Mulher
-  lista_Raca:
-  - Humano
-  - Orc
-  - Demonio
-  - Morte
 --- !u!114 &599785907 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3255521157955271089, guid: 6a39ebaf233d68f4192b8346f6f9a7e7, type: 3}
@@ -861,6 +786,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856365834}
   m_CullTransparentMesh: 1
+--- !u!1 &1010322816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010322817}
+  m_Layer: 0
+  m_Name: Principal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1010322817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010322816}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.06, y: 0, z: -2.39}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1385607159}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1054136446
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,6 +951,78 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1385607157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1385607159}
+  - component: {fileID: 1385607160}
+  m_Layer: 0
+  m_Name: Personagem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1385607159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385607157}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.85, y: -100.00002, z: -11.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1010322817}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1385607160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385607157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc277c773412ef449314bc6c1edad4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RenderPlayer
+  Classes: 
+  Sexo: 
+  Raca: 
+  prefab: {fileID: 1010322816}
+  newCharacter: {fileID: 0}
+  material: {fileID: 0}
+  lista_classes:
+  - Barbaro
+  - Bardo
+  - Bruxo
+  - Clerigo
+  - Druida
+  - Feiticeiro
+  - Guerreiro
+  - Ladino
+  - Monge
+  - Mago
+  - Paladino
+  - Ranger
+  lista_sexos:
+  - Homem
+  - Mulher
+  lista_Raca:
+  - Humano
+  - Orc
+  - Demonio
+  - Morte
 --- !u!1 &1553804294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,7 +1121,6 @@ RectTransform:
   - {fileID: 1054136447}
   - {fileID: 826408141}
   - {fileID: 1264445509}
-  - {fileID: 568314012}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1759,3 +1786,4 @@ SceneRoots:
   - {fileID: 1553804298}
   - {fileID: 1591060924}
   - {fileID: 1862212294}
+  - {fileID: 1385607159}
