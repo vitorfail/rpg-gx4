@@ -13,6 +13,7 @@ public class DiceRoller : MonoBehaviour {
     [SerializeField] float maxRollTime = 2f; // 2 segundos como solicitado
     [SerializeField] float smoothTime = 0.1f;
     public int result_face =1;
+    private int number;
     [Header("UI References")]
     [SerializeField] TMPro.TextMeshProUGUI resultText;
 
@@ -21,6 +22,7 @@ public class DiceRoller : MonoBehaviour {
     [SerializeField] AudioClip rollClip;
     [SerializeField] AudioClip finalResultClip;
     [SerializeField] GameObject finalResultEffect;
+    private string Face_escolhida;
     List<int> faces = new List<int>
     {
         19, 19, 11, 7, 5, 16, 14, 10, 2, 6,
@@ -54,9 +56,14 @@ public class DiceRoller : MonoBehaviour {
         rollTimer.OnTimerStop += () => finalize = true;
     }
 
-    public void Rolar() {
-        if (rollTimer.IsRunning) return;
+    public string Rolar() {
+        if (rollTimer.IsRunning) return "";
         rollTimer.Start();
+        System.Random random = new System.Random();
+        number = random.Next(0, 19);
+        Face_escolhida = faces[number].ToString();
+        return Face_escolhida;
+
     }
 
     void Update() {
@@ -105,12 +112,10 @@ public class DiceRoller : MonoBehaviour {
         //var particles = InstantiateFX(finalResultEffect, transform.position, 5f);
         //Destroy(particles, 3f);
         
-        System.Random random = new System.Random();
-        int numero = random.Next(0, 19);
-        resultText.text = faces[numero].ToString();
+        resultText.text = Face_escolhida;
         
         // Opcional: Girar o dado para mostrar a face 2 fisicamente
-        ShowFace2(numero);
+        ShowFace2(number);
     }
     void ShowFace2(int f) {
         // Encontra e aplica a rotação da face 2

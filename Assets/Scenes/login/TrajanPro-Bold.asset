@@ -62578,30 +62578,30 @@ Material:
     - _ColorMask: 15
     - _CullMode: 0
     - _Diffuse: 0.621
-    - _FaceDilate: -0.11
+    - _FaceDilate: -0.09
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
     - _GlowInner: 0
-    - _GlowOffset: 0.36
-    - _GlowOuter: 0
+    - _GlowOffset: 0.91
+    - _GlowOuter: 1
     - _GlowPower: 1
     - _GradientScale: 5
-    - _LightAngle: 3
+    - _LightAngle: 4.17
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
     - _OutlineWidth: 0
-    - _PerspectiveFilter: 0.875
+    - _PerspectiveFilter: 1
     - _Reflectivity: 5
     - _ScaleRatioA: 0.8
-    - _ScaleRatioB: 0.73800004
-    - _ScaleRatioC: 0.39465243
+    - _ScaleRatioB: 0.37801048
+    - _ScaleRatioC: 0.32968038
     - _ScaleX: 1
     - _ScaleY: 1
-    - _ShaderFlags: 1
-    - _Sharpness: 0
+    - _ShaderFlags: 0
+    - _Sharpness: 1
     - _SpecularPower: 1.45
     - _Stencil: 0
     - _StencilComp: 8
@@ -62611,9 +62611,9 @@ Material:
     - _TextureHeight: 512
     - _TextureWidth: 512
     - _UnderlayDilate: 1
-    - _UnderlayOffsetX: 0.1
+    - _UnderlayOffsetX: -0.16
     - _UnderlayOffsetY: -0.23
-    - _UnderlaySoftness: 0.64
+    - _UnderlaySoftness: 0.96
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
     - _WeightBold: 0.75
@@ -62642,7 +62642,7 @@ Texture2D:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
+  serializedVersion: 4
   m_Width: 512
   m_Height: 512
   m_CompleteImageSize: 262144
