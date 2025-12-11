@@ -9,6 +9,7 @@ using Random = UnityEngine.Random;
 [RequireComponent(typeof(AudioSource))]
 public class DiceRoller : MonoBehaviour {
     [Header("Dice Rolling Settings")]
+    public SomDados sound;
     [SerializeField] float rotationSpeed = 680f; // Graus por segundo
     [SerializeField] float maxRollTime = 2f; // 2 segundos como solicitado
     [SerializeField] float smoothTime = 0.1f;
@@ -58,6 +59,7 @@ public class DiceRoller : MonoBehaviour {
 
     public string Rolar() {
         if (rollTimer.IsRunning) return "";
+        sound.PlaySomRolando();
         rollTimer.Start();
         System.Random random = new System.Random();
         number = random.Next(0, 19);
@@ -116,6 +118,7 @@ public class DiceRoller : MonoBehaviour {
         
         // Opcional: Girar o dado para mostrar a face 2 fisicamente
         ShowFace2(number);
+        sound.PlaySomFinalizando();
     }
     void ShowFace2(int f) {
         // Encontra e aplica a rotação da face 2

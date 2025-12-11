@@ -8,7 +8,7 @@ public class Mover_inicial : MonoBehaviour
     private PlayerData_SO player;
     private PlayerData_Json playerJson;
 
-
+    public ButtonSoundController sound;
     public GameObject nivel;
     public GameObject atributos;
     public GameObject menu_1;
@@ -35,6 +35,7 @@ public class Mover_inicial : MonoBehaviour
     }
     public void Mover_1()
     {
+        sound.PlayClickSound();
         menu_1.SetActive(false);
         atributos.SetActive(false);
         Armas.SetActive(false);   
@@ -43,6 +44,7 @@ public class Mover_inicial : MonoBehaviour
         StartCoroutine(MoverEScalear(Player, Player.transform.position + new Vector3(-1f, 0f, 0f), new Vector3(1.2f, 1.2f, Player.transform.localScale.z), 0.5f));    }
     public void Voltar_1()
     {
+        sound.PlayClickSound();
         menu_1.SetActive(true);
         atributos.SetActive(true);
         Armas.SetActive(false);   
@@ -52,6 +54,7 @@ public class Mover_inicial : MonoBehaviour
     }
     public void Mover_2()
     {
+        sound.PlayClickSound();
         menu_1.SetActive(false);
         atributos.SetActive(false);
         Armas.SetActive(true);   
@@ -60,6 +63,7 @@ public class Mover_inicial : MonoBehaviour
     }
     public void Voltar_2()
     {
+        sound.PlayClickSound();
         menu_1.SetActive(false);
         atributos.SetActive(false);
         Armas.SetActive(false);   
@@ -68,6 +72,7 @@ public class Mover_inicial : MonoBehaviour
     }
     public void Mover_3()
     {
+        sound.PlayClickSound();
         menu_1.SetActive(false);
         atributos.SetActive(false);
         Armas.SetActive(false);   
@@ -76,6 +81,7 @@ public class Mover_inicial : MonoBehaviour
     }
     public void Voltar_3()
     {
+        sound.PlayClickSound();
         menu_1.SetActive(false);
         atributos.SetActive(false);
         Armas.SetActive(true);   
@@ -84,6 +90,7 @@ public class Mover_inicial : MonoBehaviour
     }
     public void Mover_4()
     {
+        sound.PlayClickSound();
         menu_1.SetActive(false);
         atributos.SetActive(false);
         Armas.SetActive(false);   
@@ -93,6 +100,7 @@ public class Mover_inicial : MonoBehaviour
     }
     public void Irparatutorial()
     {
+        sound.PlayClickSound();
         Debug.Log(player.characterClass);
         playerJson.name = player.name;
 

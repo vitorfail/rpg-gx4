@@ -31,6 +31,7 @@ public class PlayerData_SO : ScriptableObject
     public int sabedoria;
     public int inteligencia;
     public int carisma;
+    public int ca;
     public int forca;
     public int contituicao;
     public int destreza;

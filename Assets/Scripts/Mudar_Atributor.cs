@@ -1,15 +1,19 @@
 using Newtonsoft.Json;
+using TMPro;
 using UnityEngine;
 
 
 public class Mudar_Atributor : MonoBehaviour
 {   
+    public TextMeshProUGUI ca;
+    public TextMeshProUGUI pontos_disponiveis;
     private PlayerData_SO player;
     public Upar up;
     private int pts;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        pontos_disponiveis.text = "20";
         player = DadosJogador.Instance_jogador.playerData;
         pts = Ponto_Inicias.pontos;
     }
@@ -22,6 +26,7 @@ public class Mudar_Atributor : MonoBehaviour
         else
         {
             pts = pts-1;
+            pontos_disponiveis.text = pts.ToString();
             player.carisma = player.carisma+1;
             DadosJogador.Instance_jogador.NotifyStatsChanged();
             up.UpCarisma();
@@ -31,12 +36,12 @@ public class Mudar_Atributor : MonoBehaviour
     {
         if(player.carisma == 8)
         {
-            
         }
         else
         {
-            pts = pts-1;
+            pts = pts+1;
             player.carisma = player.carisma-1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
         }
     } 
@@ -48,6 +53,7 @@ public class Mudar_Atributor : MonoBehaviour
         else{
             pts = pts-1;
             player.forca = player.forca+1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
             up.UpForca();
         }
@@ -56,8 +62,9 @@ public class Mudar_Atributor : MonoBehaviour
     {
         if(player.forca == 8)
         {
-            pts = pts-1;
+            pts = pts+1;
             player.forca = player.forca-1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
         }
     }
@@ -69,6 +76,7 @@ public class Mudar_Atributor : MonoBehaviour
         else{
             pts = pts-1;
             player.inteligencia = player.inteligencia+1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
             up.UpInteligencia();
         }
@@ -82,8 +90,9 @@ public class Mudar_Atributor : MonoBehaviour
         }
         else
         {
-            pts = pts-1;
+            pts = pts+1;
             player.inteligencia = player.inteligencia-1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
         }
     }  
@@ -94,7 +103,10 @@ public class Mudar_Atributor : MonoBehaviour
         }
         else{
             pts = pts-1;
+            player.ca=10+ CalcularModificador(player.destreza+1);
             player.destreza = player.destreza+1;
+            pontos_disponiveis.text = pts.ToString();
+            ca.text = player.ca.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
             up.UpDestreza();
         }  
@@ -107,8 +119,11 @@ public class Mudar_Atributor : MonoBehaviour
         }
         else
         {
-            pts = pts-1;
+            pts = pts+1;
+            player.ca=10+ CalcularModificador(player.destreza-1);
             player.destreza = player.destreza-1;
+            pontos_disponiveis.text = pts.ToString();
+            ca.text = player.ca.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
         }
     } 
@@ -120,6 +135,7 @@ public class Mudar_Atributor : MonoBehaviour
         else{
             pts = pts-1;
             player.contituicao = player.contituicao+1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
             up.UpConstituicao();
         }
@@ -132,8 +148,9 @@ public class Mudar_Atributor : MonoBehaviour
         }
         else
         {
-            pts = pts-1;
+            pts = pts+1;
             player.contituicao = player.contituicao-1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
         }
     } 
@@ -145,6 +162,7 @@ public class Mudar_Atributor : MonoBehaviour
         else{
             pts = pts-1;
             player.sabedoria = player.sabedoria+1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
             up.UpSabedoria();
         }
@@ -157,9 +175,14 @@ public class Mudar_Atributor : MonoBehaviour
         }
         else
         {
-            pts = pts-1;
+            pts = pts+1;
             player.sabedoria = player.sabedoria-1;
+            pontos_disponiveis.text = pts.ToString();
             DadosJogador.Instance_jogador.NotifyStatsChanged();
         }
     } 
+    int CalcularModificador(int atributo)
+    {
+        return (atributo - 10) / 2;
+    }
 }

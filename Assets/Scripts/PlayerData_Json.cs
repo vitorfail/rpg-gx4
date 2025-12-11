@@ -17,6 +17,7 @@ public class PlayerData_Json{
     public int inteligencia;
     public int carisma;
     public int forca;
+    public int ca;
     public int contituicao;
     public int destreza;
 }
