@@ -54,7 +54,7 @@ public class Tutorial_Script : MonoBehaviour
             back.color = Color.red;
             Popup.Instancia.AtivarComFade(quem_ganhou, 0.5f, 0.5f);
             yield return new WaitForSeconds(0.1f);
-            quem_ganhou_text.text = "Você Começa";
+            quem_ganhou_text.text = "Inimigo Começa";
         }
    
     }

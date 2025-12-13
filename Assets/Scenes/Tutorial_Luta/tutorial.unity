@@ -4405,7 +4405,7 @@ MonoBehaviour:
   BackgroundIniciativa1: {fileID: 1649445515}
   Objeto_dado_iniciativa2: {fileID: 1855451536}
   DadoIniciativa2: {fileID: 1888789067}
-  BackgroundIniciativa2: {fileID: 797720840}
+  BackgroundIniciativa2: {fileID: 390175818}
   Dados_iniciativa: {fileID: 1680121380}
   header_iniciativa: {fileID: 1719480758}
 --- !u!1 &1541562604
