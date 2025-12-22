@@ -27,7 +27,6 @@ public class SpriteColorController : MonoBehaviour
         player.color[1] = greenSlider.value;
         player.color[2] = blueSlider.value;
         targetColor = new Color(redSlider.value, greenSlider.value, blueSlider.value, 1f);
-        Debug.Log(targetColor);
         spriteMaterial.SetColor("_Color", targetColor);
 
     }

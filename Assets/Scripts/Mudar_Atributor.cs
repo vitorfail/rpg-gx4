@@ -6,16 +6,29 @@ using UnityEngine;
 public class Mudar_Atributor : MonoBehaviour
 {   
     public TextMeshProUGUI ca;
+    public TextAsset jsonracas;
+    private RacaEfeitos racas_efeitos;
     public TextMeshProUGUI pontos_disponiveis;
     private PlayerData_SO player;
     public Upar up;
     private int pts;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+     void OnEnable()
     {
+        racas_efeitos= JsonUtility.FromJson<RacaEfeitos>(jsonracas.text);
         pontos_disponiveis.text = "20";
         player = DadosJogador.Instance_jogador.playerData;
         pts = Ponto_Inicias.pontos;
+        player.ca=10+racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.ca+ Utils.CalcularModificador(player.destreza+1);
+        player.carisma = racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.carisma+8;
+        player.forca = racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.forca+8;
+        player.inteligencia = racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.inteligencia+8;
+        player.destreza = racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.destreza+8;
+        player.contituicao = racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.contituicao+8;
+        player.sabedoria = racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.sabedoria+8;
+        Debug.Log(player.inteligencia);
+        DadosJogador.Instance_jogador.NotifyStatsChanged();
+        ca.text = (10+racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.ca+ Utils.CalcularModificador(player.destreza+1)).ToString();
     }
     public void Add_Carisma()
     {
@@ -62,10 +75,13 @@ public class Mudar_Atributor : MonoBehaviour
     {
         if(player.forca == 8)
         {
+        }
+        else
+        {
             pts = pts+1;
             player.forca = player.forca-1;
             pontos_disponiveis.text = pts.ToString();
-            DadosJogador.Instance_jogador.NotifyStatsChanged();
+            DadosJogador.Instance_jogador.NotifyStatsChanged();  
         }
     }
     public void Add_Inteligencia()
@@ -98,12 +114,13 @@ public class Mudar_Atributor : MonoBehaviour
     }  
     public void Add_Destreza()
     {
+        Debug.Log(racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.ca);
         if(player.destreza == 20 ||pts<=0){
 
         }
         else{
             pts = pts-1;
-            player.ca=10+ CalcularModificador(player.destreza+1);
+            player.ca=10+racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.ca+ Utils.CalcularModificador(player.destreza+1);
             player.destreza = player.destreza+1;
             pontos_disponiveis.text = pts.ToString();
             ca.text = player.ca.ToString();
@@ -120,7 +137,7 @@ public class Mudar_Atributor : MonoBehaviour
         else
         {
             pts = pts+1;
-            player.ca=10+ CalcularModificador(player.destreza-1);
+            player.ca=10+racas_efeitos.racas[DadosJogador.Instance_jogador.playerData.race].add.ca+Utils.CalcularModificador(player.destreza-1);
             player.destreza = player.destreza-1;
             pontos_disponiveis.text = pts.ToString();
             ca.text = player.ca.ToString();
@@ -181,8 +198,4 @@ public class Mudar_Atributor : MonoBehaviour
             DadosJogador.Instance_jogador.NotifyStatsChanged();
         }
     } 
-    int CalcularModificador(int atributo)
-    {
-        return (atributo - 10) / 2;
-    }
 }

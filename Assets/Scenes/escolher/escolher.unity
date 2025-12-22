@@ -1255,7 +1255,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Sub_Sabedoria
         m_Mode: 1
@@ -3233,7 +3233,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Add_Destreza
         m_Mode: 1
@@ -4019,7 +4019,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Add_Inteligencia
         m_Mode: 1
@@ -7379,7 +7379,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Add_Sabedoria
         m_Mode: 1
@@ -7812,8 +7812,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -6.5999985}
+  m_SizeDelta: {x: 0, y: -4.7999997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &615630143
 MonoBehaviour:
@@ -7862,8 +7862,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.1
-  m_fontSizeBase: 45.1
+  m_fontSize: 36.83
+  m_fontSizeBase: 36.83
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8329,7 +8329,7 @@ GameObject:
   - component: {fileID: 657625094}
   - component: {fileID: 657625093}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Atributos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9607,7 +9607,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Sub_Carisma
         m_Mode: 1
@@ -9818,7 +9818,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Add_Forca
         m_Mode: 1
@@ -11389,7 +11389,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Sub_Forca
         m_Mode: 1
@@ -11833,7 +11833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -59.003746, y: -135.7}
+  m_AnchoredPosition: {x: -59.00403, y: -135.7}
   m_SizeDelta: {x: 0, y: -271.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018783156
@@ -13456,6 +13456,7 @@ GameObject:
   - component: {fileID: 1201743591}
   - component: {fileID: 1201743590}
   - component: {fileID: 1201743589}
+  - component: {fileID: 1201743594}
   m_Layer: 5
   m_Name: Menu4
   m_TagString: Untagged
@@ -13571,6 +13572,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1201743594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201743588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7261cea5e9b3844cb3e231019d9a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ca: {fileID: 1532326043}
+  jsonracas: {fileID: 4900000, guid: 2acd500f009a09d41b437d14fd1d307b, type: 3}
+  pontos_disponiveis: {fileID: 445874235}
+  up: {fileID: 880444250}
 --- !u!1 &1204172877
 GameObject:
   m_ObjectHideFlags: 0
@@ -15035,7 +15052,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Sub_Constituicao
         m_Mode: 1
@@ -15665,7 +15682,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Add_Carisma
         m_Mode: 1
@@ -19325,7 +19342,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -237.2}
-  m_SizeDelta: {x: 336, y: 104}
+  m_SizeDelta: {x: 310, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1701449334
 MonoBehaviour:
@@ -19403,7 +19420,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8545761501449185026, guid: 1b4aae4f9f197444081b480c12c571b2, type: 3}
+  m_Sprite: {fileID: 2721124127582087939, guid: 3c2ae7f76f949154eb1a28774c8a254e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20534,7 +20551,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Add_Constituicao
         m_Mode: 1
@@ -21798,53 +21815,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880930344}
   m_CullTransparentMesh: 1
---- !u!1 &1892649934
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1892649936}
-  - component: {fileID: 1892649935}
-  m_Layer: 0
-  m_Name: Mudar_atributos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1892649935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892649934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7261cea5e9b3844cb3e231019d9a735, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ca: {fileID: 1532326043}
-  pontos_disponiveis: {fileID: 445874235}
-  up: {fileID: 880444250}
---- !u!4 &1892649936
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892649934}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.28944597, w: 0.9571944}
-  m_LocalPosition: {x: -11.21, y: 2.88, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1892743527
 GameObject:
   m_ObjectHideFlags: 0
@@ -22066,7 +22036,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Sub_Inteligencia
         m_Mode: 1
@@ -23425,7 +23395,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892649935}
+      - m_Target: {fileID: 1201743594}
         m_TargetAssemblyTypeName: Mudar_Atributor, Assembly-CSharp
         m_MethodName: Sub_Destreza
         m_Mode: 1
@@ -25248,5 +25218,4 @@ SceneRoots:
   - {fileID: 242286974}
   - {fileID: 692825495}
   - {fileID: 1968682255}
-  - {fileID: 1892649936}
   - {fileID: 2030187407}

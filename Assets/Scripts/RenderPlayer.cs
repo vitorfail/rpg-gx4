@@ -7,21 +7,27 @@ using UnityEngine;
 public class RenderPlayer : MonoBehaviour
 {
     public string Classes;
+    public static RenderPlayer player_1;
     public string Sexo;
     public string Raca;
     public GameObject prefab;
+    public PlayerData_Json player;
+    public PlayerData_SO playerData;
     public GameObject newCharacter;
     private Material material;
-    private PlayerData_SO player;
     public Arma_ataque ar_at;
     private Animator animator;
     public List<string> lista_classes = new List<string>{"Barbaro","Bardo","Bruxo","Clerigo","Druida","Feiticeiro","Guerreiro","Ladino","Monge","Mago","Paladino","Ranger"};
     public List<string> lista_sexos = new List<string>{"Homem", "Mulher"};
     public List<string> lista_Raca = new List<string>{"Humano", "Orc", "Demonio", "Morte"};
 
+    void Awake()
+    {
+        player_1 = this;
+        playerData = ScriptableObject.CreateInstance<PlayerData_SO>();
+    }
     void Start()
     {
-
         material = Resources.Load<Material>($"Cor/cores");
 
         string path = Path.Combine(Application.persistentDataPath, "Player.json");
@@ -32,7 +38,7 @@ public class RenderPlayer : MonoBehaviour
         }
 
         string json = File.ReadAllText(path);
-        PlayerData_Json player = JsonUtility.FromJson<PlayerData_Json>(json);
+        player = JsonUtility.FromJson<PlayerData_Json>(json);
 
         Classes = lista_classes[player.characterClass];
         Sexo = lista_sexos[player.gender];
@@ -42,7 +48,28 @@ public class RenderPlayer : MonoBehaviour
         player.gender = lista_sexos.IndexOf(Sexo);
         player.race = lista_Raca.IndexOf(Raca);
 
-        Debug.Log($"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}");
+        playerData.name = player.name;
+
+        playerData.characterClass = player.characterClass;
+        playerData.subclass = player.subclass;
+        playerData.subclass_traits = player.subclass_traits;
+        playerData.spells = player.spells;
+        playerData.is_summoner = player.is_summoner;
+
+        playerData.race = player.race;
+        playerData.gender = player.gender;
+        playerData.color = player.color;
+
+        playerData.talents = player.talents;
+        playerData.weapons = player.weapons;
+        playerData.attack_effect = player.attack_effect;
+
+        playerData.sabedoria = player.sabedoria;
+        playerData.inteligencia = player.inteligencia;
+        playerData.carisma = player.carisma;
+        playerData.forca = player.forca;
+        playerData.contituicao = player.contituicao;
+        playerData.destreza = player.destreza;
 
         GameObject request = Resources.Load<GameObject>(
             $"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}"

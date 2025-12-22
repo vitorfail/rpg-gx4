@@ -101,7 +101,6 @@ public class Mover_inicial : MonoBehaviour
     public void Irparatutorial()
     {
         sound.PlayClickSound();
-        Debug.Log(player.characterClass);
         playerJson.name = player.name;
 
         playerJson.characterClass = player.characterClass;
@@ -127,7 +126,6 @@ public class Mover_inicial : MonoBehaviour
 
 
         string json = JsonUtility.ToJson(playerJson, true);
-
         string path = Path.Combine(Application.persistentDataPath, "Player.json");
         File.WriteAllText(path, json);
         Debug.Log(path);
