@@ -35,6 +35,6 @@ public class PlayerData_SO : ScriptableObject
     public int forca;
     public int contituicao;
     public int destreza;
-
+    public int hp;
     // Método auxiliar opcional
 }

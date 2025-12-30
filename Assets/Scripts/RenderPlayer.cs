@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
+using Newtonsoft.Json;
+using TipagemClasses;
 
 public class RenderPlayer : MonoBehaviour
 {
@@ -14,10 +16,14 @@ public class RenderPlayer : MonoBehaviour
     public PlayerData_Json player;
     public PlayerData_SO playerData;
     public GameObject newCharacter;
+    public GameObject back;
+    public GameObject vida;
     private Material material;
     public Arma_ataque ar_at;
     private Animator animator;
-    public List<string> lista_classes = new List<string>{"Barbaro","Bardo","Bruxo","Clerigo","Druida","Feiticeiro","Guerreiro","Ladino","Monge","Mago","Paladino","Ranger"};
+    private List<string> lista_classes;
+    public TextAsset jsonclasses;
+    public DndClassesData jsontipagem;
     public List<string> lista_sexos = new List<string>{"Homem", "Mulher"};
     public List<string> lista_Raca = new List<string>{"Humano", "Orc", "Demonio", "Morte"};
 
@@ -25,6 +31,8 @@ public class RenderPlayer : MonoBehaviour
     {
         player_1 = this;
         playerData = ScriptableObject.CreateInstance<PlayerData_SO>();
+        jsontipagem = JsonConvert.DeserializeObject<DndClassesData>(jsonclasses.text);
+        lista_classes = jsontipagem.Classes.Keys.ToList();
     }
     void Start()
     {
@@ -70,15 +78,43 @@ public class RenderPlayer : MonoBehaviour
         playerData.forca = player.forca;
         playerData.contituicao = player.contituicao;
         playerData.destreza = player.destreza;
-
+        playerData.hp = player.hp;
+        HP life = vida.GetComponent<HP>();
+        life.Inicializar(player.hp);
         GameObject request = Resources.Load<GameObject>(
             $"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}"
         );
 
         Quaternion rotation = Quaternion.Euler(90, 0, 0);
-
         newCharacter = Instantiate(request, prefab.transform.position, rotation, prefab.transform);
+        GameObject corpo = null;
+        Transform corpoTransform = newCharacter
+            .GetComponentsInChildren<Transform>(true)
+            .FirstOrDefault(t => t.CompareTag("Corpo"));
 
+        if (corpoTransform == null)
+        {
+            Debug.LogError("Objeto com a tag 'Corpo' não encontrado no prefab!");
+        }
+        else
+        {
+            corpo = corpoTransform.gameObject;
+        }
+        BoxCollider box = corpo.GetComponent<BoxCollider>();
+        if (box == null)
+            box = corpo.AddComponent<BoxCollider>();
+
+        box.center = new Vector3(0.11f, 0.28f, 0f);
+        box.size   = new Vector3(0.9f, 1.0f, 2f);
+            Rigidbody rb = corpo.GetComponent<Rigidbody>();
+        if (rb == null)
+            rb = corpo.AddComponent<Rigidbody>();
+
+        rb.mass = 1f;
+        rb.linearDamping  = 0f;           // Linear Damping
+        rb.angularDamping  = 0f;    // Angular Damping
+        rb.useGravity = false;
+        rb.isKinematic = false;
         SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);
         material = Resources.Load<Material>($"Cor/cores");
         material.color = new Color(player.color[0], player.color[1],player.color[2], 1.0f);
@@ -115,15 +151,14 @@ public class RenderPlayer : MonoBehaviour
             180f
         );
         ar_at = FindFirstObjectByType<Arma_ataque>();
-        animator = GetComponent<Animator>();
+        animator = newCharacter.GetComponent<Animator>();
 
     }
     public void Ataque()
     {
-        ar_at.ataque = true;
         animator.SetBool("ataque-1", true);
+        ar_at.ataque = true;
         StartCoroutine(Resetar("ataque-1", 0.5f));
-
     }
 
     IEnumerator Resetar(string nomeDaVariavel, float tempoDeEspera)

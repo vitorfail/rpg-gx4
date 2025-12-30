@@ -5,16 +5,24 @@ public class Espada1 : MonoBehaviour
 {
     // Referência ao script que tem a variável Arma_ataque
     public Arma_ataque ar_at;
-
+    public ButtonSoundController sound;
     // Arrays para armazenar todos os efeitos do objeto
     private VisualEffect[] particleSystems;
     private TrailRenderer[] trailRenderers;
     public VisualEffect[] visualEffects; // Novo array para Visual Effect Graphs
-
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.CompareTag("Corpo"))
+        {
+            sound.PlayClickSound();
+        }
+    }
     void Start()
     {
         // Procura automaticamente o controlador na cena
         ar_at = FindFirstObjectByType<Arma_ataque>();
+        sound = FindFirstObjectByType<ButtonSoundController>();
         if (ar_at == null || ar_at == false)
         {
             Debug.LogWarning("Nenhum objeto com 'SeuScript' encontrado na cena!");

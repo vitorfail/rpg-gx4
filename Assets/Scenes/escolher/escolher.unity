@@ -2249,7 +2249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   container: {fileID: 95957709}
-  json_class: {fileID: 4900000, guid: 1e1fdee165b042f4ca161d077065c349, type: 3}
+  json_class: {fileID: 4900000, guid: 09a3a38231f2ca849aecb69dcdfb8cf9, type: 3}
   person: {fileID: 909214249}
   fontTMP: {fileID: 11400000, guid: 06ac40ee162176b42a31168c42a0e547, type: 2}
   nome_subclasse: {fileID: 65874095}
@@ -10937,19 +10937,7 @@ MonoBehaviour:
   botao_sexo: {fileID: 458321180}
   mulherOffSprite: {fileID: -6359677108233072428, guid: 4238017c6a15fc24db1c96e76dd99013, type: 3}
   mulherOn: {fileID: -7284759586207656206, guid: 5d11fc40a1e94e84899990cce00c8e75, type: 3}
-  lista_classes:
-  - Barbaro
-  - Bardo
-  - Bruxo
-  - Clerigo
-  - Druida
-  - Feiticeiro
-  - Guerreiro
-  - Ladino
-  - Monge
-  - Mago
-  - Paladino
-  - Ranger
+  jsonclasses: {fileID: 4900000, guid: 09a3a38231f2ca849aecb69dcdfb8cf9, type: 3}
   lista_sexos:
   - Homem
   - Mulher
@@ -11833,7 +11821,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -59.00403, y: -135.7}
+  m_AnchoredPosition: {x: -59.00419, y: -135.7}
   m_SizeDelta: {x: 0, y: -271.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018783156
@@ -13585,7 +13573,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ca: {fileID: 1532326043}
+  hp: {fileID: 1892743530}
+  Classes: {fileID: 4900000, guid: 09a3a38231f2ca849aecb69dcdfb8cf9, type: 3}
   jsonracas: {fileID: 4900000, guid: 2acd500f009a09d41b437d14fd1d307b, type: 3}
+  racas: {fileID: 4900000, guid: 2acd500f009a09d41b437d14fd1d307b, type: 3}
   pontos_disponiveis: {fileID: 445874235}
   up: {fileID: 880444250}
 --- !u!1 &1204172877
@@ -16057,7 +16048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text_hp: {fileID: 1204172879}
-  json_class: {fileID: 4900000, guid: 1e1fdee165b042f4ca161d077065c349, type: 3}
+  json_class: {fileID: 4900000, guid: 09a3a38231f2ca849aecb69dcdfb8cf9, type: 3}
   forca: {fileID: 92613128}
   destreza: {fileID: 1911305460}
   cosntittuicao: {fileID: 1580498382}
@@ -25159,7 +25150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text_hp: {fileID: 1204172879}
-  json_class: {fileID: 4900000, guid: 1e1fdee165b042f4ca161d077065c349, type: 3}
+  json_class: {fileID: 4900000, guid: 09a3a38231f2ca849aecb69dcdfb8cf9, type: 3}
   forca: {fileID: 92613128}
   destreza: {fileID: 1911305460}
   cosntittuicao: {fileID: 1580498382}

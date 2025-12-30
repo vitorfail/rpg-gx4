@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Arma
   - TextoHandler
+  - Corpo
   layers:
   - Default
   - TransparentFX

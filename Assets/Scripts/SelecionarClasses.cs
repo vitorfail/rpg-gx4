@@ -4,6 +4,7 @@ using TMPro;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using TipagemClasses;
+using System.Linq;
 public class SelecionarClasses : MonoBehaviour
 {
     public TextMeshProUGUI text_hp;
@@ -23,12 +24,9 @@ public class SelecionarClasses : MonoBehaviour
     public Sprite[] sprites;           // Array de imagens (sprites) que serão trocadas
     private int currentIndex = 0;
     public DndClassesData clastipagem;
-
     void Start()
     {
-        
         clastipagem = JsonConvert.DeserializeObject<DndClassesData>(json_class.text);
-
     }
     public class Testando
     {
@@ -151,7 +149,7 @@ public class SelecionarClasses : MonoBehaviour
             carisma.Attr(80.00f);
         }
 
-        int hp = clastipagem.Classes[clas[currentIndex].ToLower()].Level[0].Hp;
+        int hp = clastipagem.Classes[clas[currentIndex]].Life;
         text_hp.text = "HP: " + hp;
         person.Classes = clas[currentIndex];
         person.Mudar();
@@ -280,7 +278,7 @@ public class SelecionarClasses : MonoBehaviour
             carisma.Attr(80.00f);
         }
 
-        int hp = clastipagem.Classes[clas[currentIndex].ToLower()].Level[0].Hp;
+        int hp = clastipagem.Classes[clas[currentIndex]].Life;
         text_hp.text = "HP: "+hp;
         person.Classes = clas[currentIndex];
         person.Mudar();

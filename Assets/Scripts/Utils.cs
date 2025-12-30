@@ -117,19 +117,21 @@ public class Utils: MonoBehaviour
     public Coroutine ZoomEmObjeto(
         Transform alvo,
         float tamanhoZoom,
-        float duracao)
+        float duracao,
+        float esquerda)
     {
         return StartCoroutine(ZoomEmObjetoRoutine(
             alvo,
             tamanhoZoom,
-            duracao
+            duracao, esquerda
         ));
     }
 
     private IEnumerator ZoomEmObjetoRoutine(
         Transform alvo,
         float tamanhoZoom,
-        float duracao)
+        float duracao,
+        float esquerda)
     {
         if (cam == null || alvo == null) yield break;
 
@@ -140,7 +142,7 @@ public class Utils: MonoBehaviour
         float yLimitado = Mathf.Max(alvo.position.y, -10f);
 
         Vector3 posicaoFinal = new Vector3(
-            alvo.position.x+1.39f,
+            alvo.position.x+esquerda,
             yLimitado,
             posicaoInicial.z-1.3f // mantém o Z
         );

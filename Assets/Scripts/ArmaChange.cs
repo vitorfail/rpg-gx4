@@ -122,13 +122,13 @@ public class ArmaChange : MonoBehaviour
                 classesPermitidas = new List<string> { "Barbaro", "Guerreiro", "Paladino" },
                 Clicks = Martelos_Click
             }},
-            { "arco", new ArmaData { 
+            /*{ "arco", new ArmaData { 
                 handler = ArcosHandler, 
                 listaArmas = listaArco, 
                 index = 0,
                 classesPermitidas = new List<string> { "Ranger", "Ladino" },
                 Clicks = Arcos_Click
-            }}
+            }}*/
         };
     }
 

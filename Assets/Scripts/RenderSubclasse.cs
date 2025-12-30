@@ -24,7 +24,7 @@ public class RenderSubclasse : MonoBehaviour
         clastipagem = JsonConvert.DeserializeObject<DndClassesData>(json_class.text);
         if(person.Classes.ToLower() != null && person.Classes.ToLower() != "")
         {
-            arquetipo = clastipagem.Classes[person.Classes.ToLower()];
+            arquetipo = clastipagem.Classes[person.Classes];
             foreach (var kv in arquetipo.Arquetipo)
             {
                 string chave = kv.Key;
@@ -35,8 +35,10 @@ public class RenderSubclasse : MonoBehaviour
 
                 CreateButton(arq);
             }
-            allButtons[0].onClick.Invoke();
-
+            if (allButtons != null && allButtons.Count > 0)
+            {
+                allButtons[0].onClick.Invoke();
+            }
         }
 
     }

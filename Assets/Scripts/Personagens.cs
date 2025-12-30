@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.UI;
 using Newtonsoft.Json;
+using TipagemClasses;
 public class Personagens : MonoBehaviour
 {
     public string Classes;
@@ -15,12 +16,17 @@ public class Personagens : MonoBehaviour
     public Sprite mulherOffSprite; 
     private PlayerData_SO player;
     public Sprite mulherOn;  
-    public List<string> lista_classes = new List<string>{"Barbaro","Bardo","Bruxo","Clerigo","Druida","Feiticeiro","Guerreiro","Ladino","Monge","Mago","Paladino","Ranger"   };
+    public TextAsset jsonclasses;
+    private DndClassesData jsontipagem;
+    private List<string> lista_classes;
     public List<string> lista_sexos = new List<string>{"Homem", "Mulher"};
     public List<string> lista_Raca = new List<string>{"Humano", "Orc", "Demonio", "Morte"};
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        jsontipagem = JsonConvert.DeserializeObject<DndClassesData>(jsonclasses.text);
+        lista_classes = jsontipagem.Classes.Keys.ToList();
+
         player = DadosJogador.Instance_jogador.playerData;
         Classes = lista_classes[player.characterClass];
         Sexo = lista_sexos[player.gender];

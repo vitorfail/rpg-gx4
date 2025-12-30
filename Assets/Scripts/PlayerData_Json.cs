@@ -20,4 +20,5 @@ public class PlayerData_Json{
     public int ca;
     public int contituicao;
     public int destreza;
+    public int hp;
 }

@@ -1,7 +1,8 @@
 {
   "Classes":{
-    "barbaro":{
+    "Barbaro":{
       "Foco":"for",
+      "Life":7,
       "Descri":
         "Os Bárbaros podem ser guerreiros que carregam a brutalidade da sobrevivência na natureza ou até mesmo ser o possuidor de conhecimento de espíritos ancestrais. Eles são lutadores bastante poderosos, que utilizam da fúria que faz seu poder e força aumentarem em combate. Além de causarem muito dano, os Bárbaros também conseguem aguentar dano, sendo muitas vezes os tanques da equipe, eles também podem sentir o perigo através dos seus sentidos.",
         "Arquetipo":{
@@ -25,7 +26,6 @@
         "Level":[
             {
               "Lv": 1,
-              "Hp": 12,
               "Atk": 1,
               "Bp": 2,
               "F": 2,
@@ -42,7 +42,6 @@
             },
             {
               "Lv": 2,
-              "Hp": 19,
               "Atk": 1,
               "Bp": 2,
               "F": 2,
@@ -59,7 +58,6 @@
             },
             {
               "Lv": 3,
-              "Hp": 26,
               "Atk": 1,
               "Bp": 2,
               "F": 3,
@@ -76,7 +74,6 @@
             },
             {
               "Lv": 4,
-              "Hp": 33,
               "Atk": 1,
               "Bp": 2,
               "F": 3,
@@ -93,7 +90,6 @@
             },
             {
               "Lv": 5,
-              "Hp": 40,
               "Atk": 2,
               "Bp": 3,
               "F": 3,
@@ -110,7 +106,6 @@
             },
             {
               "Lv": 6,
-              "Hp": 47,
               "Atk": 2,
               "Bp": 3,
               "F": 4,
@@ -127,7 +122,6 @@
             },
             {
               "Lv": 7,
-              "Hp": 54,
               "Atk": 2,
               "Bp": 3,
               "F": 4,
@@ -144,7 +138,6 @@
             },
             {
               "Lv": 8,
-              "Hp": 61,
               "Atk": 2,
               "Bp": 3,
               "F": 4,
@@ -161,7 +154,6 @@
             },
             {
               "Lv": 9,
-              "Hp": 68,
               "Atk": 2,
               "Bp": 4,
               "F": 4,
@@ -178,7 +170,6 @@
             },
             {
               "Lv": 10,
-              "Hp": 75,
               "Atk": 2,
               "Bp": 4,
               "F": 4,
@@ -195,7 +186,6 @@
             },
             {
               "Lv": 11,
-              "Hp": 82,
               "Atk": 2,
               "Bp": 4,
               "F": 4,
@@ -212,7 +202,6 @@
             },
             {
               "Lv": 12,
-              "Hp": 82,
               "Atk": 2,
               "Bp": 4,
               "F": 5,
@@ -229,7 +218,6 @@
             },
             {
               "Lv": 13,
-              "Hp": 89,
               "Atk": 2,
               "Bp": 5,
               "F": 5,
@@ -246,7 +234,6 @@
             },
             {
               "Lv": 14,
-              "Hp": 96,
               "Atk": 2,
               "Bp": 5,
               "F": 5,
@@ -263,7 +250,6 @@
             },
             {
               "Lv": 15,
-              "Hp": 103,
               "Atk": 2,
               "Bp": 5,
               "F": 5,
@@ -280,7 +266,6 @@
             },
             {
               "Lv": 16,
-              "Hp": 110,
               "Atk": 2,
               "Bp": 5,
               "F": 5,
@@ -297,7 +282,6 @@
             },
             {
               "Lv": 17,
-              "Hp": 117,
               "Atk": 2,
               "Bp": 6,
               "F": 6,
@@ -314,7 +298,6 @@
             },
             {
               "Lv": 18,
-              "Hp": 124,
               "Atk": 2,
               "Bp": 6,
               "F": 6,
@@ -331,7 +314,6 @@
             },
             {
               "Lv": 19,
-              "Hp": 131,
               "Atk": 2,
               "Bp": 6,
               "F": 6,
@@ -348,7 +330,6 @@
             },
             {
               "Lv": 20,
-              "Hp": 131,
               "Atk": 2,
               "Bp": 6,
               "F": 10000000,
@@ -365,8 +346,9 @@
             }
         ] 
     },
-    "bardo":{
+    "Bardo":{
       "Foco":"car",
+      "Life":5,
       "Descri":"Artistas conhecedores das histórias do mundo, Bardos são capazes de realizar magia a partir de suas obras, seja com música, pintura ou até mesmo um breve discurso. Bardos são especialistas na manipulação não apenas mágica, mas também em tocar o coração dos alvos das mais variadas formas a partir de suas técnicas.",
       "Arquetipo":{
         "1_":{
@@ -389,7 +371,6 @@
       "Level":[
           {
             "Lv": 1,
-            "Hp": 8,
             "Atk": 1,
             "Bp": 2,
             "F": 0,
@@ -406,7 +387,6 @@
           },
           {
             "Lv": 2,
-            "Hp": 13,
             "Atk": 1,
             "Bp": 2,
             "F": 0,
@@ -423,7 +403,6 @@
           },
           {
             "Lv": 3,
-            "Hp": 18,
             "Atk": 1,
             "Bp": 2,
             "F": 0,
@@ -440,7 +419,6 @@
           },
           {
             "Lv": 4,
-            "Hp": 23,
             "Atk": 1,
             "Bp": 2,
             "F": 0,
@@ -457,7 +435,6 @@
           },
           {
             "Lv": 5,
-            "Hp": 28,
             "Atk": 2,
             "Bp": 3,
             "F": 0,
@@ -474,7 +451,6 @@
           },
           {
             "Lv": 6,
-            "Hp": 33,
             "Atk": 2,
             "Bp": 3,
             "F": 0,
@@ -491,7 +467,6 @@
           },
           {
             "Lv": 7,
-            "Hp": 38,
             "Atk": 2,
             "Bp": 3,
             "F": 0,
@@ -508,7 +483,6 @@
           },
           {
             "Lv": 8,
-            "Hp": 43,
             "Atk": 2,
             "Bp": 3,
             "F": 0,
@@ -525,7 +499,6 @@
           },
           {
             "Lv": 9,
-            "Hp": 48,
             "Atk": 2,
             "Bp": 4,
             "F": 0,
@@ -542,7 +515,6 @@
           },
           {
             "Lv": 10,
-            "Hp": 53,
             "Atk": 2,
             "Bp": 4,
             "F": 0,
@@ -559,7 +531,6 @@
           },
           {
             "Lv": 11,
-            "Hp": 58,
             "Atk": 2,
             "Bp": 4,
             "F": 0,
@@ -576,7 +547,6 @@
           },
           {
             "Lv": 12,
-            "Hp": 63,
             "Atk": 2,
             "Bp": 4,
             "F": 0,
@@ -593,7 +563,6 @@
           },
           {
             "Lv": 13,
-            "Hp": 68,
             "Atk": 2,
             "Bp": 5,
             "F": 0,
@@ -610,7 +579,6 @@
           },
           {
             "Lv": 14,
-            "Hp": 73,
             "Atk": 2,
             "Bp": 5,
             "F": 0,
@@ -627,7 +595,6 @@
           },
           {
             "Lv": 15,
-            "Hp": 78,
             "Atk": 2,
             "Bp": 5,
             "F": 0,
@@ -644,7 +611,6 @@
           },
           {
             "Lv": 16,
-            "Hp": 83,
             "Atk": 2,
             "Bp": 5,
             "F": 0,
@@ -661,7 +627,6 @@
           },
           {
             "Lv": 17,
-            "Hp": 88,
             "Atk": 2,
             "Bp": 6,
             "F": 0,
@@ -678,7 +643,6 @@
           },
           {
             "Lv": 18,
-            "Hp": 93,
             "Atk": 2,
             "Bp": 6,
             "F": 0,
@@ -695,7 +659,6 @@
           },
           {
             "Lv": 19,
-            "Hp": 98,
             "Atk": 2,
             "Bp": 6,
             "F": 0,
@@ -712,7 +675,6 @@
           },
           {
             "Lv": 20,
-            "Hp": 103,
             "Atk": 2,
             "Bp": 6,
             "F": 0,
@@ -730,7 +692,9 @@
 
       ]
     },
-    "bruxo":{
+    "Bruxo":{
+      "Foco":"car",
+      "Life":5,
       "Descri":"Entidades ancestrais aguardam nos limites da compreensão mortal aqueles com coragem o suficiente para adquirir poder e, a partir de um pacto, você foi um deles. Bruxos se tornam conjuradores arcanos a partir de pactos o que lhes dão além das magias capacidades únicas e úteis tanto ofensivamente, quanto para suporte.",
       "Arquetipo":{
         "1_":{
@@ -757,7 +721,6 @@
      "Level":[
         {
           "Lv": 1,
-          "Hp": 8,
           "Atk": 1,
           "Bp": 2,
           "Magias": [2,2,1],
@@ -774,7 +737,6 @@
         },
         {
           "Lv": 2,
-          "Hp": 13,
           "Atk": 1,
           "Bp": 2,
           "Magias": [2,3,2],
@@ -791,7 +753,6 @@
         },
         {
           "Lv": 3,
-          "Hp": 18,
           "Atk": 1,
           "Bp": 2,
           "Magias": [2,4,2],
@@ -808,7 +769,6 @@
         },
         {
           "Lv": 4,
-          "Hp": 23,
           "Atk": 1,
           "Bp": 3,
           "Magias": [2,5,2],
@@ -825,7 +785,6 @@
         },
         {
           "Lv": 5,
-          "Hp": 28,
           "Atk": 2,
           "Bp": 3,
           "Magias": [2,6,2],
@@ -842,7 +801,6 @@
         },
         {
           "Lv": 6,
-          "Hp": 33,
           "Atk": 2,
           "Bp": 3,
           "Magias": [2,7,2],
@@ -859,7 +817,6 @@
         },
         {
           "Lv": 7,
-          "Hp": 38,
           "Atk": 2,
           "Bp": 3,
           "Magias": [2,8,2],
@@ -876,7 +833,6 @@
         },
         {
           "Lv": 8,
-          "Hp": 43,
           "Atk": 2,
           "Bp": 3,
           "Magias": [2,9,2],
@@ -893,7 +849,6 @@
         },
         {
           "Lv": 9,
-          "Hp": 48,
           "Atk": 2,
           "Bp": 4,
           "Magias": [2,10,2],
@@ -910,7 +865,6 @@
         },
         {
           "Lv": 10,
-          "Hp": 53,
           "Atk": 2,
           "Bp": 4,
           "Magias": [2,10,2],
@@ -927,7 +881,6 @@
         },
         {
           "Lv": 11,
-          "Hp": 58,
           "Atk": 2,
           "Bp": 4,
           "Magias": [3,11,3],
@@ -944,7 +897,6 @@
         },
         {
           "Lv": 12,
-          "Hp": 63,
           "Atk": 2,
           "Bp": 4,
           "Magias": [3,11,3],
@@ -961,7 +913,6 @@
         },
         {
           "Lv": 13,
-          "Hp": 68,
           "Atk": 2,
           "Bp": 5,
           "Magias": [3,12,3],
@@ -978,7 +929,6 @@
         },
         {
           "Lv": 14,
-          "Hp": 73,
           "Atk": 2,
           "Bp": 5,
           "Magias": [3,12,3],
@@ -995,7 +945,6 @@
         },
         {
           "Lv": 15,
-          "Hp": 78,
           "Atk": 2,
           "Bp": 5,
           "Magias": [3,13,3],
@@ -1012,7 +961,6 @@
         },
         {
           "Lv": 16,
-          "Hp": 83,
           "Atk": 2,
           "Bp": 5,
           "Magias": [3,13,3],
@@ -1029,7 +977,6 @@
         },
         {
           "Lv": 17,
-          "Hp": 88,
           "Atk": 2,
           "Bp": 6,
           "Magias": [4,14,4],
@@ -1046,7 +993,6 @@
         },
         {
           "Lv": 18,
-          "Hp": 93,
           "Atk": 2,
           "Bp": 6,
           "Magias": [4,14,4],
@@ -1063,7 +1009,6 @@
         },
         {
           "Lv": 19,
-          "Hp": 98,
           "Atk": 2,
           "Bp": 6,
           "Magias": [4,15,4],
@@ -1080,7 +1025,6 @@
         },
         {
           "Lv": 20,
-          "Hp": 103,
           "Atk": 2,
           "Bp": 6,
           "Magias": [4,15,4],
@@ -1098,7 +1042,8 @@
 
      ]
     },
-    "clerigo":{
+    "Clerigo":{
+      "Life":5,
       "Foco":"sab",
       "Descri":"Servos dos Deuses e outras entidades Divinas, Clérigos são capazes de realizar verdadeiros milagres por onde passam.Dependendo do cenário utilizado, podem tomar as mais variadas formas, pois seus poderes e motivações são ligados a cosmogonia de cada universo, indo de servos de deuses bondosos ou completamente malignos.",
        "Arquetipo":{
@@ -1137,7 +1082,6 @@
         "Level":[
               {
                 "Lv": 1,
-                "Hp": 8,
                 "Atk": 2,
                 "Bp": 2,
                 "F": 0,
@@ -1154,7 +1098,6 @@
               },
               {
                 "Lv": 2,
-                "Hp": 13,
                 "Atk": 2,
                 "Bp": 2,
                 "F": 0,
@@ -1171,7 +1114,6 @@
               },
               {
                 "Lv": 3,
-                "Hp": 18,
                 "Atk": 2,
                 "Bp": 2,
                 "F": 0,
@@ -1188,7 +1130,6 @@
               },
               {
                 "Lv": 4,
-                "Hp": 23,
                 "Atk": 2,
                 "Bp": 2,
                 "F": 0,
@@ -1205,7 +1146,6 @@
               },
               {
                 "Lv": 5,
-                "Hp": 28,
                 "Atk": 2,
                 "Bp": 3,
                 "F": 0,
@@ -1222,7 +1162,6 @@
               },
               {
                 "Lv": 6,
-                "Hp": 33,
                 "Atk": 2,
                 "Bp": 3,
                 "F": 0,
@@ -1239,7 +1178,6 @@
               },
               {
                 "Lv": 7,
-                "Hp": 38,
                 "Atk": 2,
                 "Bp": 3,
                 "F": 0,
@@ -1256,7 +1194,6 @@
               },
               {
                 "Lv": 8,
-                "Hp": 43,
                 "Atk": 2,
                 "Bp": 3,
                 "F": 0,
@@ -1273,7 +1210,6 @@
               },
               {
                 "Lv": 9,
-                "Hp": 48,
                 "Atk": 2,
                 "Bp": 4,
                 "F": 0,
@@ -1290,7 +1226,6 @@
               },
               {
                 "Lv": 10,
-                "Hp": 53,
                 "Atk": 2,
                 "Bp": 4,
                 "F": 0,
@@ -1307,7 +1242,6 @@
               },
               {
                 "Lv": 11,
-                "Hp": 58,
                 "Atk": 2,
                 "Bp": 4,
                 "F": 0,
@@ -1324,7 +1258,6 @@
               },
               {
                 "Lv": 12,
-                "Hp": 63,
                 "Atk": 2,
                 "Bp": 4,
                 "F": 0,
@@ -1341,7 +1274,6 @@
               },
               {
                 "Lv": 13,
-                "Hp": 68,
                 "Atk": 2,
                 "Bp": 5,
                 "F": 0,
@@ -1358,7 +1290,6 @@
               },
               {
                 "Lv": 14,
-                "Hp": 73,
                 "Atk": 2,
                 "Bp": 5,
                 "F": 0,
@@ -1375,7 +1306,6 @@
               },
               {
                 "Lv": 15,
-                "Hp": 78,
                 "Atk": 2,
                 "Bp": 5,
                 "F": 0,
@@ -1392,7 +1322,6 @@
               },
               {
                 "Lv": 16,
-                "Hp": 83,
                 "Atk": 2,
                 "Bp": 5,
                 "F": 0,
@@ -1409,7 +1338,6 @@
               },
               {
                 "Lv": 17,
-                "Hp": 88,
                 "Atk": 2,
                 "Bp": 6,
                 "F": 0,
@@ -1426,7 +1354,6 @@
               },
               {
                 "Lv": 18,
-                "Hp": 93,
                 "Atk": 2,
                 "Bp": 6,
                 "F": 0,
@@ -1443,7 +1370,6 @@
               },
               {
                 "Lv": 19,
-                "Hp": 98,
                 "Atk": 2,
                 "Bp": 6,
                 "F": 0,
@@ -1460,7 +1386,6 @@
               },
               {
                 "Lv": 20,
-                "Hp": 103,
                 "Atk": 2,
                 "Bp": 6,
                 "F": 0,
@@ -1477,7 +1402,8 @@
               }
         ]
     },
-    "druida":{
+    "Druida":{
+      "Life":5,
       "Foco":"sab",
       "Descri":"Sábios e poderosos, druidas são conjurados divinos conectados diretamente com a natureza,  capaz de controlá-la ou tornar-se parte dela como animais, monstros e plantas diversas. Druidas misturam a versatilidade de quem controla a natureza, mas também as penalidades dequem não aceita a evolução trazida pela sociedade que afeta e muitas vezes destrói a origem de seus poderes.",
        "Arquetipo":{
@@ -1505,7 +1431,6 @@
        "Level":[
             {
               "Lv": 1,
-              "Hp": 8,
               "Atk": 2,
               "Bp": 2,
               "F": 0,
@@ -1522,7 +1447,6 @@
             },
             {
               "Lv": 2,
-              "Hp": 13,
               "Atk": 2,
               "Bp": 2,
               "F": 0,
@@ -1539,7 +1463,6 @@
             },
             {
               "Lv": 3,
-              "Hp": 18,
               "Atk": 2,
               "Bp": 2,
               "F": 0,
@@ -1556,7 +1479,6 @@
             },
             {
               "Lv": 4,
-              "Hp": 23,
               "Atk": 2,
               "Bp": 2,
               "F": 0,
@@ -1573,7 +1495,6 @@
             },
             {
               "Lv": 5,
-              "Hp": 28,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -1590,7 +1511,6 @@
             },
             {
               "Lv": 6,
-              "Hp": 33,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -1607,7 +1527,6 @@
             },
             {
               "Lv": 7,
-              "Hp": 38,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -1624,7 +1543,6 @@
             },
             {
               "Lv": 8,
-              "Hp": 43,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -1641,7 +1559,6 @@
             },
             {
               "Lv": 9,
-              "Hp": 48,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -1658,7 +1575,6 @@
             },
             {
               "Lv": 10,
-              "Hp": 53,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -1675,7 +1591,6 @@
             },
             {
               "Lv": 11,
-              "Hp": 58,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -1692,7 +1607,6 @@
             },
             {
               "Lv": 12,
-              "Hp": 63,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -1709,7 +1623,6 @@
             },
             {
               "Lv": 13,
-              "Hp": 68,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -1726,7 +1639,6 @@
             },
             {
               "Lv": 14,
-              "Hp": 73,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -1743,7 +1655,6 @@
             },
             {
               "Lv": 15,
-              "Hp": 78,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -1760,7 +1671,6 @@
             },
             {
               "Lv": 16,
-              "Hp": 83,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -1777,7 +1687,6 @@
             },
             {
               "Lv": 17,
-              "Hp": 88,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -1794,7 +1703,6 @@
             },
             {
               "Lv": 18,
-              "Hp": 93,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -1811,7 +1719,6 @@
             },
             {
               "Lv": 19,
-              "Hp": 98,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -1828,7 +1735,6 @@
             },
             {
               "Lv": 20,
-              "Hp": 103,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -1845,7 +1751,8 @@
             }
       ]
     },
-    "feiticeiro":{
+    "Feiticeiro":{
+      "Life":4,
       "Foco":"car",
       "Descri":"Mestres da furtividade, dos talentos ocultos e até mesmo do assassinato, muitos tratam o ladino como simples criminosos quando, na verdade, são aventureiros fundamentais para qualquer grupo. Ladinos possuem um conjunto próprio de técnicas focadas em arrombamento, manuseio de armadilhas, escalada, furto e técnicas que peguem o alvo desprevenido que sim, podem ser usadas para o mau caso queiram, mas também criam exploradores e aventureiros vitais para qualquer grupo dentro e fora de masmorras.",
       "Arquetipo":{
@@ -1869,7 +1776,6 @@
       "Level":[
           {
             "Lv": 1,
-            "Hp": 6,
             "Atk": 2,
             "Bp": 2,
             "F": 0,
@@ -1886,7 +1792,6 @@
           },
           {
             "Lv": 2,
-            "Hp": 10,
             "Atk": 2,
             "Bp": 2,
             "F": 0,
@@ -1903,7 +1808,6 @@
           },
           {
             "Lv": 3,
-            "Hp": 14,
             "Atk": 2,
             "Bp": 2,
             "F": 0,
@@ -1920,7 +1824,6 @@
           },
           {
             "Lv": 4,
-            "Hp": 18,
             "Atk": 2,
             "Bp": 2,
             "F": 0,
@@ -1937,7 +1840,6 @@
           },
           {
             "Lv": 5,
-            "Hp": 22,
             "Atk": 2,
             "Bp": 3,
             "F": 0,
@@ -1954,7 +1856,6 @@
           },
           {
             "Lv": 6,
-            "Hp": 26,
             "Atk": 2,
             "Bp": 3,
             "F": 0,
@@ -1971,7 +1872,6 @@
           },
           {
             "Lv": 7,
-            "Hp": 30,
             "Atk": 2,
             "Bp": 3,
             "F": 0,
@@ -1988,7 +1888,6 @@
           },
           {
             "Lv": 8,
-            "Hp": 34,
             "Atk": 2,
             "Bp": 3,
             "F": 0,
@@ -2005,7 +1904,6 @@
           },
           {
             "Lv": 9,
-            "Hp": 38,
             "Atk": 2,
             "Bp": 4,
             "F": 0,
@@ -2022,7 +1920,6 @@
           },
           {
             "Lv": 10,
-            "Hp": 42,
             "Atk": 2,
             "Bp": 4,
             "F": 0,
@@ -2039,7 +1936,6 @@
           },
           {
             "Lv": 11,
-            "Hp": 46,
             "Atk": 2,
             "Bp": 4,
             "F": 0,
@@ -2056,7 +1952,6 @@
           },
           {
             "Lv": 12,
-            "Hp": 50,
             "Atk": 2,
             "Bp": 4,
             "F": 0,
@@ -2073,7 +1968,6 @@
           },
           {
             "Lv": 13,
-            "Hp": 54,
             "Atk": 2,
             "Bp": 5,
             "F": 0,
@@ -2090,7 +1984,6 @@
           },
           {
             "Lv": 14,
-            "Hp": 58,
             "Atk": 2,
             "Bp": 5,
             "F": 0,
@@ -2107,7 +2000,6 @@
           },
           {
             "Lv": 15,
-            "Hp": 62,
             "Atk": 2,
             "Bp": 5,
             "F": 0,
@@ -2124,7 +2016,6 @@
           },
           {
             "Lv": 16,
-            "Hp": 66,
             "Atk": 2,
             "Bp": 5,
             "F": 0,
@@ -2141,7 +2032,6 @@
           },
           {
             "Lv": 17,
-            "Hp": 70,
             "Atk": 2,
             "Bp": 6,
             "F": 0,
@@ -2158,7 +2048,6 @@
           },
           {
             "Lv": 18,
-            "Hp": 74,
             "Atk": 2,
             "Bp": 6,
             "F": 0,
@@ -2175,7 +2064,6 @@
           },
           {
             "Lv": 19,
-            "Hp": 78,
             "Atk": 2,
             "Bp": 6,
             "F": 0,
@@ -2192,7 +2080,6 @@
           },
           {
             "Lv": 20,
-            "Hp": 82,
             "Atk": 2,
             "Bp": 6,
             "F": 0,
@@ -2209,7 +2096,8 @@
           }
       ]
     },
-    "guerreiro":{
+    "Guerreiro":{
+      "Life":6,
       "Foco":"des",
       "Descri":"Treinados em combate com as mais variadas armas e equipamentos, os Guerreiros são, provavelmente, a mais comum das classes existentes em D&D, pois englobam todos os aventureiros que não entrem nas demais categorias. Um guerreiro é tecnicamente a classe mais simples para novatos e uma das mais versáteis, capaz de se manter diversificado ou se especializar no uso de uma arma ou manobra específica.",
       "Arquetipo":{
@@ -2237,7 +2125,6 @@
       "Level":[
             {
               "Lv": 1,
-              "Hp": 10,
               "Atk": 1,
               "Bp": 2,
               "F": 0,
@@ -2254,7 +2141,6 @@
             },
             {
               "Lv": 2,
-              "Hp": 16,
               "Atk": 1,
               "Bp": 2,
               "F": 0,
@@ -2271,7 +2157,6 @@
             },
             {
               "Lv": 3,
-              "Hp": 22,
               "Atk": 1,
               "Bp": 2,
               "F": 0,
@@ -2288,7 +2173,6 @@
             },
             {
               "Lv": 4,
-              "Hp": 28,
               "Atk": 1,
               "Bp": 2,
               "F": 0,
@@ -2305,7 +2189,6 @@
             },
             {
               "Lv": 5,
-              "Hp": 34,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -2322,7 +2205,6 @@
             },
             {
               "Lv": 6,
-              "Hp": 40,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -2339,7 +2221,6 @@
             },
             {
               "Lv": 7,
-              "Hp": 46,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -2356,7 +2237,6 @@
             },
             {
               "Lv": 8,
-              "Hp": 52,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -2373,7 +2253,6 @@
             },
             {
               "Lv": 9,
-              "Hp": 58,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -2390,7 +2269,6 @@
             },
             {
               "Lv": 10,
-              "Hp": 64,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -2407,7 +2285,6 @@
             },
             {
               "Lv": 11,
-              "Hp": 70,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -2424,7 +2301,6 @@
             },
             {
               "Lv": 12,
-              "Hp": 76,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -2441,7 +2317,6 @@
             },
             {
               "Lv": 13,
-              "Hp": 82,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -2458,7 +2333,6 @@
             },
             {
               "Lv": 14,
-              "Hp": 88,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -2475,7 +2349,6 @@
             },
             {
               "Lv": 15,
-              "Hp": 94,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -2492,7 +2365,6 @@
             },
             {
               "Lv": 16,
-              "Hp": 100,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -2509,7 +2381,6 @@
             },
             {
               "Lv": 17,
-              "Hp": 106,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -2526,7 +2397,6 @@
             },
             {
               "Lv": 18,
-              "Hp": 112,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -2543,7 +2413,6 @@
             },
             {
               "Lv": 19,
-              "Hp": 118,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -2560,7 +2429,6 @@
             },
             {
               "Lv": 20,
-              "Hp": 124,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -2577,7 +2445,8 @@
             }
       ]
     },
-    "ladino":{
+    "Ladino":{
+      "Life":5,
       "Foco":"des",
       "Descri":"Mestres da furtividade, dos talentos ocultos e até mesmo do assassinato, muitos tratam o ladino como simples criminosos quando, na verdade, são aventureiros fundamentais para qualquer grupo. Ladinos possuem um conjunto próprio de técnicas focadas em arrombamento, manuseio de armadilhas, escalada, furto e técnicas que peguem o alvo desprevenido que sim, podem ser usadas para o mau caso queiram, mas também criam exploradores e aventureiros vitais para qualquer grupo dentro e fora de masmorras.",
       "Arquetipo":{
@@ -2595,7 +2464,6 @@
       "Level":[
               {
               "Lv": 1,
-              "Hp": 8,
               "Atk": 2,
               "Bp": 2,
               "F": 0,
@@ -2612,7 +2480,6 @@
             },
             {
               "Lv": 2,
-              "Hp": 13,
               "Atk": 2,
               "Bp": 2,
               "F": 0,
@@ -2629,7 +2496,6 @@
             },
             {
               "Lv": 3,
-              "Hp": 18,
               "Atk": 2,
               "Bp": 2,
               "F": 0,
@@ -2646,7 +2512,6 @@
             },
             {
               "Lv": 4,
-              "Hp": 23,
               "Atk": 2,
               "Bp": 2,
               "F": 0,
@@ -2663,7 +2528,6 @@
             },
             {
               "Lv": 5,
-              "Hp": 28,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -2680,7 +2544,6 @@
             },
             {
               "Lv": 6,
-              "Hp": 33,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -2697,7 +2560,6 @@
             },
             {
               "Lv": 7,
-              "Hp": 38,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -2714,7 +2576,6 @@
             },
             {
               "Lv": 8,
-              "Hp": 43,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -2731,7 +2592,6 @@
             },
             {
               "Lv": 9,
-              "Hp": 48,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -2748,7 +2608,6 @@
             },
             {
               "Lv": 10,
-              "Hp": 53,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -2765,7 +2624,6 @@
             },
             {
               "Lv": 11,
-              "Hp": 58,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -2782,7 +2640,6 @@
             },
             {
               "Lv": 12,
-              "Hp": 63,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -2799,7 +2656,6 @@
             },
             {
               "Lv": 13,
-              "Hp": 68,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -2816,7 +2672,6 @@
             },
             {
               "Lv": 14,
-              "Hp": 73,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -2833,7 +2688,6 @@
             },
             {
               "Lv": 15,
-              "Hp": 78,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -2850,7 +2704,6 @@
             },
             {
               "Lv": 16,
-              "Hp": 83,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -2867,7 +2720,6 @@
             },
             {
               "Lv": 17,
-              "Hp": 88,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -2884,7 +2736,6 @@
             },
             {
               "Lv": 18,
-              "Hp": 93,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -2901,7 +2752,6 @@
             },
             {
               "Lv": 19,
-              "Hp": 98,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -2918,7 +2768,6 @@
             },
             {
               "Lv": 20,
-              "Hp": 103,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -2935,7 +2784,8 @@
             }
       ]
     },
-    "monge":{
+    "Monge":{
+      "Life":5,
       "Foco":"des",
       "Descri":"Mestres no combate desarmado e no uso do misterioso Chi em habilidades únicas! O Monge é uma classe que foca sua força em rajadas de múltiplos ataques desarmados cada vez mais fortes, além de técnicas que misturam artes marciais com o consumo de Chi, uma energia que apenas ele possui no jogo.",
       "Arquetipo":{
@@ -2954,7 +2804,6 @@
         [
     {
       "Lv": 1,
-      "Hp": 8,
       "Atk": 2,
       "Bp": 2,
       "F": 0,
@@ -2971,7 +2820,6 @@
     },
     {
       "Lv": 2,
-      "Hp": 13,
       "Atk": 2,
       "Bp": 2,
       "F": 0,
@@ -2988,7 +2836,6 @@
     },
     {
       "Lv": 3,
-      "Hp": 18,
       "Atk": 2,
       "Bp": 2,
       "F": 0,
@@ -3005,7 +2852,6 @@
     },
     {
       "Lv": 4,
-      "Hp": 23,
       "Atk": 2,
       "Bp": 2,
       "F": 0,
@@ -3022,7 +2868,6 @@
     },
     {
       "Lv": 5,
-      "Hp": 28,
       "Atk": 2,
       "Bp": 3,
       "F": 0,
@@ -3039,7 +2884,6 @@
     },
     {
       "Lv": 6,
-      "Hp": 33,
       "Atk": 2,
       "Bp": 3,
       "F": 0,
@@ -3056,7 +2900,6 @@
     },
     {
       "Lv": 7,
-      "Hp": 38,
       "Atk": 2,
       "Bp": 3,
       "F": 0,
@@ -3073,7 +2916,6 @@
     },
     {
       "Lv": 8,
-      "Hp": 43,
       "Atk": 2,
       "Bp": 3,
       "F": 0,
@@ -3090,7 +2932,6 @@
     },
     {
       "Lv": 9,
-      "Hp": 48,
       "Atk": 2,
       "Bp": 4,
       "F": 0,
@@ -3107,7 +2948,6 @@
     },
     {
       "Lv": 10,
-      "Hp": 53,
       "Atk": 2,
       "Bp": 4,
       "F": 0,
@@ -3124,7 +2964,6 @@
     },
     {
       "Lv": 11,
-      "Hp": 58,
       "Atk": 2,
       "Bp": 4,
       "F": 0,
@@ -3141,7 +2980,6 @@
     },
     {
       "Lv": 12,
-      "Hp": 63,
       "Atk": 2,
       "Bp": 4,
       "F": 0,
@@ -3158,7 +2996,6 @@
     },
     {
       "Lv": 13,
-      "Hp": 68,
       "Atk": 2,
       "Bp": 5,
       "F": 0,
@@ -3175,7 +3012,6 @@
     },
     {
       "Lv": 14,
-      "Hp": 73,
       "Atk": 2,
       "Bp": 5,
       "F": 0,
@@ -3192,7 +3028,6 @@
     },
     {
       "Lv": 15,
-      "Hp": 78,
       "Atk": 2,
       "Bp": 5,
       "F": 0,
@@ -3209,7 +3044,6 @@
     },
     {
       "Lv": 16,
-      "Hp": 83,
       "Atk": 2,
       "Bp": 5,
       "F": 0,
@@ -3226,7 +3060,6 @@
     },
     {
       "Lv": 17,
-      "Hp": 88,
       "Atk": 2,
       "Bp": 6,
       "F": 0,
@@ -3243,7 +3076,6 @@
     },
     {
       "Lv": 18,
-      "Hp": 93,
       "Atk": 2,
       "Bp": 6,
       "F": 0,
@@ -3260,7 +3092,6 @@
     },
     {
       "Lv": 19,
-      "Hp": 98,
       "Atk": 2,
       "Bp": 6,
       "F": 0,
@@ -3277,7 +3108,6 @@
     },
     {
       "Lv": 20,
-      "Hp": 103,
       "Atk": 2,
       "Bp": 6,
       "F": 0,
@@ -3295,7 +3125,8 @@
         ]
 
     },
-    "mago":{
+    "Mago":{
+      "Life":4,
       "Foco":"int",
       "Descri":"Estudiosos dedicados às regras arcanas, magos são os mais famosos usuários de magia, graças ao grande poder e versatilidade capazes de adquirir com o tempo. Magos misturam os diferentes caminhos da magia com as restrições de precisar decorá-las diariamente, um equilíbrio que torna o Mago poderoso, mas também uma posição complexa para qualquer equipe.",
       "Arquetipo":{
@@ -3329,7 +3160,6 @@
           [
             {
               "Lv": 1,
-              "Hp": 6,
               "Atk": 1,
               "Bp": 2,
               "F": 0,
@@ -3346,7 +3176,6 @@
             },
             {
               "Lv": 2,
-              "Hp": 10,
               "Atk": 1,
               "Bp": 2,
               "F": 0,
@@ -3363,7 +3192,6 @@
             },
             {
               "Lv": 3,
-              "Hp": 14,
               "Atk": 1,
               "Bp": 2,
               "F": 0,
@@ -3380,7 +3208,6 @@
             },
             {
               "Lv": 4,
-              "Hp": 18,
               "Atk": 1,
               "Bp": 2,
               "F": 0,
@@ -3397,7 +3224,6 @@
             },
             {
               "Lv": 5,
-              "Hp": 22,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -3414,7 +3240,6 @@
             },
             {
               "Lv": 6,
-              "Hp": 26,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -3431,7 +3256,6 @@
             },
             {
               "Lv": 7,
-              "Hp": 30,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -3448,7 +3272,6 @@
             },
             {
               "Lv": 8,
-              "Hp": 34,
               "Atk": 2,
               "Bp": 3,
               "F": 0,
@@ -3465,7 +3288,6 @@
             },
             {
               "Lv": 9,
-              "Hp": 38,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -3482,7 +3304,6 @@
             },
             {
               "Lv": 10,
-              "Hp": 42,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -3499,7 +3320,6 @@
             },
             {
               "Lv": 11,
-              "Hp": 46,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -3516,7 +3336,6 @@
             },
             {
               "Lv": 12,
-              "Hp": 50,
               "Atk": 2,
               "Bp": 4,
               "F": 0,
@@ -3533,7 +3352,6 @@
             },
             {
               "Lv": 13,
-              "Hp": 54,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -3550,7 +3368,6 @@
             },
             {
               "Lv": 14,
-              "Hp": 58,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -3567,7 +3384,6 @@
             },
             {
               "Lv": 15,
-              "Hp": 62,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -3584,7 +3400,6 @@
             },
             {
               "Lv": 16,
-              "Hp": 66,
               "Atk": 2,
               "Bp": 5,
               "F": 0,
@@ -3601,7 +3416,6 @@
             },
             {
               "Lv": 17,
-              "Hp": 70,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -3618,7 +3432,6 @@
             },
             {
               "Lv": 18,
-              "Hp": 74,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -3635,7 +3448,6 @@
             },
             {
               "Lv": 19,
-              "Hp": 78,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -3652,7 +3464,6 @@
             },
             {
               "Lv": 20,
-              "Hp": 82,
               "Atk": 2,
               "Bp": 6,
               "F": 0,
@@ -3669,7 +3480,8 @@
             }
           ]
     },
-    "paladino":{
+    "Paladino":{
+      "Life":6,
       "Foco":"car",
       "Descri":"Cavaleiros divinos com poderes vindos de entidades ou de um forte juramento, Paladinos podem ser o exemplo perfeito de herói ou de um terrível algoz por onde passarem, mas independente da forma, sempre serão lembrados por quem testemunhar seus poderes. Paladinos misturam o uso de armas e armaduras pesadas, montarias e poderes divinos advindos de um voto ou código de honra.",
        "Arquetipo":{
@@ -3698,7 +3510,6 @@
       [
         {
           "Lv": 1,
-          "Hp": 10,
           "Atk": 2,
           "Bp": 2,
           "F": 0,
@@ -3715,7 +3526,6 @@
         },
         {
           "Lv": 2,
-          "Hp": 16,
           "Atk": 2,
           "Bp": 2,
           "F": 0,
@@ -3732,7 +3542,6 @@
         },
         {
           "Lv": 3,
-          "Hp": 22,
           "Atk": 2,
           "Bp": 2,
           "F": 0,
@@ -3749,7 +3558,6 @@
         },
         {
           "Lv": 4,
-          "Hp": 28,
           "Atk": 2,
           "Bp": 2,
           "F": 0,
@@ -3766,7 +3574,6 @@
         },
         {
           "Lv": 5,
-          "Hp": 34,
           "Atk": 2,
           "Bp": 3,
           "F": 0,
@@ -3783,7 +3590,6 @@
         },
         {
           "Lv": 6,
-          "Hp": 40,
           "Atk": 2,
           "Bp": 3,
           "F": 0,
@@ -3800,7 +3606,6 @@
         },
         {
           "Lv": 7,
-          "Hp": 46,
           "Atk": 2,
           "Bp": 3,
           "F": 0,
@@ -3817,7 +3622,6 @@
         },
         {
           "Lv": 8,
-          "Hp": 52,
           "Atk": 2,
           "Bp": 3,
           "F": 0,
@@ -3834,7 +3638,6 @@
         },
         {
           "Lv": 9,
-          "Hp": 58,
           "Atk": 2,
           "Bp": 4,
           "F": 0,
@@ -3851,7 +3654,6 @@
         },
         {
           "Lv": 10,
-          "Hp": 64,
           "Atk": 2,
           "Bp": 4,
           "F": 0,
@@ -3868,7 +3670,6 @@
         },
         {
           "Lv": 11,
-          "Hp": 70,
           "Atk": 2,
           "Bp": 4,
           "F": 0,
@@ -3885,7 +3686,6 @@
         },
         {
           "Lv": 12,
-          "Hp": 76,
           "Atk": 2,
           "Bp": 4,
           "F": 0,
@@ -3902,7 +3702,6 @@
         },
         {
           "Lv": 13,
-          "Hp": 82,
           "Atk": 2,
           "Bp": 5,
           "F": 0,
@@ -3919,7 +3718,6 @@
         },
         {
           "Lv": 14,
-          "Hp": 88,
           "Atk": 2,
           "Bp": 5,
           "F": 0,
@@ -3936,7 +3734,6 @@
         },
         {
           "Lv": 15,
-          "Hp": 94,
           "Atk": 2,
           "Bp": 5,
           "F": 0,
@@ -3953,7 +3750,6 @@
         },
         {
           "Lv": 16,
-          "Hp": 100,
           "Atk": 2,
           "Bp": 5,
           "F": 0,
@@ -3970,7 +3766,6 @@
         },
         {
           "Lv": 17,
-          "Hp": 106,
           "Atk": 2,
           "Bp": 6,
           "F": 0,
@@ -3987,7 +3782,6 @@
         },
         {
           "Lv": 18,
-          "Hp": 112,
           "Atk": 2,
           "Bp": 6,
           "F": 0,
@@ -4004,7 +3798,6 @@
         },
         {
           "Lv": 19,
-          "Hp": 118,
           "Atk": 2,
           "Bp": 6,
           "F": 0,
@@ -4021,7 +3814,6 @@
         },
         {
           "Lv": 20,
-          "Hp": 124,
           "Atk": 2,
           "Bp": 6,
           "F": 0,
@@ -4038,7 +3830,8 @@
         }
       ]
     },
-    "ranger":{
+    "Ranger":{
+      "Life":6,
       "Foco":"des",
       "Descri":"Também chamado de Ranger em outras edições, os Guardiões são especialistas em terrenos e alvos específicos. O Guardião é um aliado versátil e um inimigo mortal capaz de atravessar a natureza selvagem com facilidade e caçar seus inimigos marcados com técnica e eficiência.",
       "Arquetipo": {
@@ -4067,7 +3860,6 @@
       [
         {
           "Lv": 1,
-          "Hp": 10,
           "Atk": 2,
           "Bp": 2,
           "F": 0,
@@ -4084,7 +3876,6 @@
         },
         {
           "Lv": 2,
-          "Hp": 16,
           "Atk": 2,
           "Bp": 2,
           "F": 0,
@@ -4101,7 +3892,6 @@
         },
         {
           "Lv": 3,
-          "Hp": 22,
           "Atk": 2,
           "Bp": 2,
           "F": 0,
@@ -4118,7 +3908,6 @@
         },
         {
           "Lv": 4,
-          "Hp": 28,
           "Atk": 2,
           "Bp": 2,
           "F": 0,
@@ -4135,7 +3924,6 @@
         },
         {
           "Lv": 5,
-          "Hp": 34,
           "Atk": 2,
           "Bp": 3,
           "F": 0,
@@ -4152,7 +3940,6 @@
         },
         {
           "Lv": 6,
-          "Hp": 40,
           "Atk": 2,
           "Bp": 3,
           "F": 0,
@@ -4169,7 +3956,6 @@
         },
         {
           "Lv": 7,
-          "Hp": 46,
           "Atk": 2,
           "Bp": 3,
           "F": 0,
@@ -4186,7 +3972,6 @@
         },
         {
           "Lv": 8,
-          "Hp": 52,
           "Atk": 2,
           "Bp": 3,
           "F": 0,
@@ -4203,7 +3988,6 @@
         },
         {
           "Lv": 9,
-          "Hp": 58,
           "Atk": 2,
           "Bp": 4,
           "F": 0,
@@ -4220,7 +4004,6 @@
         },
         {
           "Lv": 10,
-          "Hp": 64,
           "Atk": 2,
           "Bp": 4,
           "F": 0,
@@ -4237,7 +4020,6 @@
         },
         {
           "Lv": 11,
-          "Hp": 70,
           "Atk": 2,
           "Bp": 4,
           "F": 0,
@@ -4254,7 +4036,6 @@
         },
         {
           "Lv": 12,
-          "Hp": 76,
           "Atk": 2,
           "Bp": 4,
           "F": 0,
@@ -4271,7 +4052,6 @@
         },
         {
           "Lv": 13,
-          "Hp": 82,
           "Atk": 2,
           "Bp": 5,
           "F": 0,
@@ -4288,7 +4068,6 @@
         },
         {
           "Lv": 14,
-          "Hp": 88,
           "Atk": 2,
           "Bp": 5,
           "F": 0,
@@ -4305,7 +4084,6 @@
         },
         {
           "Lv": 15,
-          "Hp": 94,
           "Atk": 2,
           "Bp": 5,
           "F": 0,
@@ -4322,7 +4100,6 @@
         },
         {
           "Lv": 16,
-          "Hp": 100,
           "Atk": 2,
           "Bp": 5,
           "F": 0,
@@ -4339,7 +4116,6 @@
         },
         {
           "Lv": 17,
-          "Hp": 106,
           "Atk": 2,
           "Bp": 6,
           "F": 0,
@@ -4356,7 +4132,6 @@
         },
         {
           "Lv": 18,
-          "Hp": 112,
           "Atk": 2,
           "Bp": 6,
           "F": 0,
@@ -4373,7 +4148,6 @@
         },
         {
           "Lv": 19,
-          "Hp": 118,
           "Atk": 2,
           "Bp": 6,
           "F": 0,
@@ -4390,7 +4164,6 @@
         },
         {
           "Lv": 20,
-          "Hp": 124,
           "Atk": 2,
           "Bp": 6,
           "F": 0,

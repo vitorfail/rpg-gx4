@@ -126,6 +126,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.2991802
       objectReference: {fileID: 0}
+    - target: {fileID: 5091864113209753904, guid: 0aed302da7e1286408c2773fd112e1df, type: 3}
+      propertyPath: m_TagString
+      value: Corpo
+      objectReference: {fileID: 0}
     - target: {fileID: 5554665689531842209, guid: 0aed302da7e1286408c2773fd112e1df, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.13574168
@@ -228,3 +232,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce10d633a7e362a43a63380bc50f3d68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ar_at: {fileID: 0}

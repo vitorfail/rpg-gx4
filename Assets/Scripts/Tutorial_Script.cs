@@ -38,9 +38,7 @@ public class Tutorial_Script : MonoBehaviour
     IEnumerator Rolar_Iniciativa( float f)
     {
          yield return new WaitForSeconds(f);
-         Debug.Log(Utils.CalcularModificador(RenderPlayer.player_1.playerData.destreza).ToString());
         int modificador1 = Utils.CalcularModificador(RenderPlayer.player_1.playerData.destreza);
-        Debug.Log(RenderPlayer.player_1.playerData.race);
         string result = Objeto_dado_iniciativa1.Rolar();
         string result2 = Objeto_dado_iniciativa2.Rolar();
         if (modificador1 < 0){
@@ -68,10 +66,11 @@ public class Tutorial_Script : MonoBehaviour
             DadoIniciativa2.SetActive(false);
             if (player1)
             {
-                Utils.Instance.ZoomEmObjeto(player1.transform, 3.1f, 0.6f);
+                Utils.Instance.ZoomEmObjeto(player1.transform, 3.1f, 0.6f, 1.47f);
                 //yield return new WaitForSeconds(0.6f);
                 Vector3 p_inicial = new Vector3(-621.0f,-284.0f,0.0f);
                 Utils.Instance.MoverBotao(p_inicial,1.0f, 1.0f, 1.0f);
+                header_iniciativa.SetActive(false);
             }
         }
         else
@@ -86,7 +85,8 @@ public class Tutorial_Script : MonoBehaviour
             DadoIniciativa1.SetActive(false);
             DadoIniciativa2.SetActive(false);
             quem_ganhou.SetActive(false);
-            Utils.Instance.ZoomEmObjeto(player2.transform, 3.1f, 1.0f);
+            Utils.Instance.ZoomEmObjeto(player2.transform, 3.1f, 1.0f, -1.39f);
+            header_iniciativa.SetActive(false);
         }
     }
 }

@@ -11,6 +11,7 @@ namespace TipagemClasses
     {
         public string Foco { get; set; } = string.Empty;
         public string Descri { get; set; } =string.Empty;
+        public int Life { get; set; } =0;
         public Dictionary<string, Archetype> Arquetipo { get; set; } = new();
         public List<Level> Level { get; set; } = new();
     }
@@ -25,7 +26,6 @@ namespace TipagemClasses
     public class Level
     {
         public int Lv { get; set; }
-        public int Hp { get; set; }
         public int Atk { get; set; }
         public int Bp { get; set; }
         public int F { get; set; }

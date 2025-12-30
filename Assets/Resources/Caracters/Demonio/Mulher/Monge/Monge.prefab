@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5091864113209753904, guid: 844bbf2e7c8547a4a8376ecc554262ee, type: 3}
+      propertyPath: m_TagString
+      value: Corpo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -200,9 +204,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 844bbf2e7c8547a4a8376ecc554262ee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8512892987824561732}
-    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 844bbf2e7c8547a4a8376ecc554262ee, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1554545963107072920}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 844bbf2e7c8547a4a8376ecc554262ee, type: 3}
 --- !u!4 &2905996321208681933 stripped
 Transform:
@@ -254,52 +255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ar_at: {fileID: 0}
---- !u!61 &1554545963107072920
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4864062675863775844}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 1.62}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.4, y: 3.17}
-  m_EdgeRadius: 0
 --- !u!4 &5796928732369930412 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1447206975777293173, guid: 844bbf2e7c8547a4a8376ecc554262ee, type: 3}

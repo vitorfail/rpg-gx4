@@ -123,6 +123,7 @@ public class Mover_inicial : MonoBehaviour
         playerJson.forca = player.forca;
         playerJson.contituicao = player.contituicao;
         playerJson.destreza = player.destreza;
+        playerJson.hp = player.hp;
 
 
         string json = JsonUtility.ToJson(playerJson, true);
