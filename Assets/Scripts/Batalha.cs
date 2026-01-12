@@ -1,4 +1,5 @@
 using System.Collections;
+using System.IO;
 using UnityEngine;
 
 public class Batalha : MonoBehaviour
@@ -10,20 +11,24 @@ public class Batalha : MonoBehaviour
     public GameObject player1;
     public GameObject player2;
     public float speed = 2f;
+    public PlayerData_Json player;
     public Camera cam;
-    public void Ataque_1(int i)
+    public void Ataque_1()
     {
+        string path = Path.Combine(Application.persistentDataPath, "Player.json");
+        string json = File.ReadAllText(path);
+        PlayerData_Json player = JsonUtility.FromJson<PlayerData_Json>(json);
         if (RenderPlayer.player_1.Classes=="Guerreiro")
         {
             StartCoroutine(TransitionCamera());
             menus.SetActive(false);
             //Move(m);
-            if (i == 1)
+            if (player.id != 0)
             {
                 Move(MoveOption.Player1ToPlayer2);   
                 StartCoroutine(SelecionarAcao(player1));
             }
-            if (i == 2)
+            else
             {
                 Move(MoveOption.Player2ToPlayer1);   
             }
@@ -33,12 +38,12 @@ public class Batalha : MonoBehaviour
             StartCoroutine(TransitionCamera());
             menus.SetActive(false);
             //Move(m);
-            if (i == 1)
+            if (player.id == 1)
             {
                 Move(MoveOption.Player1ToPlayer2);   
                 StartCoroutine(SelecionarAcao(player1));
             }
-            if (i == 2)
+            else
             {
                 Move(MoveOption.Player2ToPlayer1);   
             }

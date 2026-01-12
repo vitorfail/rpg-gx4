@@ -47,6 +47,17 @@ public class PlayerManager  : MonoBehaviour
             Ataque(); // Ataque manual ao clicar
         }
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Espada"))
+        {
+            animator.SetBool("dano", true);
+            StartCoroutine(Resetar("dano", 0.5f));
+
+            // Reinicia o timer apenas para ataque automático
+            autoAttackTimer = 0f;
+        }
+    }
     void Ataque()
     {
         ar_at.ataque = true;

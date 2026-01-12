@@ -84,6 +84,7 @@ public class RenderPlayer : MonoBehaviour
         GameObject request = Resources.Load<GameObject>(
             $"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}"
         );
+        
 
         Quaternion rotation = Quaternion.Euler(90, 0, 0);
         newCharacter = Instantiate(request, prefab.transform.position, rotation, prefab.transform);

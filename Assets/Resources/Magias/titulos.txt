@@ -1,0 +1,356 @@
+Duração : até 1 minuto Você tenta suprimir emoções fortes em um grupo de pessoas.
+(ritual) Duração : Instantânea
+Duração : 8 horas Sua magia inspira seus aliados com vigor e determinação.
+(ritual) Duração : 8 horas Você coloca um alarme para intrusos desavisados.
+Duração : Instantânea Você suplica a uma entidade transcendental por ajuda.
+Duração : até 1 minuto Você transmuta sua aljava para que ela produza um suprimento interminável de munições não-mágicas, que parecem saltar na sua mão quando você tenta pega-las.
+Duração : até 1 hora Você assume a forma de uma criatura diferente, pela duração.
+Duração : até 1 hora Você assume uma forma diferente.
+Duração : até 1 minuto 217
+Duração : 24 horas Essa magia deixa você convencer uma besta que você não quer prejudicar.
+Duração : Instantânea Essa magia canaliza vitalidade nas plantas dentro de uma área especifica.
+(ritual) Duração : 1 hora Essa magia concede a habilidade de se mover através de qualquer superfície líquida – como água, ácido, lama, neve, arreia movediça ou lava – como se ela fosse chão sólido inofensivo (as criaturas atravessando lava derretida ainda podem sofrer dano do calor).
+Duração : Instantânea Essa magia cria um servo morto-vivo.
+Duração : até 1 minuto Objetos ganham vida ao seu comando.
+Duração : 10 dias Essa magia atrai ou repele as criaturas de sua escolha.
+Duração : até 1 hora Você toca uma criatura e a agracia com aprimoramento mágico.
+Duração : Até ser dissipada Você cria um impedimento mágico para imobilizar uma criatura que você possa ver, dentro do alcance.
+Duração : Instantânea Você esconde um baú, e todo o seu conteúdo, no Plano Etéreo.
+Duração : até 1 hora Uma arma não-mágica que você tocar se torna uma arma mágica.
+Duração : 1 minuto Você cria uma arma espectral flutuante, dentro do alcance, que permanece pela duração ou até você conjurar essa magia novamente.
+Duração : até 1 hora Você toca uma arma não-mágica.
+Duração : 8 horas Você toca uma criatura voluntária que não esteja vestindo armadura e uma energia mágica protetora a envolve até a magia acabar.
+Duração : 1 hora Uma força magica protetora envolve você, manifestando- se como um frio espectral que cobre você e seu equipamento.
+Duração : Instantânea Escolha um objeto que você possa ver, dentro do alcance.
+Duração : até 1 minuto Você mexe com os pesadelos de uma criatura que você possa ver, dentro do alcance, e cria uma manifestação ilusória dos seus medos mais profundos, visível apenas para a criatura.
+Duração : até 1 rodada
+Duração : até 1 minuto Pela duração da magia, seus olhos tornam-se manchas vazias imbuídas com poder terrível.
+Duração : Instantânea
+Duração : até 1 minuto Você faz com que uma criatura ou um objeto que você possa ver dentro do alcance, fique maior ou menor, pela duração.
+Duração : 24 horas Você coloca uma ilusão em uma criatura ou objeto que você tocar, então magias de adivinhação revelarão informações falsas sobre ele.
+Duração : até 1 minuto Luz divina emana de você e adere em uma aureola suave num raio de 9 metros, em volta de você.
+Duração : até 10 minutos 222 Energia purificante irradia de você em uma aura com 9 metros de raio.
+Duração : até 10 minutos Energia de prevenção vital irradia de você em uma aura com 9 metros de raio.
+Duração : até 1 minuto Energia curativa irradia de você em uma aura com 9 metros de raio.
+Duração : até 1 minuto Sua oração fortalece você com radiação divina.
+Duração : até 1 minuto Você tenta enviar uma criatura que você pode ver dentro do alcance, para outro plano de existência.
+Duração : Instantânea Você traz um grande banquete, incluindo comida e bebida magnificas.
+Duração : até 10 minutos Você cria uma muralha vertical de lâminas giratórias, afiadas como navalhas, feitas de energia mágica.
+(ritual) Duração : Até ser dissipada Você implanta uma mensagem em um objeto dentro do alcance, uma mensagem que é pronunciada quando uma condição de ativação é satisfeita.
+Duração : Instantânea Um veio brilhante lampeja na ponta do seu dedo em direção a um ponto que você escolher, dentro do alcance, e então eclode com um estampido baixo, explodindo em chamas.
+Duração : até 1 minuto Um feixe de luz amarelada é disparado da ponta do seu dedo, então se condensa e aguarda no ponto escolhido, dentro do alcance, como uma conta brilhante, pela duração.
+Duração : Instantânea Até dez frutos aparecem na sua mão e são infundidos com magia pela duração.
+Duração : 1 minuto
+Duração : Instantânea Você invoca o poder de Hadar, o Faminto Sombrio.
+Duração : até 1 hora Você coloca uma maldição em uma criatura que você possa ver, dentro do alcance.
+Duração : até 1 minuto
+Duração : até 1 minuto Você adquire a habilidade de entrar em uma árvore e se mover de dentro dela para dentro de outra árvore de mesmo tipo à até 150 metros.
+Duração : 8 horas Você e até dez criaturas voluntária que você possa ver, dentro do alcance, assumem uma forma gasosa pela duração, parecidas com pedaços de nuvem.
+Duração : até 1 hora Uma esfera invisível, de 3 metros de raio, de antimagia envolve você.
+Duração : até 1 minuto Você tenta transformar uma criatura que você possa ver, dentro do alcance, em pedra.
+Duração : 1 minuto Você tece um cordão de palavras distrativas, fazendo as criaturas, à sua escolha, que você puder ver dentro do alcance e que puderem ouvir você, realizarem um teste de resistência de Sabedoria.
+Duração : 1 minuto Você pode cegar ou ensurdecer um oponente.
+Duração : Até ser dissipada Uma chama, que produz iluminação equivalente a uma tocha, surge de um objeto que você tocar.
+Truque de Duração : Instantânea
+Truque de Duração : Instantânea
+Duração : Instantânea Esferas de fogo incandescentes atingem o solo em quatro pontos diferentes que você possa ver, dentro do alcance.
+Duração : até 10 minutos 228
+Duração : Instantânea Essa magia produz uma duplicata inerte de uma criatura viva como uma garantia contra a morte.
+Duração : Instantânea Uma coluna vertical de fogo divino emerge de baixo para os céus, no local que você especificar.
+Duração : 1 rodada Você pronuncia uma palavra de comando para uma criatura que você possa ver dentro do alcance.
+(ritual) Duração : 1 hora Pela duração, você compreende o significado literal de qualquer idioma falado que você ouvir.
+Duração : até 1 minuto
+5 nível de adivinhação (ritual) Duração : 1 minuto
+(ritual) Duração : Instantânea Você, momentaneamente, se torna uno com a natureza e ganha conhecimento do território ao seu redor.
+Duração : Instantânea Uma explosão de ar gelado irrompe das suas mãos.
+4 nível de encantamento Duração : até 1 minuto
+Duração : Instantânea Nomeie ou descreva uma pessoa, local ou objeto.
+Duração : até 1 hora Você invoca espíritos feéricos, que assumem formas de bestas, que aparecem em espaços desocupados, que você possa ver dentro do alcance.
+Duração : até 1 hora Você invoca um celestial de nível de desafio 4 ou inferior, que aparece num espaço desocupado, que você possa ver dentro do alcance.
+Duração : até 1 hora Você invoca elementais que aparecem em espaços desocupados, que você possa ver dentro do alcance.
+Duração : até 1 hora Você invoca um servo elemental.
+Duração : até 1 hora 231 Você invoca uma criatura feérica de nível de desafio 6 ou inferior ou um espírito feérico que assume a forma de uma besta de nível de desafio 6 ou inferior.
+Duração : Instantânea Você arremessa uma arma não-mágica ou dispara uma munição não-mágica no ar para criar um cone de armas idênticas que se lançam a frente e então desaparecem.
+Duração : até 1 hora Você invoca criaturas feéricas que aparecem em espaços desocupados, que você possa ver dentro do alcance.
+Duração : Até ser dissipada Você toca um ponto e infunde uma área ao redor com poder sagrado (ou profano).
+Duração : até 1 minuto
+(ritual) Duração : 1 minuto Você contata mentalmente um semideus, o espírito de um sábio morto há muito tempo ou alguma outra entidade misteriosa de outro plano.
+Duração : 10 dias Escolha uma magia de 5 nível ou inferior que você possa conjurar, que tenha um tempo de conjuração de 1 ação e que possa ter você como alvo.
+Duração : Instantânea
+Duração : até 10 minutos Até o fim da magia, você controla qualquer corpo de água dentro da área que você escolher, que é um cubo de 30 metros quadrados.
+Duração : até 8 horas Você toma controle do clima numa área de 7,5 quilômetros de você pela duração.
+(ritual) Duração : Instantânea Você adquire os serviços de uma familiar, um espírito que toma a forma de um animal, à sua escolha: aranha, caranguejo, cavalo marinho, coruja, corvo, doninha, gato, falcão, lagarto, morcego, peixe (arenque), polvo, rato, rã (sapo) ou serpente venenosa. Aparecendo em um espaço desocupado dentro do alcance, o familiar tem as mesmas estatísticas da forma escolhida, no entanto, ele é um celestial, corruptor ou fada (à sua escolha) ao invés de uma besta. Seu familiar age independentemente de você, mas ele sempre obedece aos seus comandos. Em combate, ele rola sua a própria iniciativa e age no seu próprio turno. Um familiar não pode atacar, mas ele pode realizar outras ações, como de costume. 234 Quando um familiar cai a 0 pontos de vida, ele desaparece, não deixando qualquer corpo físico para trás. Ele reaparece depois de você conjurar essa magia novamente. Enquanto seu familiar estiver a até 30 metros de você, você pode se comunicar telepaticamente com ele. Além disso, com uma ação, você pode ver através dos olhos do familiar e ouvir através dos ouvidos dele, até o início do seu próximo turno, adquirindo os benefícios de qualquer sentido especial que o familiar possua. Durante esse período, você estará cego e surdo em relação aos seus próprios sentidos. Com uma ação, você pode, temporariamente, dispensar seu familiar. Ele desaparece dentro de uma bolsa dimensional onde ele aguarda sua convocação. Alternativamente, você pode dispensa-lo para sempre. Com uma ação, enquanto ele estiver temporariamente dispensado, você pode fazê-lo reaparecer em qualquer espaço desocupado a até 9 metros de você. Você não pode ter mais de um familiar por vez. Se você conjurar essa magia enquanto já tiver um familiar, ao invés disso, você faz seu familiar existente adotar uma nova forma. Escolha uma das formas da lista acima. Seu familiar se transforma na criatura escolhida. Finalmente, quando você conjura uma magia com alcance de toque, seu familiar pode transmitir a magia, como se ele tivesse conjurado ela. Seu familiar precisa estar a até 30 metros de você e deve usar a reação dele para transmitir a magia quando você a conjurar. Se a magia necessitar de uma jogada de ataque, você usa seu modificador de ataque para essa jogada.
+Duração : Instantânea Você convoca um espírito que assume a forma de uma montaria excepcionalmente inteligente, forte e leal, criando uma ligação duradoura com ela.
+Duração : até 10 minutos Uma nuvem tempestuosa aparece em formato cilíndrico com 3 metros de altura e 18 metros de raio, centrada num ponto que você possa ver, 30 metros acima de você.
+Duração : 8 horas Você enfinca quatro munições não-mágicas – flechas ou virotes de besta – no solo dentro do alcance e conjura 235 magia neles para proteger uma área.
+Duração : até 1 minuto Um humanoide, à sua escolha, que você possa ver dentro do alcance, deve ser bem sucedido num teste de resistência de Sabedoria ou ficará enfeitiçado por você pela duração.
+Duração : Instantânea Você cria um raio elétrico que atinge um alvo, à sua escolha, que você possa ver dentro do alcance.
+Duração : até 10 minutos O solo num raio de 6 metros, centrado num ponto dentro do alcance, se retorce e brotam cavilhas rígidas e espinhos.
+Duração : Instantânea Você cria 25 quilos de comida e 100 litros de água no solo ou em um recipiente dentro do alcance, suficiente para sustentar até quinze humanoide ou cinco montarias por 24 horas.
+Duração : 10 minutos
+Duração : Instantânea Você só pode conjurar essa magia durante a noite.
+Duração : 1 hora Uma passagem aparece em um ponto, à sua escolha, que você possa ver em uma superfície de madeira, gesso ou rocha (como um muro, um teto ou um piso) dentro do alcance e permanece pela duração.
+Duração : Instantânea Você pode tanto criar quanto destruir água.
+Duração : Especial
+Duração : Instantânea Escolha uma criatura que você possa ver, dentro do alcance.
+Duração : Instantânea Uma inundação de energia curativa emerge de você para as criaturas feridas ao seu redor.
+Duração : Instantânea Uma criatura que você tocar recupera uma quantidade de pontos de vida igual a 1d8 seu modificador de habilidade de conjuração.
+Duração : Instantânea Uma onda de energia curativa emerge de um ponto, à sua escolha, dentro do alcance.
+Duração : 8 horas Você conjura um cão de guarda fantasma em um espaço desocupado que você possa ver, dentro do alcance, que permanece pela duração, até você dissipa-lo com uma ação ou até você se mover para mais de 30 metros dele.
+Duração : 1 hora
+Duração : Instantânea Uma esfera de energia negativa ondula em um raio de 18 metros de um ponto ao alcance.
+Duração : até 10 minutos Energia divina irradia de você, distorcendo e espalhando energia mágica a até 9 metros de você.
+Duração : 1 rodada À medida que você conjura essa magia, você desenha um círculo de 3 metros de diâmetro no chão, inscrevendo selos que conectam sua localização a um círculo de teletransporte permanente, à sua escolha, cuja sequência de selos você conheça e esteja no mesmo plano de existência que você.
+Duração : até 1 hora Uma barreira cintilante se estende de você até 3 metros de raio, e se move com você, permanecendo centrada em você e restringindo criaturas diferentes de mortos-vivos e constructos.
+Duração : até 1 minuto Escolha uma criatura que você possa ver, dentro do alcance.
+Duração : Instantânea Você envia energia negativa na direção de uma criatura que você possa ver, dentro do alcance, causando dores severas nela.
+Duração : Instantânea Desejo é a magia mais poderosa que uma criatura mortal pode conjurar.
+Duração : Instantânea Um fino raio esverdeado é lançado da ponta do seu dedo em um alvo que você possa ver dentro do alcance.
+Duração : Instantânea
+Duração : Instantân ea Depois de gastar o tempo de conjuração traçando runas mágicas com uma gema preciosa, você toca uma besta ou planta Enorme ou menor.
+Duração : até 1 hora Você fica invisível ao mesmo tempo que uma cópia ilusória sua aparece onde você estava.
+Duração : até 1 minuto Da próxima vez que você atingir uma criatura com um ataque com arma, antes do fim da magia, seu ataque crepita com energia e o ataque causa 5d6 de dano de energia extra ao alvo.
+Duração : até 1 minuto Da próxima vez que você atingir uma criatura com um ataque com arma, antes do fim da magia, sua arma emite uma luz intensa, e o ataque causa 3d8 de dano radiante extra ao alvo.
+Duração : até 1 minuto
+Duração : até 1 minuto Da próxima vez que você atingir uma criatura com um ataque corpo-a-corpo com arma, antes do fim da magia, sua arma penetra tanto no corpo quanto na mente e o ataque causa 4d6 de dano psíquico adicional ao alvo.
+Duração : até 1 minuto Da próxima vez que você atingir uma criatura com um ataque corpo-a-corpo com arma enquanto essa magia durar, sua arma flameja com intensas chamas brancas e o ataque causa 1d6 de dano de fogo extra ao alvo, fazendo- o incendiar pelas chamas.
+Duração : até 1 minuto Da primeira vez que você atingir um ataque corpo-a-corpo com arma enquanto essa magia durar, sua arma é rodeada por trovões que são audíveis a até 90 metros de você e o ataque causa 2d6 de dano trovejante extra no alvo.
+(ritual) Duração : até 10 minutos Pela duração, você sente a presença de magia a até 9 metros de você.
+Duração : até 1 minuto Pela duração, você pode ler os pensamentos de certas criaturas.
+(ritual) Duração : até 10 minutos Pela duração, você sente a presença e localização de venenos, criaturas venenosas e doenças a até 9 metros de você.
+Duração : até 10 minutos Pela duração, você sabe se existe uma aberração, celestial, corruptor, elemental, fada ou morto-vivo, a até 9 metros de você, assim como onde a criatura está localizada.
+Duração : 8 horas Pela duração, você esconde um alvo que você tocar de magias de adivinhação.
+(ritual) Duração : 1 hora Essa magia cria um plano horizontal, circular de energia de 90 cm de diâmetro por 2,5 cm de espessura, que flutua 90 centímetros acima do chão em um espaço desocupado, à sua escolha, que você possa ver dentro do alcance.
+Duração : 1 hora Você faz com que você mesmo – incluindo suas roupas, armadura, armas e outros pertences no seu personagem – pareça diferente até a magia acabar ou até você usar sua ação para dispensa-la.
+Duração : Instantânea Escolha uma criatura, objeto ou efeito mágico dentro do alcance.
+Duração : até 1 minuto Energia cintilante envolve e protege você de fadas, mortos-vivos e criaturas originarias além do Plano Material.
+Duração : Instantânea Você introduz uma doença virulenta em uma criatura que você puder ver, dentro do alcance.
+Duração : até 1 minuto Você tenta seduzir uma besta que você possa ver dentro do alcance.
+Duração : até 1 hora Você tenta seduzir uma criatura que você possa ver dentro do alcance.
+Duração : até 1 minuto Você tenta seduzir um humanoide que você possa ver dentro do alcance.
+Duração : Instantânea
+Duração : até 1 minuto Você tenta compelir uma criatura a duelar com você.
+Duração : até 1 minuto
+Duração : Instantânea Você sente a presença de qualquer armadilha dentro do alcance a qual você tenha linha de visão.
+Duração : até 1 dia Essa magia permite que você encontre a rota física mais curta e direta para um local especifico estático, que você seja familiar, no mesmo plano de existência.
+Duração : 1 hora Você tenta enfeitiçar um humanoide que você possa ver dentro do alcance.
+Duração : Instantânea Você ataca a mente de uma criatura que você possa ver, dentro do alcance, tentando despedaçar seu intelecto e personalidade.
+Duração : 1 rodada Você envia uma mensagem curta, de vinte e cinco palavras ou menos, para uma criatura que seja familiar a você.
+(ritual) Duração : 10 dias Você escreve em um pergaminho, papel ou qualquer outro material adequado e tinge ele com uma poderosa ilusão que permanece pela duração.
+Duração : 1 rodada Uma barreira de energia invisível aparece e protege você.
+Duração : até 10 minutos 244 Um campo cintilante aparece ao redor de uma criatura, à sua escolha, dentro do alcance, concedendo 2 de bônus na CA pela duração.
+Duração : 10 minutos Finas e discretas chamas rodeiam seu corpo pela duração, emitindo luz plena em 3 metros de raio e penumbra por mais 3 metros adicionais.
+Duração : até 10 minutos
+Duração : Instantânea Um globo frigido de energia gelada é arremessado das pontas dos seus dedos para um ponto, à sua escolha, dentro do alcance, onde ele explode numa esfera de 18 metros de raio.
+Duração : até 1 minuto Uma esfera de fogo, com 1,5 metro de diâmetro, aparece em um espaço desocupado, à sua escolha, dentro do alcance e permanece pela duração.
+Duração : até 1 minuto Uma esfera de energia brilhante engloba uma criatura ou objeto de tamanho Grande ou menor, dentro do alcance.
+ação Duração : Con centração, até1minu to Você cria um plano de energ ia em for mato de es pada que flutua dentrodoalcance.
+Duração : Instantân ea Vocêarrem essa uma bolha deácido. Escolha uma criat ura dentrodoalcance, ouescolha duascriat uras dentrodoalcance que este jam a 1,5metrouma da outr a. Umalvo deve ser bem suced idonum teste de re sistência de Destreza ou sofrerá 1d6 de danoácido. O dano d essa magia aumenta em 1d6 quando você alcança o 5 nív el (2d6), 11 nível (3d6) e17 nív el (4d6).
+Duração : Con centração, até10minu tos Vocêevoca espíritospara protege-lo.
+Duração : até 1 minuto Escolha uma objeto manufaturado de metal, como uma arma de metal ou uma armadura pesada ou média de metal, que você possa ver dentro do alcance.
+Duração : Instantânea
+Duração : Instantânea Luz solar brilhante lampeja num raio de 18 metros, centrada num ponto, à sua escolha, dentro do alcance.
+Duração : Instantânea Você converte matéria-prima em produtos do mesmo material.
+(ritual) Duração : 10 minutos Você adquire a habilidade de compreender e se comunicar verbalmente com bestas, pela duração.
+Duração : 10 minutos Você concede o aspecto de vida e inteligência a um corpo, à sua escolha, dentro do alcance, permitindo que ele responda as perguntas que você fizer.
+(ritual) Duração : 10 minutos Você imbui as plantas a até 9 metros de você co m consciência e animação limitadas, dando-lhes a 247 habilidade de se comunicar com você e seguir seus comandos simples.
+Duração : até 1 minuto Da próxima vez que você realizar um ataque com uma arma à distância enquanto a magia durar, a munição da arma ou a própria arma, se ela for uma arma de arremesso, se transforma num relâmpago.
+Duração : Instantânea Uma flecha esverdeada cintilante voa em direção de um alvo dentro do alcance e explode em um jato de ácido.
+Duração : até 1 minuto Cada objeto num cubo de 6 metros dentro do alcance fica delineado com luz azul, verde ou violeta (à sua escolha).
+Duração : até 1 minuto Você abre um portal para a escuridão entre as estrelas, uma região infestada de horrores desconhecidos.
+(ritual) Duração : 1 hora Você toca uma criatura voluntária e a coloca em um estado catatônico que é indistinguível da morte.
+Duração : até 8 horas
+Duração : até 1 hora
+Duração : até 24 horas Sua magia transforma você em bestas.
+Duração : até 1 minuto
+Duração : Até ser dissipada ou ativada Quando você conjura essa magia, você inscreve um glifo que fere outras criaturas, tanto sobre uma superfície (como uma mesa ou uma secção de piso ou parede) quanto dentro de um objeto que possa ser fechado (como um livro, um pergaminho ou um baú de tesouro) para ocultar o glifo.
+Duração : até 1 minuto Uma barreira imóvel, levemente cintilante, surge do nada num raio de 3 metros centrado em você e permanece pela duração.
+Duração : até 1 minuto
+Duração : até 1 minuto Da próxima vez que você atingir uma criatura com um ataque com arma, antes do final da magia, um emaranhado maciço de vinhas espinhentas aparecem no local do impacto e o alvo deve ser bem sucedido num teste de resistência de Força ou ficará impedido pelas vinhas mágicas, até o fim da magia.
+Duração : 8 horas Um guardião espectral Grande aparece e flutua, pela duração, em um espaço desocupado, à sua escolha, que você possa ver dentro do alcance.
+Duração : até 1 minuto
+(ritual) Duração : Instantânea
+Duração : 1 hora Essa magia garante a criatura que você tocar a habilidade de compreender e falar o idioma que ela ouvir.
+Duração : 1 minuto
+Duração : Até ser dissipada Você cria uma ilusão de um objeto, uma criatura ou de algum outro fenômeno visível, dentro do alcance, que se ativa quando uma condição especifica ocorre.
+Duração : até 10 minutos Você cria uma imagem de um objeto, uma criatura ou algum outro fenômeno visível que não tenha mais de 6 metros cúbicos.
+Duração : até 10 minutos Você cria a imagem de um objeto, criatura ou outro fenômeno visual que não tenha mais de 4,5 metros cúbicos.
+Duração : até 1 minuto Escolha uma criatura que você possa ver, dentro do alcance.
+Duração : até 1 minuto Escolha um humanoide que você possa ver, dentro do alcance.
+Duração : Instantânea Faça um ataque corpo-a-corpo com magia contra uma criatura dentro do alcance.
+Duração : até 10 minutos Você transforma até dez centopeias, três aranhas, cinco vespas ou um escorpião, dentro do alcance, em versões gigantes das suas formas naturais, pela duração.
+Duração : até 1 minuto Essa magia inverte a gravidade num cilindro de 15 metros de raio por 30 metros de altura, centrado num ponto dentro do alcance.
+Duração : até 1 hora Uma criatura que você tocar, se torna invisível até a magia acabar.
+Duração : até 1 minuto Você ou uma criatura que você possa tocar, se torna invisível até a magia acabar.
+(ritual) Duração : Até ser dissipada Você toca um objeto pesando 5 quilos ou menos com maior dimensão de 1,8 metro ou menos.
+Duração : Até ser dissipada Através dessa magia, uma criatura voluntária ou um objeto, pode ser escondido, seguro contra detecção pela duração.
+Duração : até 10 minutos Você bane uma criatura que você possa ver, dentro do alcance, para um semiplano labiríntico.
+Duração : até 1 minuto
+Duração : 1 rodada Um feixe ofuscante de luzes coloridas ordenadas, surge da sua mão.
+Duração : até 10 minutos
+(ritual) Duração : 1 hora Você forja uma ligação telepática entre até oito criaturas voluntárias, à sua escolha, dentro do alcance, ligando psiquicamente cada criatura a todas as outras, pela duração.
+Duração : 24 horas Até a magia acabar, uma criatura voluntária que você tocar fica imune a dano psíquico, a qualquer efeito que poderia sentir suas emoções ou ler seus pensamentos, a magias de adivinhação e a condição enfeitiçado.
+(ritual) Duração : Instantânea Descreva ou nomeie um tipo especifico de besta ou planta.
+Duração : até 1 hora Descreva ou nomeie uma criatura que seja familiar a você.
+Duração : até 10 minutos Descreva ou nomeie um objeto que seja familiar a você.
+Duração : 1 hora Até o fim da magia, quando você realizar um teste de Carisma, você pode substituir o número rolado por você por um 15.
+Duração : até 1 minuto Uma linha de vento forte, com 18 metros de comprimento e 3 metros de largura, é soprada de você em uma direção, à sua escolha, pela duração da magia.
+Duração : 1 hora
+Duração : 1 hora Uma esfera de luz, com 18 metros de raio, se espalha a partir de um ponto, à sua escolha, dentro do alcance.
+Duração : até 10 minutos 254 Você evoca uma lâmina ardente em sua mão livre.
+Duração : Instantânea Energia necromântica inunda uma criatura, à sua escolha, que você possa ver dentro do alcance, drenando sua umidade e vitalidade.
+Duração : 24 horas Você conjura uma residência extradimensional, dentro do alcance, que permanece pela duração.
+Duração : até 1 minuto Poder sagrado irradia de você em uma aura de 9 metros de raio, despertando a audácia nas criaturas amigáveis.
+Duração : até 1 minuto Da próxima vez que você atingir uma criatura com um ataque com arma, antes do fim da magia, a arma cintilará com radiação astral quando você golpear.
+Duração : até 1 hora Você escolhe uma criatura que possa ver, dentro do alcance e a marca misticamente como sua presa.
+Duração : até 1 minuto Você projeta uma imagem fantasmagórica dos piores medos de uma criatura.
+(ritual) Duração : 24 horas Através dessa magia, você usa um animal para entregar uma mensagem.
+Duração : 1 rodada
+(ritual) Duração : 8 horas Você entra em um objeto ou superfície rochoso, grande o suficiente para comportar seu corpo inteiro, mesclando-se, junto com todo o equipamento que você esteja carregando, com a rocha pela duração.
+Duração : até 1 hora Essa magia transforma uma criatura que você possa ver, dentro do alcance, em uma nova forma.
+Duração : até 1 hora Escolha uma criatura ou objeto não-mágico que você possa ver, dentro do alcance.
+Duração : 30 dias
+Duração : até 1 minuto Você tenta modelar as memórias de outra criatura.
+Duração : Instantânea Você toca um objeto de pedra de tamanho Médio ou menor, ou uma seção de rocha com não mais de 1,5 metro em qualquer dimensão e modela-a em qualquer forma que sirva aos seus propósitos.
+(ritual) Duração : 1 hora Uma criatura Grande, quase-real, similar a um cavalo, aparece no solo em um espaço desocupado, à sua escolha, dentro do alcance.
+Duração : até 2 horas Escolha uma área de terreno não maior que 12 metros de lado, dentro do alcance.
+Duração : 1 hora Você toca uma criatura voluntária.
+Duração : 10 minutos Uma plano cintilante multicolorido de luzes forma uma parece vertical opaca – de até 27 metros de comprimento, 9 metros de altura e 2,5 centímetros de espessura – centrada num ponto que você possa ver, dentro do alcance.
+Duração : até 10 minutos Uma muralha invisível de energia aparece do nada num ponto, à sua escolha, dentro do alcance.
+Duração : até 1 minuto Você cria uma muralha de fogo numa superfície sólida dentro do alcance.
+Duração : até 10 minutos Você cria uma muralha de gelo numa superfície sólida dentro do alcance.
+Duração : até 10 minutos Uma muralha não-mágica de rocha sólida surge do nada num ponto, à sua escolha, dentro do alcance.
+Duração : até 1 minuto Uma muralha de ventos fortes ergue-se do chão num ponto, à sua escolha, dentro do alcance.
+Duração : Instantânea Enquanto você mantiver suas mãos com os polegares juntos e os dedos abertos, uma fino leque de chamas emerge das pontas dos seus dedos erguidos.
+Duração : 1 minuto Uma mão espectral flutuante aparece num ponto, à sua escolha, dentro do alcance.
+Duração : Instantânea
+Duração : até 1 minuto Até a magia acabar, uma chuva congelante e neve caem num cilindro de 6 metros de altura por 12 metros de raio, centrado num ponto, à sua escolha, dentro do alcance.
+Duração : até 1 minuto 265 Seu corpo se torna turvo, mudando e oscilando para todos que puderem ver você.
+Duração : até 1 minuto Uma nuvem de fumaça rodopiante que dispara brasas incandescentes aparece numa esfera de 6 metros centrada num ponto, dentro do alcance.
+Duração : até 1 minuto Você preenche o ar com adagas giratórias num cubo de 1,5 metro quadrado, centrado em m ponto, à sua escolha, dentro do alcance.
+Duração : até 1 minuto
+Duração : até 10 minutos Você cria uma esfera de nevoeiro venenoso de cor amarelo-esverdeado, com 6 metros de raio, centrado em um ponto, à sua escolha, dentro do alcance.
+Duração : até 1 hora Você cria uma esfera de 6 metros de raio de névoa, centrada num ponto, dentro do alcance.
+Duração : até 1 hora Você cria um olho mágico invisível, dentro do alcance, que flutua no ar pela duração.
+Duração : Instantânea Você golpeia o chão, criando uma explosão de energia divina que se propaga de você.
+Duração : Instantânea Uma onda de força trovejante varre tudo a partir de você.
+Duração : Instantânea Até seis criaturas, à sua escolha, que você possa ver, dentro do alcance, recuperam uma quantidade de pontos de vida igual a 2d8 seu modificador de habilidade de conjuração, cada uma.
+Duração : Instantânea Você arremessa uma esfera de energia de 12 centímetros de diâmetro numa criatura que você possa ver dentro do alcance.
+Duração : até 1 minuto Você toca uma criatura voluntária. Uma vez, antes da magia acabar, o alvo pode rolar um d4 e adicionar o número rolado a um teste de habilidade a escolha dele. Ele pode rolar o dado antes ou depois de realizar o teste de habilidade. Após isso, a magia termina.
+Duração : até 1 minuto
+Duração : Instantânea Uma criatura, à sua escolha, que você possa ver dentro do alcance recupera uma quantidade de pontos de vida igual a 1d4 seu modificador de habilidade de conjuração.
+Duração : Instantânea À medida que você brada palavras de restauração, até seis criaturas, à sua escolha, que você possa ver, dentro do alcance, recuperam uma quantidade de pontos de vida igual a 1d4 seu modificador de habilidade de conjuração.
+Duração : Instantânea Você profere uma palavra divina, imbuída com o poder que moldou o mundo na aurora da criação.
+Duração : Instantânea Você pronuncia uma palavra de poder que pode oprimir a mente de uma criatura que você possa ver, dentro do alcance, deixando-a estupefata.
+Duração : Instantânea Uma onda de energia curativa inunda a criatura tocada .
+Duração : Instantânea Você profere uma palavra de poder que pode compelir uma criatura que você possa ver, dentro do alcance, a morrer instantaneamente.
+Duração : Instantânea Você e até cinco criaturas voluntária a 1,5 metro de você, instantaneamente são teletransportadas para um santuário previamente designado.
+Duração : Instantânea Você, por um breve momento, para o fluxo do tempo pra tudo, menos pra você.
+Duração : Instantânea Brevemente envolto por uma neblina prateada, você se teletransporta a até 9 metros para um espaço desocupado que você possa ver.
+Duração : 1 hora Você toca uma criatura.
+Duração : até 1 hora Um véu de sombras e silencia irradia de você, encobrindo você e seus companheiros contra detecção.
+Duração : até 1 hora Até a magia acabar, uma criatura voluntária que você tocar, recebe a habilidade de se mover para cima, para baixo e através de superfícies verticais e de cabeça para baixo pelos tetos, enquanto deixa suas mãos livres.
+Duração : até 1 hora Essa magia transforma a pele de uma criatura voluntária que você tocar em rocha sólida.
+Duração : até 1 hora Você toca uma criatura voluntária.
+(ritual) Duração : 8 horas Um domo de energia imóvel, de 3 metros de raio, aparece do nada, ao seu redor e acima de você e permanece parado pela duração.
+Duração : até 1 minuto
+Duração : 1 minuto Role um d20 no final de cada um dos seus turnos pela duração da magia.
+Duração : Instantânea Você se teletransporte da sua posição atual para qualquer local dentro do alcance.
+Duração : até 1 minuto Você conjura um portal conectando um espaço desocupado que você possa ver, dentro do alcance, a uma localização precisa em um plano de existência diferente.
+Duração : até 10 minutos Você cria portais de teletransporte conectados que permanecem abertos pela duração.
+Duração : 7 dias Seu toque inflige uma doença.
+Duração : até 10 minutos Um enxame voraz de gafanhotos preenche uma esfera de 6 metros de raio, centrada no ponto que você escolher, dentro do alcance.
+Duração : Até 1 hora
+Duração : 1 hora Uma prisão em formato cúbico, imóvel e invisível, composta de energia mágica brota do nada, em volta de uma área, à sua escolha, dentro do alcance.
+(ritual) Duração : 1 dia
+Duração : até 1 dia Você cria uma cópia ilusória de si mesmo, que permanece pela duração.
+Duração : Especial Você e até oito criaturas voluntárias dentro do alcance, projetam seus corpos astrais para o Plano Astral (a magia falha e a conjuração é perdida se você já estiver no plano).
+Duração : 24 horas Você cria uma defesa que protege até 225 metros quadrados de espaço (uma área de um quadrado de 15 metros ou cem quadrados de 1,5 metro ou vinte e cinco quadrados de 3 metros).
+Duração : até 1 hora
+Duração : 1 rodada Você estende suas mãos e desenha um símbolo de proteção no ar. Até o final do seu próximo turno, você terá resistência contra dano de concussão, cortante e perfurante causado por ataques com armas.
+Duração : 1 hora Você toca uma criatura.
+Duração : 8 horas Você toca uma criatura e concede a ela uma certa proteção contra a morte.
+Duração : até 10 minutos Até a magia acabar, uma criatura voluntária que você tocar estará protegida contra certos tipos de criaturas: aberrações, celestiais, corruptores, elementais, fadas e mortos-vivos.
+(ritual) Duração : Instantânea Toda comida e bebida não-mágica dentro de uma esfera de 1,5 metro de raio centrada num ponto, à sua escolha, dentro do alcance é purificada e se livrada de venenos ou doenças.
+Duração : 1 minuto Escolha até cinco criaturas caindo, dentro do alcance.
+Duração : Instantânea Um raio adoecente de energia esverdeada chicoteia na direção de uma criatura dentro do alcance.
+Duração : Instantânea Você cria três raios de fogo e os arremessa em alvos dentro do alcance.
+Duração : 1 rodada Um lampejo de luz se lança em direção de uma criatura, à sua escolha, dentro do alcance.
+Duração : até 1 minuto Um raio prateado de luz pálida brilha para baixo em um cilindro com 1,5 metro de raio e 12 metros de altura, centrado num ponto dentro do alcance.
+Duração : até 1 minuto Um raio de luz brilhante surge da sua mão em uma linha de 18 metros de comprimento por 1,5 metro de largura.
+Duração : até 1 minuto 274 Um raio crepitante de energia azul é arremessado em uma criatura dentro do alcance, formando um arco elétrico contínuo entre você e o alvo.
+Duração : Instantânea Você arremessa um cisco de fogo em uma criatura ou objeto dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo sofre 1d10 de dano de fogo. Um objeto inflamável atingido por essa magia, incendeia se não estiver sendo vestido ou carregado. O dano dessa magia aumenta em 1d10 quando você alcança o 5 nível (2d10), 11 nível (3d10) e 17 nível (4d10).
+Duração : Instantânea
+Duração : Instantânea
+Duração : Instantânea Oito raios de luz multicoloridos lampejam da sua mão.
+Duração : Instantânea
+Duração : Até ser dissipada Seu corpo entra em um estado catatônico, enquanto sua alma o abandona e entra num recipiente que você usa como componente material da magia.
+Duração : até 10 minutos Essa magia permite que você se mova a um ritmo incrível.
+Duração : Instantânea
+Duração : 1 minuto Três duplicatas ilusórias de você aparecem no seu espaço.
+Duração : 1 hora
+Duração : Instantânea
+Duração : Instantânea Ao seu toque, todas as maldições afetando uma criatura ou objeto terminam.
+(ritual) Duração : 10 dias Você toca um corpo ou outros restos mortais.
+Duração : Instantânea Você aponta seu dedo e a criatura que causou dano a você é, momentaneamente, envolta por chamas infernais.
+Duração : até 1 minuto
+(ritual) Duração : 24 horas Essa magia concede a até dez criaturas voluntária que você possa ver, dentro do alcance, a habilidade de respirar embaixo d água até a magia acabar.
+Duração : Instantânea
+Duração : Instantânea Você toca uma criatura morta que não esteja assim a mais de 200 anos e que tenha morrido por qualquer motivo, exceto velhice.
+Duração : Instantânea Você imbui uma criatura que você toca, com energia positiva para desfazer um efeito debilitante.
+Duração : Instantânea Você toca uma criatura e pode, ou acabar com uma doença ou uma condição que a esteja afligindo.
+Duração : Instantânea Você traz uma criatura morta que você tocar de volta a vida, considerando que ela não esteja morta a mais de 10 dias.
+Duração : Instantânea Você toca uma criatura que tenha morrido dentro do último minuto.
+Duração : até 1 minuto Uma criatura, à sua escolha, que você possa ver, dentro do alcance, acha tudo hilariantemente engraçado e cai na gargalhada, se essa magia afeta-la.
+Duração : até 1 minuto 280 Você toca uma criatura e a criatura deve ser bem sucedida em um teste de resistência de Sabedoria ou será amaldiçoada pela duração da magia.
+Duração : 1 minuto
+Duração : 1 minuto
+Duração : 24 horas Você deixa uma área, dentro do alcance, magicamente segura.
+ão Duração : até 1 minuto Da próxima vez que você atingir uma criatura com um ataque à distância com arma, antes da magia acabar, essa magia cria uma chuva de espinhos que brota da sua arma à distância ou munição.
+Duração : 1 hora Você cria uma porta umbral em uma superfície sólida e lisa que você possa ver, dentro do alcance.
+(ritual) Duração : até 1 hora Você toca uma besta voluntária.
+(ritual) Duração : 1 hora Essa magia cria uma força invisível, sem mente e sem forma que realiza tarefas simples, ao seu comando, até a magia acabar.
+Duração : 8 horas Você toca uma criatura voluntária e a abençoa com uma habilidade limitada de ver o futuro iminente.
+(ritual) Duração : até 10 minutos
+Duração : 8 horas Essa magia permite que você mude a aparência de qualquer quantidade de criaturas que você possa ver, dentro do alcance.
+Duração : Até ser dissipada Você modela uma duplicata ilusória de uma besta ou humanoide, dentro do alcance, durante todo tempo de conjuração da magia.
+Duração : até 1 minuto Essa magia confere esperança e vitalidade.
+Duração : 8 horas Essa magia molda os sonhos de uma criatura.
+Duração : 1 minuto Essa magia põem as criaturas num entorpecimento mágico.
+Duração : até 8 horas
+Duração : 24 horas Você sugere um curso de atividade (limitado a uma ou duas sentenças) e, magicamente, influencia até dozes criaturas, à sua escolha, que você possa ver dentro do alcance e que possam ouvir e compreender você.
+Duração : 1 minuto Você pode cegar ou ensurdecer um oponente.
+Duração : Instantânea Você sussurra uma melodia dissonante que apenas uma criatura, à sua escolha, dentro do alcance pode ouvir, causando-lhe uma terrível dor.
+Duração : Até ser dissipada ou ativada
+Duração : Até 1 minuto
+Duração : até 1 hora Você conjura uma massa de teias espessas e pegajosas num ponto, à sua escolha, dentro do alcance.
+Duração : até 10 minutos
+Duração : 24 horas Você cria uma ligação telepática entre você e uma criatura voluntária com a qual você seja familiarizado.
+Duração : Instantânea Essa magia, instantaneamente, transporta você e até oito criaturas voluntárias, à sua escolha, que você possa ver dentro do alcance ou um único objeto que você possa ver no alcance, para um destino que você selecionou.
+Duração : 1 rodada Essa magia cria uma ligação mágica entre uma planta inanimada Grande ou maior, dentro do alcance, e outra planta a qualquer distância, no mesmo plano de existência.
+Duração : até 1 minuto Uma agitada nuvem tempestuosa se forma, centrada num ponto que você possa ver e se espalha num raio de 108 metros.
+Duração : Instantânea Uma tempestade feita de camadas de chamas crepitantes aparece num local, à sua escolha, dentro do alcance.
+Duração : Instantânea Uma rajada de pedras de gelo batem no chão em um cilindro de 6 metros de raio por 12 metros de altura, centrado num ponto dentro do alcance.
+Duração : até 1 minuto Tentáculos negros retorcidos preenchem um quadrado de 6 metros no chão, que você possa ver dentro do alcance.
+Duração : até 1 minuto Você cria um distúrbio sísmico num ponto no solo, que você possa ver dentro do alcance.
+Duração : 24 horas Você faz com que um terreno natural num cubo de 45 metros dentro do alcance, pareça, soe e cheire com outro tipo de terreno natural.
+Duração : 1 rodada
+Duração : Instantânea
+Duração : até 1 minuto O toque da sua mão coberta de sombras pode drenar a força vital dos outros para curar seus ferimentos.
+Duração : Até ser dissipada Você toca uma porta, janela, portão, baú ou outra entrada fechada e ela ficará trancada pela duração.
+Duração : 1 hora Você toca um pedaço de corda que tenha até 18 metros de comprimento.
+Duração : até 6 rodadas Uma muralha de água aparece do nada num ponto, à sua escolha, dentro do alcance.
+Duração : até 1 minuto Escolha uma criatura voluntária que você possa ver, dentro do alcance.
+Duração : 1 hora Pela duração, você vê criaturas e objetos invisíveis como se eles fossem visíveis e você pode ver no Plano Etéreo.
+Duração : Instantânea Você e até oito criaturas voluntárias, que estejam de mãos dadas em um círculo, são transportadas para um plano de existência diferente.
+Duração : até 10 minutos
+Duração : até 1 minuto Você conjura uma vinha que brota do chão em um espaço desocupado, à sua escolha, que você possa ver dentro do alcance.
+Duração : 8 horas Você toca uma criatura voluntária para conceder a ela a habilidade de ver nas trevas.
+Duração : 1 hora Essa magia concede a uma criatura voluntária tocada a habilidade de ver as coisas como elas realmente são.
+Duração : 1 hora Reforçando-se com uma vitalidade necromântica ilusória, você ganha 1d4 4 pontos de vida temporários pela duração.
+Duração : até 10 minutos Você toca uma criatura voluntária.
+Duração : 1 hora Essa magia protege uma criatura voluntária que você tocar e cria uma conexão mística entre você e o alvo até a magia acabar.
+Duração : Instantânea
+Duração : 10 minutos Você cria uma zona mágica protegida contra enganação, numa esfera com 4,5 metros de raio, centrada num ponto, à sua escolha, dentro do alcance.
+Duração : 1 minuto Graxa escorregadia cobre o solo em um quadrado de 3 metros centrado em um ponto, dentro do alcance, tornando essa área em terreno difícil pela duração.
+Duração : 24 horas Com essa magia, você tenta obrigar um celestial, corruptor, elemental ou fada a servi-lo.

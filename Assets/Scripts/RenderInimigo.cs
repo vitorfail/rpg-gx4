@@ -74,12 +74,12 @@ public class RenderInimigo : MonoBehaviour
         playerData.hp = player.hp;
         HP life = vida.GetComponent<HP>();
         life.Inicializar(15);
-        GameObject request = Resources.Load<GameObject>(
-            $"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}"
-        );
         /*GameObject request = Resources.Load<GameObject>(
-            $"Caracters/{lista_Raca[0]}/{lista_sexos[0]}/{lista_classes[0]}/{lista_classes[0]}"
+            $"Caracters/{lista_Raca[player.race]}/{lista_sexos[player.gender]}/{lista_classes[player.characterClass]}/{lista_classes[player.characterClass]}"
         );*/
+        GameObject request = Resources.Load<GameObject>(
+            $"Caracters/{lista_Raca[0]}/{lista_sexos[0]}/{lista_classes[0]}/{lista_classes[0]}"
+        );
         Quaternion rotation = Quaternion.Euler(90, 0, 0);
         newCharacter = Instantiate(request, prefab.transform.position, rotation, prefab.transform);
         GameObject corpo = null;
@@ -101,7 +101,7 @@ public class RenderInimigo : MonoBehaviour
 
         box.center = new Vector3(0.11f, 0.28f, 0f);
         box.size   = new Vector3(0.9f, 1.0f, 2f);
-            Rigidbody rb = corpo.GetComponent<Rigidbody>();
+        Rigidbody rb = corpo.GetComponent<Rigidbody>();
         if (rb == null)
             rb = corpo.AddComponent<Rigidbody>();
 
@@ -112,6 +112,8 @@ public class RenderInimigo : MonoBehaviour
         rb.isKinematic = false;
         SpriteRenderer[] spriteRenderers = newCharacter.GetComponentsInChildren<SpriteRenderer>(true);
         material = Resources.Load<Material>($"Cor/cores");
+        Rigidbody rb1 = newCharacter.GetComponent<Rigidbody>();
+        rb1.constraints = RigidbodyConstraints.FreezeAll;
         /*foreach (SpriteRenderer renderer in spriteRenderers)
         {
             renderer.material = material;

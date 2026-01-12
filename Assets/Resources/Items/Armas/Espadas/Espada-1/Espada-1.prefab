@@ -2479,7 +2479,7 @@ GameObject:
   - component: {fileID: 8840133356264276555}
   m_Layer: 0
   m_Name: espada_0
-  m_TagString: Arma
+  m_TagString: Espada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2881,7 +2881,7 @@ GameObject:
   - component: {fileID: 4337863236308436763}
   m_Layer: 0
   m_Name: Espada-1
-  m_TagString: Untagged
+  m_TagString: Espada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

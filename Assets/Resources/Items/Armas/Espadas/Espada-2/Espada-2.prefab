@@ -1532,6 +1532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ar_at: {fileID: 0}
+  sound: {fileID: 0}
   visualEffects: []
 --- !u!1 &6724759678527520302
 GameObject:
@@ -2422,7 +2423,7 @@ GameObject:
   - component: {fileID: 562441220081325268}
   m_Layer: 0
   m_Name: Espada-2
-  m_TagString: Untagged
+  m_TagString: Espada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2541,4 +2542,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ar_at: {fileID: 0}
+  sound: {fileID: 0}
   visualEffects: []
